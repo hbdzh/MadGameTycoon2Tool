@@ -12,9 +12,6 @@
     <img src="Images/download.svg" alt="Download" />
   </a>
   <a style="text-decoration:none">
-    <img src="Images/releases.svg" alt="Releases" />
-  </a>
-  <a style="text-decoration:none">
     <img src="Images/platform.svg" alt="Platform" />
   </a>
 </p>
