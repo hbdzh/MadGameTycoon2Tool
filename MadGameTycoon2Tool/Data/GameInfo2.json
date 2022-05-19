@@ -315,12 +315,12 @@
   },
   "策略": {
     "角色扮演": {
-      "DesignFocus": [ 6, 7, 3, 5, 2, 2, 8, 7 ],
-      "DesignDirection": [ 2, 6, 8 ]
+      "DesignFocus": [ 9, 8, 0, 3, 4, 7, 8, 7 ],
+      "DesignDirection": [ 1, 6, 7 ]
     },
     "动作": {
-      "DesignFocus": [ 5, 3, 9, 7, 3, 3, 6, 4 ],
-      "DesignDirection": [ 6, 3, 6 ]
+      "DesignFocus": [ 6, 7, 3, 5, 2, 2, 8, 7 ],
+      "DesignDirection": [ 2, 6, 8 ]
     },
     "模拟经营": {
       "DesignFocus": [ 10, 10, 0, 6, 1, 1, 5, 7 ],
@@ -393,6 +393,58 @@
     "角色扮演": {
       "DesignFocus": [ 7, 3, 3, 2, 9, 9, 4, 3 ],
       "DesignDirection": [ 4, 5, 4 ]
+    }
+  },
+  "大逃杀": {
+    "动作": {
+      "DesignFocus": [ 4, 4, 6, 6, 2, 5, 9, 7 ],
+      "DesignDirection": [ 5, 5, 8 ]
+    },
+    "体育": {
+      "DesignFocus": [ 6, 4, 8, 7, 1, 5, 5, 4 ],
+      "DesignDirection": [ 6, 2, 6 ]
+    },
+    "格斗": {
+      "DesignFocus": [ 5, 4, 8, 4, 2, 8, 7, 2 ],
+      "DesignDirection": [ 6, 6, 8 ]
+    },
+    "第一人称射击": {
+      "DesignFocus": [ 5, 3, 6, 5, 2, 5, 9, 5 ],
+      "DesignDirection": [ 4, 6, 7 ]
+    },
+    "第三人称射击": {
+      "DesignFocus": [ 5, 4, 5, 4, 3, 6, 8, 5 ],
+      "DesignDirection": [ 5, 5, 6 ]
+    },
+    "竞速": {
+      "DesignFocus": [ 6, 4, 7, 6, 1, 4, 8, 4 ],
+      "DesignDirection": [ 7, 2, 6 ]
+    }
+  },
+  "MOBA": {
+    "技巧": {
+      "DesignFocus": [ 4, 5, 6, 6, 1, 5, 9, 4 ],
+      "DesignDirection": [ 7, 2, 8 ]
+    },
+    "角色扮演": {
+      "DesignFocus": [ 5, 7, 2, 4, 4, 8, 7, 3 ],
+      "DesignDirection": [ 4, 4, 8 ]
+    },
+    "策略": {
+      "DesignFocus": [ 5, 9, 2, 5, 1, 4, 8, 6 ],
+      "DesignDirection": [ 3, 4, 8 ]
+    },
+    "动作": {
+      "DesignFocus": [ 3, 5, 5, 6, 2, 6, 10, 3 ],
+      "DesignDirection": [ 6, 5, 9 ]
+    },
+    "体育": {
+      "DesignFocus": [ 4, 6, 8, 7, 1, 5, 6, 3 ],
+      "DesignDirection": [ 7, 1, 6 ]
+    },
+    "即时战略": {
+      "DesignFocus": [ 4, 8, 2, 5, 2, 5, 9, 5 ],
+      "DesignDirection": [ 4, 4, 8 ]
     }
   }
 }

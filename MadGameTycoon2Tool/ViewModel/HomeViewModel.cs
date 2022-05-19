@@ -13,14 +13,22 @@ namespace MadGameTycoon2Tool.ViewModel
 {
     internal class HomeViewModel : ObservableObject
     {
+        JObject jo;
         public HomeViewModel()
         {
             MainType_SelectionChangedCommand = new RelayCommand(MainType_SelectionChanged);
             ChildType_SelectionChangedCommand = new RelayCommand(ChildType_SelectionChanged);
             SearchGameTheme_TextChangedCommand = new RelayCommand(SearchGameTheme_TextChanged);
+            //直接从json中拿到主游戏类型
+            List<string> gameType = new List<string>();
+            jo = JsonConvert.DeserializeObject(File.ReadAllText(AppConfig.GameInfoJson)) as JObject;
+            foreach (var item in jo.Children())
+            {
+                gameType.Add(item.Path);
+            }
             Home = new HomeModel
             {
-                MainType = AppConfig.AllGameType,
+                MainType = gameType,
                 ChildType = new List<string>()
             };
         }
@@ -39,7 +47,6 @@ namespace MadGameTycoon2Tool.ViewModel
         /// </summary>
         public void MainType_SelectionChanged()
         {
-            JObject jo = JsonConvert.DeserializeObject(File.ReadAllText(AppConfig.GameInfoJson)) as JObject;
             //目标人群
             Home.TargetGroup = jo[Home.SelectMainType]["TargetGroup"].ToString();
 

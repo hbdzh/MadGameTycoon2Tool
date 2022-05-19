@@ -9,7 +9,7 @@
   <Identity
     Name="35189940C7042.2"
     Publisher="CN=031E67DC-51EB-41BA-AEC2-A3521007D83F"
-    Version="1.1.0.0" />
+    Version="1.2.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="a02f0ecd-313d-4f14-b82b-c53678c91bcd" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
@@ -37,7 +37,7 @@
         Square44x44Logo="Assets\Square44x44Logo.png"
         Description="《疯狂游戏大亨2》的游戏攻略，可以查看合适的类型、主题、设计方向、设计重点、开发重点等。"
         BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" ShortName="疯狂游戏大亨2小工具" Square71x71Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png"/>
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" ShortName="疯狂游戏大亨2攻略" Square71x71Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png"  BackgroundColor="transparent"/>
       </uap:VisualElements>
     </Application>
