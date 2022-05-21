@@ -5,10 +5,11 @@
     xmlns:local="using:MadGameTycoon2Tool"
     xmlns:controls="using:Microsoft.UI.Xaml.Controls">
     <Application.Resources>
-        <controls:XamlControlsResources>
-            <controls:XamlControlsResources.MergedDictionaries>
-                <!-- Other app resources here -->
-            </controls:XamlControlsResources.MergedDictionaries>
-        </controls:XamlControlsResources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <XamlControlsResources
+                    xmlns="using:Microsoft.UI.Xaml.Controls" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

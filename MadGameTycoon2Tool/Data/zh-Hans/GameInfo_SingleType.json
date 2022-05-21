@@ -10,9 +10,9 @@
       "第三人称射击"
     ],
     "TargetGroup": "青少年，成年人",
-    "DesignFocus": [ 3, 2, 7, 6, 4, 4, 10, 4 ],
-    "DesignDirection": [ 5, 7, 9 ],
-    "DesignPriority": [ "10%", "40%", "30%", "20%" ],
+    "DesignFocus": [3, 2, 7, 6, 4, 4, 10, 4],
+    "DesignDirection": [5, 7, 9],
+    "DesignPriority": ["10%", "40%", "30%", "20%"],
     "GameTheme": [
       "宠物",
       "海盗",
@@ -140,11 +140,11 @@
     ]
   },
   "冒险": {
-    "ChildType": [ "益智", "横版", "交互式电影", "交互式小说", "第三人称射击" ],
+    "ChildType": ["益智", "横版", "交互式电影", "交互式小说", "第三人称射击"],
     "TargetGroup": "成年人，老年人",
-    "DesignFocus": [ 2, 1, 5, 1, 10, 9, 7, 5 ],
-    "DesignDirection": [ 5, 5, 7 ],
-    "DesignPriority": [ "40%", "30%", "15%", "15%" ],
+    "DesignFocus": [2, 1, 5, 1, 10, 9, 7, 5],
+    "DesignDirection": [5, 5, 7],
+    "DesignPriority": ["40%", "30%", "15%", "15%"],
     "GameTheme": [
       "海盗",
       "石器时代",
@@ -224,11 +224,11 @@
     ]
   },
   "模拟建筑": {
-    "ChildType": [ "策略", "模拟经营", "即时战略" ],
+    "ChildType": ["策略", "模拟经营", "即时战略"],
     "TargetGroup": "成年人，老年人",
-    "DesignFocus": [ 10, 10, 1, 8, 1, 1, 5, 4 ],
-    "DesignDirection": [ 2, 4, 6 ],
-    "DesignPriority": [ "30%", "20%", "20%", "30%" ],
+    "DesignFocus": [10, 10, 1, 8, 1, 1, 5, 4],
+    "DesignDirection": [2, 4, 6],
+    "DesignPriority": ["30%", "20%", "20%", "30%"],
     "GameTheme": [
       "海盗",
       "医院",
@@ -312,11 +312,11 @@
     ]
   },
   "模拟经营": {
-    "ChildType": [ "模拟建筑", "体育", "策略", "即时战略" ],
+    "ChildType": ["模拟建筑", "体育", "策略", "即时战略"],
     "TargetGroup": "成年人，老年人",
-    "DesignFocus": [ 10, 10, 0, 9, 1, 1, 4, 5 ],
-    "DesignDirection": [ 0, 2, 7 ],
-    "DesignPriority": [ "50%", "20%", "10%", "20%" ],
+    "DesignFocus": [10, 10, 0, 9, 1, 1, 4, 5],
+    "DesignDirection": [0, 2, 7],
+    "DesignPriority": ["50%", "20%", "10%", "20%"],
     "GameTheme": [
       "海盗",
       "医院",
@@ -432,11 +432,11 @@
     ]
   },
   "格斗": {
-    "ChildType": [ "动作", "横版", "体育" ],
+    "ChildType": ["动作", "横版", "体育"],
     "TargetGroup": "青少年，成年人",
-    "DesignFocus": [ 5, 2, 10, 2, 4, 10, 6, 1 ],
-    "DesignDirection": [ 6, 9, 8 ],
-    "DesignPriority": [ "20%", "20%", "10%", "50%" ],
+    "DesignFocus": [5, 2, 10, 2, 4, 10, 6, 1],
+    "DesignDirection": [6, 9, 8],
+    "DesignPriority": ["20%", "20%", "10%", "50%"],
     "GameTheme": [
       "宠物",
       "武术",
@@ -488,9 +488,9 @@
       "第三人称射击"
     ],
     "TargetGroup": "青少年，成年人",
-    "DesignFocus": [ 4, 1, 7, 4, 4, 4, 10, 6 ],
-    "DesignDirection": [ 3, 9, 7 ],
-    "DesignPriority": [ "10%", "50%", "20%", "20%" ],
+    "DesignFocus": [4, 1, 7, 4, 4, 4, 10, 6],
+    "DesignDirection": [3, 9, 7],
+    "DesignPriority": ["10%", "50%", "20%", "20%"],
     "GameTheme": [
       "武术",
       "石器时代",
@@ -599,11 +599,11 @@
     ]
   },
   "交互式电影": {
-    "ChildType": [ "技巧", "益智", "冒险", "交互式小说" ],
+    "ChildType": ["技巧", "益智", "冒险", "交互式小说"],
     "TargetGroup": "青少年，成年人，老年人",
-    "DesignFocus": [ 3, 2, 7, 3, 10, 10, 3, 2 ],
-    "DesignDirection": [ 7, 7, 3 ],
-    "DesignPriority": [ "10%", "50%", "30%", "10%" ],
+    "DesignFocus": [3, 2, 7, 3, 10, 10, 3, 2],
+    "DesignDirection": [7, 7, 3],
+    "DesignPriority": ["10%", "50%", "30%", "10%"],
     "GameTheme": [
       "宠物",
       "医院",
@@ -674,11 +674,11 @@
     ]
   },
   "横版": {
-    "ChildType": [ "技巧", "益智", "角色扮演", "冒险", "动作", "格斗" ],
+    "ChildType": ["技巧", "益智", "角色扮演", "冒险", "动作", "格斗"],
     "TargetGroup": "儿童，青少年",
-    "DesignFocus": [ 5, 1, 10, 5, 2, 5, 10, 2 ],
-    "DesignDirection": [ 8, 3, 5 ],
-    "DesignPriority": [ "25%", "25%", "25%", "25%" ],
+    "DesignFocus": [5, 1, 10, 5, 2, 5, 10, 2],
+    "DesignDirection": [8, 3, 5],
+    "DesignPriority": ["25%", "25%", "25%", "25%"],
     "GameTheme": [
       "宠物",
       "海盗",
@@ -821,11 +821,11 @@
     ]
   },
   "益智": {
-    "ChildType": [ "技巧", "横版", "交互式小说", "交互式电影" ],
+    "ChildType": ["技巧", "横版", "交互式小说", "交互式电影"],
     "TargetGroup": "青少年，成年人，老年人",
-    "DesignFocus": [ 7, 2, 7, 4, 4, 2, 6, 8 ],
-    "DesignDirection": [ 8, 0, 8 ],
-    "DesignPriority": [ "50%", "10%", "10%", "30%" ],
+    "DesignFocus": [7, 2, 7, 4, 4, 2, 6, 8],
+    "DesignDirection": [8, 0, 8],
+    "DesignPriority": ["50%", "10%", "10%", "30%"],
     "GameTheme": [
       "宠物",
       "医院",
@@ -920,11 +920,11 @@
     ]
   },
   "竞速": {
-    "ChildType": [ "动作", "模拟", "体育" ],
-    "TargetGroup": "儿童，青少年，成年人，老年人，所有",
-    "DesignFocus": [ 7, 4, 8, 6, 1, 2, 8, 4 ],
-    "DesignDirection": [ 8, 0, 4 ],
-    "DesignPriority": [ "10%", "40%", "30%", "20%" ],
+    "ChildType": ["动作", "模拟", "体育"],
+    "TargetGroup": "儿童，青少年，成年人，老年人，所有人群",
+    "DesignFocus": [7, 4, 8, 6, 1, 2, 8, 4],
+    "DesignDirection": [8, 0, 4],
+    "DesignPriority": ["10%", "40%", "30%", "20%"],
     "GameTheme": [
       "交通运输",
       "经济",
@@ -954,11 +954,11 @@
     ]
   },
   "即时战略": {
-    "ChildType": [ "角色扮演", "策略", "动作", "模拟经营", "模拟建筑" ],
+    "ChildType": ["角色扮演", "策略", "动作", "模拟经营", "模拟建筑"],
     "TargetGroup": "青少年，成年人",
-    "DesignFocus": [ 6, 8, 1, 4, 3, 2, 8, 8 ],
-    "DesignDirection": [ 2, 6, 7 ],
-    "DesignPriority": [ "30%", "30%", "10%", "30%" ],
+    "DesignFocus": [6, 8, 1, 4, 3, 2, 8, 8],
+    "DesignDirection": [2, 6, 7],
+    "DesignPriority": ["30%", "30%", "10%", "30%"],
     "GameTheme": [
       "武术",
       "石器时代",
@@ -1050,9 +1050,9 @@
       "第三人称射击"
     ],
     "TargetGroup": "成年人，老年人",
-    "DesignFocus": [ 8, 5, 0, 2, 8, 8, 5, 4 ],
-    "DesignDirection": [ 2, 6, 7 ],
-    "DesignPriority": [ "40%", "30%", "15%", "15%" ],
+    "DesignFocus": [8, 5, 0, 2, 8, 8, 5, 4],
+    "DesignDirection": [2, 6, 7],
+    "DesignPriority": ["40%", "30%", "15%", "15%"],
     "GameTheme": [
       "海盗",
       "武术",
@@ -1113,11 +1113,11 @@
     ]
   },
   "模拟": {
-    "ChildType": [ "策略", "动作", "体育", "第一人称射击", "竞速" ],
+    "ChildType": ["策略", "动作", "体育", "第一人称射击", "竞速"],
     "TargetGroup": "青少年，成年人",
-    "DesignFocus": [ 5, 8, 1, 7, 1, 2, 6, 10 ],
-    "DesignDirection": [ 0, 7, 8 ],
-    "DesignPriority": [ "10%", "40%", "20%", "30%" ],
+    "DesignFocus": [5, 8, 1, 7, 1, 2, 6, 10],
+    "DesignDirection": [0, 7, 8],
+    "DesignPriority": ["10%", "40%", "20%", "30%"],
     "GameTheme": [
       "世界大战",
       "雇佣军",
@@ -1195,11 +1195,11 @@
     ]
   },
   "技巧": {
-    "ChildType": [ "动作", "横版", "益智" ],
-    "TargetGroup": "儿童，青少年，成年人，老年人，所有",
-    "DesignFocus": [ 5, 2, 8, 5, 2, 3, 8, 7 ],
-    "DesignDirection": [ 7, 1, 7 ],
-    "DesignPriority": [ "40%", "10%", "10%", "40%" ],
+    "ChildType": ["动作", "横版", "益智"],
+    "TargetGroup": "儿童，青少年，成年人，老年人，所有人群",
+    "DesignFocus": [5, 2, 8, 5, 2, 3, 8, 7],
+    "DesignDirection": [7, 1, 7],
+    "DesignPriority": ["40%", "10%", "10%", "40%"],
     "GameTheme": [
       "宠物",
       "医院",
@@ -1334,11 +1334,11 @@
     ]
   },
   "体育": {
-    "ChildType": [ "策略", "动作", "模拟经营", "模拟", "格斗" ],
+    "ChildType": ["策略", "动作", "模拟经营", "模拟", "格斗"],
     "TargetGroup": "儿童，青少年，成年人",
-    "DesignFocus": [ 6, 3, 10, 8, 2, 3, 3, 5 ],
-    "DesignDirection": [ 7, 0, 4 ],
-    "DesignPriority": [ "20%", "30%", "10%", "40%" ],
+    "DesignFocus": [6, 3, 10, 8, 2, 3, 3, 5],
+    "DesignDirection": [7, 0, 4],
+    "DesignPriority": ["20%", "30%", "10%", "40%"],
     "GameTheme": [
       "武术",
       "半兽人",
@@ -1411,11 +1411,11 @@
     ]
   },
   "策略": {
-    "ChildType": [ "角色扮演", "动作", "模拟经营", "模拟建筑", "即时战略" ],
+    "ChildType": ["角色扮演", "动作", "模拟经营", "模拟建筑", "即时战略"],
     "TargetGroup": "成年人，老年人",
-    "DesignFocus": [ 8, 10, 0, 4, 1, 1, 6, 10 ],
-    "DesignDirection": [ 0, 6, 8 ],
-    "DesignPriority": [ "50%", "10%", "10%", "30%" ],
+    "DesignFocus": [8, 10, 0, 4, 1, 1, 6, 10],
+    "DesignDirection": [0, 6, 8],
+    "DesignPriority": ["50%", "10%", "10%", "30%"],
     "GameTheme": [
       "医院",
       "中世纪",
@@ -1527,9 +1527,9 @@
       "第一人称射击"
     ],
     "TargetGroup": "青少年，成年人",
-    "DesignFocus": [ 5, 2, 5, 3, 5, 6, 8, 6 ],
-    "DesignDirection": [ 4, 7, 5 ],
-    "DesignPriority": [ "20%", "40%", "20%", "20%" ],
+    "DesignFocus": [5, 2, 5, 3, 5, 6, 8, 6],
+    "DesignDirection": [4, 7, 5],
+    "DesignPriority": ["20%", "40%", "20%", "20%"],
     "GameTheme": [
       "宠物",
       "武术",
@@ -1639,11 +1639,11 @@
     ]
   },
   "交互式小说": {
-    "ChildType": [ "技巧", "益智", "冒险", "交互式电影", "角色扮演" ],
-    "TargetGroup": "儿童，青少年，成年人，老年人，所有",
-    "DesignFocus": [ 5, 2, 6, 2, 10, 10, 3, 2 ],
-    "DesignDirection": [ 7, 4, 2 ],
-    "DesignPriority": [ "40%", "40%", "10%", "10%" ],
+    "ChildType": ["技巧", "益智", "冒险", "交互式电影", "角色扮演"],
+    "TargetGroup": "儿童，青少年，成年人，老年人，所有人群",
+    "DesignFocus": [5, 2, 6, 2, 10, 10, 3, 2],
+    "DesignDirection": [7, 4, 2],
+    "DesignPriority": ["40%", "40%", "10%", "10%"],
     "GameTheme": [
       "宠物",
       "医院",
@@ -1723,9 +1723,9 @@
       "竞速"
     ],
     "TargetGroup": "青少年，成年人，老年人",
-    "DesignFocus": [ 4, 4, 6, 6, 1, 7, 8, 4 ],
-    "DesignDirection": [ 6, 5, 8 ],
-    "DesignPriority": [ "15%", "15%", "35%", "35%" ],
+    "DesignFocus": [4, 4, 6, 6, 1, 7, 8, 4],
+    "DesignDirection": [6, 5, 8],
+    "DesignPriority": ["15%", "15%", "35%", "35%"],
     "GameTheme": [
       "动漫",
       "启示",
@@ -1738,18 +1738,18 @@
       "赛博朋克",
       "网络空间",
       "元素",
-      "世界末日",
+      "末世",
       "幻想",
       "直升机",
       "马匹",
-      "猎人",
+      "赏金猎人",
       "狩猎",
-      "岛屿",
-      "骑士",
+      "海岛",
+      "骑士团",
       "中世纪",
       "军事",
       "摩托车",
-      "门户",
+      "门户网站",
       "辐射",
       "机器人",
       "武士",
@@ -1757,7 +1757,7 @@
       "特种部队",
       "体育",
       "生存",
-      "运输",
+      "交通运输",
       "卡车",
       "海盗",
       "病毒",
@@ -1766,22 +1766,15 @@
     ]
   },
   "MOBA": {
-    "ChildType": [
-      "技巧",
-      "角色扮演",
-      "策略",
-      "动作",
-      "体育",
-      "即时战略"
-    ],
-    "TargetGroup": "儿童，青少年，成年人，老年人，所有",
-    "DesignFocus": [ 1, 7, 4, 7, 1, 8, 10, 2 ],
-    "DesignDirection": [ 7, 3, 9 ],
-    "DesignPriority": [ "20%", "20%", "10%", "50%" ],
+    "ChildType": ["技巧", "角色扮演", "策略", "动作", "体育", "即时战略"],
+    "TargetGroup": "儿童，青少年，成年人，老年人，所有人群",
+    "DesignFocus": [1, 7, 4, 7, 1, 8, 10, 2],
+    "DesignDirection": [7, 3, 9],
+    "DesignPriority": ["20%", "20%", "10%", "50%"],
     "GameTheme": [
       "机器人",
       "天使",
-      "动画",
+      "动漫",
       "天启",
       "野蛮人",
       "城堡",
@@ -1791,10 +1784,8 @@
       "征服",
       "赛博朋克",
       "网络空间",
-      "网络空间",
       "恶魔",
-      "恶魔",
-      "龙",
+      "恐龙",
       "德鲁伊",
       "元素",
       "精灵",
@@ -1802,17 +1793,17 @@
       "仙女",
       "幻想",
       "幽灵",
-      "侏儒",
-      "神",
+      "矮人",
+      "诸神",
       "地狱",
-      "冰河世纪",
-      "骑士",
+      "冰河时代",
+      "骑士团",
       "中世纪",
       "怪物",
       "半兽人",
       "平行世界",
       "宠物",
-      "门户",
+      "门户网站",
       "机器人",
       "武士",
       "骷髅",
@@ -1824,7 +1815,7 @@
       "维京人",
       "病毒",
       "狼人",
-      "女巫",
+      "女巫师",
       "巫师",
       "世界大战",
       "僵尸"

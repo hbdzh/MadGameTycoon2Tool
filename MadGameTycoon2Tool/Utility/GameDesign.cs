@@ -10,7 +10,7 @@ namespace MadGameTycoon2Tool.Utility
         /// </summary>
         /// <param name="jo"></param>
         /// <param name="Home"></param>
-        internal static void GetSingleType_DesignFocus(JObject jo, HomeModel Home)
+        internal static void GetSingleType_DesignFocus(JObject jo, RecipeModel Home)
         {
             Home.GameLength = jo[Home.SelectMainType]["DesignFocus"][0].ToString();
             Home.GameDepth = jo[Home.SelectMainType]["DesignFocus"][1].ToString();
@@ -26,7 +26,7 @@ namespace MadGameTycoon2Tool.Utility
         /// </summary>
         /// <param name="jo"></param>
         /// <param name="Home"></param>
-        internal static void GetSingleType_DesignDirection(JObject jo, HomeModel Home)
+        internal static void GetSingleType_DesignDirection(JObject jo, RecipeModel Home)
         {
             Home.HardCore = jo[Home.SelectMainType]["DesignDirection"][0].ToString();
             Home.ContentAge = jo[Home.SelectMainType]["DesignDirection"][1].ToString();
@@ -37,7 +37,7 @@ namespace MadGameTycoon2Tool.Utility
         /// </summary>
         /// <param name="jo"></param>
         /// <param name="Home"></param>
-        internal static void GetMultipleype_DesignFocus(JObject jo, HomeModel Home)
+        internal static void GetMultipleype_DesignFocus(JObject jo, RecipeModel Home)
         {
             Home.GameLength = jo[Home.SelectMainType][Home.SelectChildType]["DesignFocus"][0].ToString();
             Home.GameDepth = jo[Home.SelectMainType][Home.SelectChildType]["DesignFocus"][1].ToString();
@@ -53,7 +53,7 @@ namespace MadGameTycoon2Tool.Utility
         /// </summary>
         /// <param name="jo"></param>
         /// <param name="Home"></param>
-        internal static void GetMultipleype_DesignDirection(JObject jo, HomeModel Home)
+        internal static void GetMultipleype_DesignDirection(JObject jo, RecipeModel Home)
         {
             Home.HardCore = jo[Home.SelectMainType][Home.SelectChildType]["DesignDirection"][0].ToString();
             Home.ContentAge = jo[Home.SelectMainType][Home.SelectChildType]["DesignDirection"][1].ToString();
@@ -64,7 +64,7 @@ namespace MadGameTycoon2Tool.Utility
         /// </summary>
         /// <param name="jo"></param>
         /// <param name="Home"></param>
-        internal static void GetType_DesignPriority(JObject jo, HomeModel Home)
+        internal static void GetType_DesignPriority(JObject jo, RecipeModel Home)
         {
             Home.GamePlay = jo[Home.SelectMainType]["DesignPriority"][0].ToString();
             Home.Graphics = jo[Home.SelectMainType]["DesignPriority"][1].ToString();

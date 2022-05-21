@@ -1,0 +1,450 @@
+{
+  "Action": {
+    "Skill-Game": {
+      "DesignFocus": [ 5, 3, 7, 5, 3, 3, 9, 5 ],
+      "DesignDirection": [ 6, 4, 8 ]
+    },
+    "Adventure": {
+      "DesignFocus": [ 3, 2, 7, 3, 7, 6, 8, 4 ],
+      "DesignDirection": [ 5, 6, 8 ]
+    },
+    "Role-Playing-Game": {
+      "DesignFocus": [ 6, 4, 3, 4, 6, 6, 7, 4 ],
+      "DesignDirection": [ 3, 6, 8 ]
+    },
+    "Platformer": {
+      "DesignFocus": [ 5, 2, 8, 5, 3, 4, 10, 3 ],
+      "DesignDirection": [ 6, 5, 7 ]
+    },
+    "Fighting-Game": {
+      "DesignFocus": [ 5, 2, 8, 4, 4, 7, 8, 2 ],
+      "DesignDirection": [ 5, 8, 8 ]
+    },
+    "First-Person-Shooter": {
+      "DesignFocus": [ 4, 1, 7, 5, 4, 4, 10, 5 ],
+      "DesignDirection": [ 4, 8, 8 ]
+    },
+    "Third-Person-Shooter": {
+      "DesignFocus": [ 5, 2, 6, 4, 4, 5, 9, 5 ],
+      "DesignDirection": [ 4, 7, 7 ]
+    }
+  },
+  "Adventure": {
+    "Puzzle-Game": {
+      "DesignFocus": [ 5, 2, 7, 2, 7, 5, 6, 6 ],
+      "DesignDirection": [ 6, 2, 7 ]
+    },
+    "Platformer": {
+      "DesignFocus": [ 4, 2, 7, 3, 6, 7, 8, 3 ],
+      "DesignDirection": [ 6, 4, 6 ]
+    },
+    "Interactive-Movie": {
+      "DesignFocus": [ 3, 2, 6, 2, 10, 9, 5, 3 ],
+      "DesignDirection": [ 6, 6, 5 ]
+    },
+    "Visual-Novel": {
+      "DesignFocus": [ 4, 2, 6, 1, 10, 9, 5, 3 ],
+      "DesignDirection": [ 6, 4, 4 ]
+    },
+    "Third-Person-Shooter": {
+      "DesignFocus": [ 4, 2, 6, 2, 7, 7, 7, 5 ],
+      "DesignDirection": [ 4, 6, 6 ]
+    }
+  },
+  "Building-Game": {
+    "Strategy": {
+      "DesignFocus": [ 10, 10, 0, 6, 1, 1, 5, 7 ],
+      "DesignDirection": [ 1, 5, 7 ]
+    },
+    "Economic-Simulation": {
+      "DesignFocus": [ 10, 10, 1, 9, 1, 1, 4, 4 ],
+      "DesignDirection": [ 1, 3, 6 ]
+    },
+    "Real-Time-Strategy": {
+      "DesignFocus": [ 9, 9, 1, 6, 2, 1, 6, 6 ],
+      "DesignDirection": [ 2, 5, 6 ]
+    }
+  },
+  "Economic-Simulation": {
+    "Building-Game": {
+      "DesignFocus": [ 10, 10, 1, 9, 1, 1, 4, 4 ],
+      "DesignDirection": [ 1, 3, 6 ]
+    },
+    "Sports-Game": {
+      "DesignFocus": [ 9, 7, 5, 8, 1, 2, 3, 5 ],
+      "DesignDirection": [ 3, 1, 5 ]
+    },
+    "Strategy": {
+      "DesignFocus": [ 10, 10, 0, 6, 1, 1, 5, 7 ],
+      "DesignDirection": [ 0, 4, 7 ]
+    },
+    "Real-Time-Strategy": {
+      "DesignFocus": [ 9, 10, 0, 6, 2, 1, 6, 6 ],
+      "DesignDirection": [ 1, 4, 7 ]
+    }
+  },
+  "Fighting-Game": {
+    "Action": {
+      "DesignFocus": [ 5, 2, 8, 4, 4, 7, 8, 2 ],
+      "DesignDirection": [ 5, 8, 8 ]
+    },
+    "Platformer": {
+      "DesignFocus": [ 6, 2, 10, 3, 3, 7, 8, 1 ],
+      "DesignDirection": [ 7, 6, 6 ]
+    },
+    "Sports-Game": {
+      "DesignFocus": [ 6, 3, 10, 5, 3, 6, 4, 3 ],
+      "DesignDirection": [ 6, 4, 6 ]
+    }
+  },
+  "First-Person-Shooter": {
+    "Skill-Game": {
+      "DesignFocus": [ 5, 2, 8, 4, 3, 3, 9, 6 ],
+      "DesignDirection": [ 5, 5, 7 ]
+    },
+    "Adventure": {
+      "DesignFocus": [ 4, 2, 6, 2, 7, 6, 8, 5 ],
+      "DesignDirection": [ 4, 7, 7 ]
+    },
+    "Role-Playing-Game": {
+      "DesignFocus": [ 7, 3, 3, 3, 6, 6, 7, 5 ],
+      "DesignDirection": [ 2, 7, 7 ]
+    },
+    "Action": {
+      "DesignFocus": [ 4, 1, 7, 5, 4, 4, 10, 5 ],
+      "DesignDirection": [ 4, 8, 8 ]
+    },
+    "Platformer": {
+      "DesignFocus": [ 5, 2, 8, 4, 3, 4, 10, 4 ],
+      "DesignDirection": [ 5, 6, 6 ]
+    },
+    "Simulation": {
+      "DesignFocus": [ 5, 5, 4, 5, 2, 3, 8, 8 ],
+      "DesignDirection": [ 1, 8, 7 ]
+    },
+    "Third-Person-Shooter": {
+      "DesignFocus": [ 5, 2, 6, 3, 4, 5, 9, 6 ],
+      "DesignDirection": [ 3, 8, 6 ]
+    }
+  },
+  "Interactive-Movie": {
+    "Skill-Game": {
+      "DesignFocus": [ 5, 3, 7, 4, 6, 6, 5, 4 ],
+      "DesignDirection": [ 7, 4, 5 ]
+    },
+    "Puzzle-Game": {
+      "DesignFocus": [ 6, 2, 7, 3, 7, 6, 4, 5 ],
+      "DesignDirection": [ 7, 3, 5 ]
+    },
+    "Adventure": {
+      "DesignFocus": [ 3, 2, 6, 2, 10, 9, 5, 3 ],
+      "DesignDirection": [ 6, 6, 5 ]
+    },
+    "Visual-Novel": {
+      "DesignFocus": [ 5, 2, 6, 2, 10, 10, 3, 2 ],
+      "DesignDirection": [ 7, 5, 2 ]
+    }
+  },
+  "Platformer": {
+    "Skill-Game": {
+      "DesignFocus": [ 6, 1, 9, 5, 2, 4, 9, 4 ],
+      "DesignDirection": [ 7, 2, 6 ]
+    },
+    "Puzzle-Game": {
+      "DesignFocus": [ 7, 2, 8, 4, 3, 3, 8, 5 ],
+      "DesignDirection": [ 8, 1, 6 ]
+    },
+    "Role-Playing-Game": {
+      "DesignFocus": [ 7, 4, 5, 3, 5, 6, 7, 3 ],
+      "DesignDirection": [ 5, 4, 6 ]
+    },
+    "Adventure": {
+      "DesignFocus": [ 4, 2, 7, 3, 6, 7, 8, 3 ],
+      "DesignDirection": [ 6, 4, 6 ]
+    },
+    "Action": {
+      "DesignFocus": [ 5, 2, 8, 5, 3, 4, 10, 3 ],
+      "DesignDirection": [ 6, 5, 7 ]
+    },
+    "Fighting-Game": {
+      "DesignFocus": [ 6, 2, 10, 3, 3, 7, 8, 1 ],
+      "DesignDirection": [ 7, 6, 6 ]
+    }
+  },
+  "Puzzle-Game": {
+    "Skill-Game": {
+      "DesignFocus": [ 7, 3, 7, 4, 3, 2, 7, 7 ],
+      "DesignDirection": [ 7, 0, 7 ]
+    },
+    "Platformer": {
+      "DesignFocus": [ 7, 2, 8, 4, 3, 3, 8, 5 ],
+      "DesignDirection": [ 8, 1, 6 ]
+    },
+    "Visual-Novel": {
+      "DesignFocus": [ 7, 2, 6, 3, 7, 6, 4, 5 ],
+      "DesignDirection": [ 7, 2, 5 ]
+    },
+    "Interactive-Movie": {
+      "DesignFocus": [ 6, 2, 7, 3, 7, 6, 4, 5 ],
+      "DesignDirection": [ 7, 3, 5 ]
+    }
+  },
+  "Racing": {
+    "Action": {
+      "DesignFocus": [ 6, 3, 7, 6, 2, 3, 9, 4 ],
+      "DesignDirection": [ 6, 3, 6 ]
+    },
+    "Simulation": {
+      "DesignFocus": [ 7, 6, 4, 6, 1, 2, 7, 7 ],
+      "DesignDirection": [ 4, 3, 6 ]
+    },
+    "Sports-Game": {
+      "DesignFocus": [ 7, 4, 10, 7, 1, 2, 5, 4 ],
+      "DesignDirection": [ 7, 0, 4 ]
+    }
+  },
+  "Real-Time-Strategy": {
+    "Role-Playing-Game": {
+      "DesignFocus": [ 8, 7, 0, 3, 5, 5, 6, 6 ],
+      "DesignDirection": [ 2, 6, 7 ]
+    },
+    "Strategy": {
+      "DesignFocus": [ 8, 9, 0, 4, 2, 1, 7, 9 ],
+      "DesignDirection": [ 1, 6, 7 ]
+    },
+    "Action": {
+      "DesignFocus": [ 5, 5, 4, 5, 3, 3, 9, 6 ],
+      "DesignDirection": [ 3, 6, 8 ]
+    },
+    "Economic-Simulation": {
+      "DesignFocus": [ 9, 10, 0, 6, 2, 1, 6, 6 ],
+      "DesignDirection": [ 1, 4, 7 ]
+    },
+    "Building-Game": {
+      "DesignFocus": [ 9, 9, 1, 6, 2, 1, 6, 6 ],
+      "DesignDirection": [ 2, 5, 6 ]
+    }
+  },
+  "Role-Playing-Game": {
+    "Puzzle-Game": {
+      "DesignFocus": [ 8, 4, 3, 3, 6, 5, 5, 6 ],
+      "DesignDirection": [ 5, 3, 7 ]
+    },
+    "Adventure": {
+      "DesignFocus": [ 6, 4, 2, 1, 9, 8, 6, 4 ],
+      "DesignDirection": [ 3, 5, 7 ]
+    },
+    "Action": {
+      "DesignFocus": [ 6, 4, 3, 4, 6, 6, 7, 4 ],
+      "DesignDirection": [ 3, 6, 8 ]
+    },
+    "Platformer": {
+      "DesignFocus": [ 7, 4, 5, 3, 5, 6, 7, 3 ],
+      "DesignDirection": [ 5, 4, 6 ]
+    },
+    "Real-Time-Strategy": {
+      "DesignFocus": [ 8, 7, 0, 3, 5, 5, 6, 6 ],
+      "DesignDirection": [ 2, 6, 7 ]
+    },
+    "First-Person-Shooter": {
+      "DesignFocus": [ 7, 3, 3, 3, 6, 6, 7, 5 ],
+      "DesignDirection": [ 2, 7, 7 ]
+    },
+    "Third-Person-Shooter": {
+      "DesignFocus": [ 7, 4, 3, 2, 6, 7, 6, 5 ],
+      "DesignDirection": [ 3, 6, 6 ]
+    }
+  },
+  "Simulation": {
+    "Strategy": {
+      "DesignFocus": [ 7, 10, 0, 5, 1, 1, 6, 10 ],
+      "DesignDirection": [ 0, 6, 8 ]
+    },
+    "Action": {
+      "DesignFocus": [ 5, 5, 4, 6, 2, 3, 8, 7 ],
+      "DesignDirection": [ 2, 7, 8 ]
+    },
+    "Sports-Game": {
+      "DesignFocus": [ 6, 6, 6, 8, 1, 2, 4, 7 ],
+      "DesignDirection": [ 3, 3, 6 ]
+    },
+    "First-Person-Shooter": {
+      "DesignFocus": [ 5, 5, 4, 5, 2, 3, 8, 8 ],
+      "DesignDirection": [ 1, 8, 7 ]
+    },
+    "Racing": {
+      "DesignFocus": [ 7, 6, 4, 6, 1, 2, 7, 7 ],
+      "DesignDirection": [ 4, 3, 6 ]
+    }
+  },
+  "Skill-Game": {
+    "Action": {
+      "DesignFocus": [ 5, 3, 7, 5, 3, 3, 9, 5 ],
+      "DesignDirection": [ 6, 4, 8 ]
+    },
+    "Platformer": {
+      "DesignFocus": [ 6, 1, 9, 5, 2, 4, 9, 4 ],
+      "DesignDirection": [ 7, 2, 6 ]
+    },
+    "Puzzle-Game": {
+      "DesignFocus": [ 7, 3, 7, 4, 3, 2, 7, 7 ],
+      "DesignDirection": [ 7, 0, 7 ]
+    }
+  },
+  "Sports-Game": {
+    "Strategy": {
+      "DesignFocus": [ 8, 7, 5, 6, 1, 2, 4, 7 ],
+      "DesignDirection": [ 3, 3, 6 ]
+    },
+    "Action": {
+      "DesignFocus": [ 5, 3, 9, 7, 3, 3, 6, 4 ],
+      "DesignDirection": [ 6, 3, 6 ]
+    },
+    "Economic-Simulation": {
+      "DesignFocus": [ 9, 7, 5, 8, 1, 2, 3, 5 ],
+      "DesignDirection": [ 3, 1, 5 ]
+    },
+    "Simulation": {
+      "DesignFocus": [ 6, 6, 6, 8, 1, 2, 4, 7 ],
+      "DesignDirection": [ 3, 3, 6 ]
+    },
+    "Fighting-Game": {
+      "DesignFocus": [ 6, 3, 10, 5, 3, 6, 4, 3 ],
+      "DesignDirection": [ 6, 4, 6 ]
+    }
+  },
+  "Strategy": {
+    "Role-Playing-Game": {
+      "DesignFocus": [ 9, 8, 0, 3, 4, 7, 8, 7 ],
+      "DesignDirection": [ 1, 6, 7 ]
+    },
+    "Action": {
+      "DesignFocus": [ 6, 7, 3, 5, 2, 2, 8, 7 ],
+      "DesignDirection": [ 2, 6, 8 ]
+    },
+    "Economic-Simulation": {
+      "DesignFocus": [ 10, 10, 0, 6, 1, 1, 5, 7 ],
+      "DesignDirection": [ 0, 4, 7 ]
+    },
+    "Building-Game": {
+      "DesignFocus": [ 10, 10, 0, 6, 1, 1, 5, 7 ],
+      "DesignDirection": [ 1, 5, 7 ]
+    },
+    "Real-Time-Strategy": {
+      "DesignFocus": [ 8, 9, 0, 4, 2, 1, 7, 9 ],
+      "DesignDirection": [ 1, 6, 7 ]
+    }
+  },
+  "Third-Person-Shooter": {
+    "Skill-Game": {
+      "DesignFocus": [ 6, 3, 6, 4, 3, 4, 8, 6 ],
+      "DesignDirection": [ 5, 4, 6 ]
+    },
+    "Adventure": {
+      "DesignFocus": [ 4, 2, 6, 2, 7, 7, 7, 5 ],
+      "DesignDirection": [ 4, 6, 6 ]
+    },
+    "Role-Playing-Game": {
+      "DesignFocus": [ 7, 4, 3, 2, 6, 7, 6, 5 ],
+      "DesignDirection": [ 3, 6, 6 ]
+    },
+    "Action": {
+      "DesignFocus": [ 5, 2, 6, 4, 4, 5, 9, 5 ],
+      "DesignDirection": [ 4, 7, 7 ]
+    },
+    "Platformer": {
+      "DesignFocus": [ 6, 2, 7, 4, 3, 5, 9, 4 ],
+      "DesignDirection": [ 6, 5, 5 ]
+    },
+    "Simulation": {
+      "DesignFocus": [ 5, 5, 3, 5, 3, 4, 7, 8 ],
+      "DesignDirection": [ 2, 7, 6 ]
+    },
+    "Sports-Game": {
+      "DesignFocus": [ 6, 3, 8, 6, 3, 4, 5, 5 ],
+      "DesignDirection": [ 5, 3, 4 ]
+    },
+    "Fighting-Game": {
+      "DesignFocus": [ 6, 3, 7, 2, 4, 8, 7, 3 ],
+      "DesignDirection": [ 5, 8, 6 ]
+    },
+    "First-Person-Shooter": {
+      "DesignFocus": [ 5, 2, 6, 3, 4, 5, 9, 6 ],
+      "DesignDirection": [ 3, 8, 6 ]
+    }
+  },
+  "Visual-Novel": {
+    "Skill-Game": {
+      "DesignFocus": [ 6, 3, 7, 3, 6, 6, 5, 4 ],
+      "DesignDirection": [ 7, 2, 4 ]
+    },
+    "Puzzle-Game": {
+      "DesignFocus": [ 7, 2, 6, 3, 7, 6, 4, 5 ],
+      "DesignDirection": [ 7, 2, 5 ]
+    },
+    "Adventure": {
+      "DesignFocus": [ 4, 2, 6, 1, 10, 9, 5, 3 ],
+      "DesignDirection": [ 6, 4, 4 ]
+    },
+    "Interactive-Movie": {
+      "DesignFocus": [ 5, 2, 6, 2, 10, 10, 3, 2 ],
+      "DesignDirection": [ 7, 5, 2 ]
+    },
+    "Role-Playing-Game": {
+      "DesignFocus": [ 7, 3, 3, 2, 9, 9, 4, 3 ],
+      "DesignDirection": [ 4, 5, 4 ]
+    }
+  },
+  "Battle-Royale": {
+    "Action": {
+      "DesignFocus": [ 4, 4, 6, 6, 2, 5, 9, 7 ],
+      "DesignDirection": [ 5, 5, 8 ]
+    },
+    "Sports-Game": {
+      "DesignFocus": [ 6, 4, 8, 7, 1, 5, 5, 4 ],
+      "DesignDirection": [ 6, 2, 6 ]
+    },
+    "Fighting-Game": {
+      "DesignFocus": [ 5, 4, 8, 4, 2, 8, 7, 2 ],
+      "DesignDirection": [ 6, 6, 8 ]
+    },
+    "First-Person-Shooter": {
+      "DesignFocus": [ 5, 3, 6, 5, 2, 5, 9, 5 ],
+      "DesignDirection": [ 4, 6, 7 ]
+    },
+    "Third-Person-Shooter": {
+      "DesignFocus": [ 5, 4, 5, 4, 3, 6, 8, 5 ],
+      "DesignDirection": [ 5, 5, 6 ]
+    },
+    "Racing": {
+      "DesignFocus": [ 6, 4, 7, 6, 1, 4, 8, 4 ],
+      "DesignDirection": [ 7, 2, 6 ]
+    }
+  },
+  "MOBA": {
+    "Skill-Game": {
+      "DesignFocus": [ 4, 5, 6, 6, 1, 5, 9, 4 ],
+      "DesignDirection": [ 7, 2, 8 ]
+    },
+    "Role-Playing-Game": {
+      "DesignFocus": [ 5, 7, 2, 4, 4, 8, 7, 3 ],
+      "DesignDirection": [ 4, 4, 8 ]
+    },
+    "Strategy": {
+      "DesignFocus": [ 5, 9, 2, 5, 1, 4, 8, 6 ],
+      "DesignDirection": [ 3, 4, 8 ]
+    },
+    "Action": {
+      "DesignFocus": [ 3, 5, 5, 6, 2, 6, 10, 3 ],
+      "DesignDirection": [ 6, 5, 9 ]
+    },
+    "Sports-Game": {
+      "DesignFocus": [ 4, 6, 8, 7, 1, 5, 6, 3 ],
+      "DesignDirection": [ 7, 1, 6 ]
+    },
+    "Real-Time-Strategy": {
+      "DesignFocus": [ 4, 8, 2, 5, 2, 5, 9, 5 ],
+      "DesignDirection": [ 4, 4, 8 ]
+    }
+  }
+}

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace MadGameTycoon2Tool.Model
 {
-    internal class HomeModel : ObservableObject
+    internal class RecipeModel : ObservableObject
     {
-        private string searchTheme;
+        private string searchTheme = "";
         /// <summary>
         /// 要查找的游戏主题
         /// </summary>
@@ -23,7 +23,7 @@ namespace MadGameTycoon2Tool.Model
             get => mainType;
             set => SetProperty(ref mainType, value);
         }
-        private string selectMainType;
+        private string selectMainType = "";
         /// <summary>
         /// 选中的主类型
         /// </summary>
@@ -41,7 +41,7 @@ namespace MadGameTycoon2Tool.Model
             get => childType;
             set => SetProperty(ref childType, value);
         }
-        private string selectChildType;
+        private string selectChildType = "";
         /// <summary>
         /// 选中的子类型
         /// </summary>
@@ -59,7 +59,7 @@ namespace MadGameTycoon2Tool.Model
             get => theme;
             set => SetProperty(ref theme, value);
         }
-        private string targetGroup;
+        private string targetGroup = "";
         /// <summary>
         /// 目标人群
         /// </summary>
@@ -68,7 +68,7 @@ namespace MadGameTycoon2Tool.Model
             get => targetGroup;
             set => SetProperty(ref targetGroup, value);
         }
-        private string gameLength;
+        private string gameLength = "";
         /// <summary>
         /// 游戏时长
         /// </summary>
@@ -77,7 +77,7 @@ namespace MadGameTycoon2Tool.Model
             get => gameLength;
             set => SetProperty(ref gameLength, value);
         }
-        private string gameDepth;
+        private string gameDepth = "";
         /// <summary>
         /// 游戏深度
         /// </summary>
@@ -86,7 +86,7 @@ namespace MadGameTycoon2Tool.Model
             get => gameDepth;
             set => SetProperty(ref gameDepth, value);
         }
-        private string beginnerFriendliness;
+        private string beginnerFriendliness = "";
         /// <summary>
         /// 萌新上手度
         /// </summary>
@@ -95,7 +95,7 @@ namespace MadGameTycoon2Tool.Model
             get => beginnerFriendliness;
             set => SetProperty(ref beginnerFriendliness, value);
         }
-        private string innovation;
+        private string innovation = "";
         /// <summary>
         /// 创意
         /// </summary>
@@ -104,7 +104,7 @@ namespace MadGameTycoon2Tool.Model
             get => innovation;
             set => SetProperty(ref innovation, value);
         }
-        private string story;
+        private string story = "";
         /// <summary>
         /// 剧情
         /// </summary>
@@ -113,7 +113,7 @@ namespace MadGameTycoon2Tool.Model
             get => story;
             set => SetProperty(ref story, value);
         }
-        private string characterDesign;
+        private string characterDesign = "";
         /// <summary>
         /// 角色设计
         /// </summary>
@@ -122,7 +122,7 @@ namespace MadGameTycoon2Tool.Model
             get => characterDesign;
             set => SetProperty(ref characterDesign, value);
         }
-        private string levelDesign;
+        private string levelDesign = "";
         /// <summary>
         /// 关卡设计
         /// </summary>
@@ -131,7 +131,7 @@ namespace MadGameTycoon2Tool.Model
             get => levelDesign;
             set => SetProperty(ref levelDesign, value);
         }
-        private string missionDesign;
+        private string missionDesign = "";
         /// <summary>
         /// 任务设计
         /// </summary>
@@ -140,7 +140,7 @@ namespace MadGameTycoon2Tool.Model
             get => missionDesign;
             set => SetProperty(ref missionDesign, value);
         }
-        private string hardCore;
+        private string hardCore = "";
         /// <summary>
         /// 核心玩家-休闲玩家
         /// </summary>
@@ -149,7 +149,7 @@ namespace MadGameTycoon2Tool.Model
             get => hardCore;
             set => SetProperty(ref hardCore, value);
         }
-        private string contentAge;
+        private string contentAge = "";
         /// <summary>
         /// 和平向-成人内容
         /// </summary>
@@ -158,7 +158,7 @@ namespace MadGameTycoon2Tool.Model
             get => contentAge;
             set => SetProperty(ref contentAge, value);
         }
-        private string difficulty;
+        private string difficulty = "";
         /// <summary>
         /// 简单-传奇
         /// </summary>
@@ -167,7 +167,7 @@ namespace MadGameTycoon2Tool.Model
             get => difficulty;
             set => SetProperty(ref difficulty, value);
         }
-        private string gamePlay;
+        private string gamePlay = "";
         /// <summary>
         /// 游戏玩法
         /// </summary>
@@ -176,7 +176,7 @@ namespace MadGameTycoon2Tool.Model
             get => gamePlay;
             set => SetProperty(ref gamePlay, value);
         }
-        private string graphics;
+        private string graphics = "";
         /// <summary>
         /// 图像
         /// </summary>
@@ -185,7 +185,7 @@ namespace MadGameTycoon2Tool.Model
             get => graphics;
             set => SetProperty(ref graphics, value);
         }
-        private string sound;
+        private string sound = "";
         /// <summary>
         /// 声音
         /// </summary>
@@ -194,7 +194,7 @@ namespace MadGameTycoon2Tool.Model
             get => sound;
             set => SetProperty(ref sound, value);
         }
-        private string technical;
+        private string technical = "";
         /// <summary>
         /// 技术
         /// </summary>
