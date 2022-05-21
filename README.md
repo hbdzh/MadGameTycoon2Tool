@@ -8,7 +8,7 @@
   《疯狂游戏大亨2》的一个小工具，可以用它查看合适的游戏类型、游戏主题、设计方向、设计重点、开发重点等。
 </p>
 <p align="center">
-  <a style="text-decoration:none" src="https://www.microsoft.com/store/productId/9PPPHWB9FDXM">
+  <a style="text-decoration:none" href="https://www.microsoft.com/store/productId/9PPPHWB9FDXM">
     <img src="Images/download.svg" alt="Download" />
   </a>
   <a style="text-decoration:none">
