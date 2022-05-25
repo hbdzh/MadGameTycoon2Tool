@@ -1,0 +1,727 @@
+{
+  "128_Bytes": {
+    "Type": "Main Memory",
+    "Level": "T1",
+    "Unlock": "1976 M1"
+  },
+  "1_MHz_CPU": {
+    "Type": "CPU",
+    "Level": "T1",
+    "Unlock": "1976 M1"
+  },
+  "TV_Interface_ADP": {
+    "Type": "Graphics Chip",
+    "Level": "T1",
+    "Unlock": "1976 M1"
+  },
+  "AMA_Audio_1300": {
+    "Type": "Sound Chip",
+    "Level": "T1",
+    "Unlock": "1976 M1"
+  },
+  "No storage option": {
+    "Type": "Internel / External Memory",
+    "Level": "T1",
+    "Unlock": "1976 M1"
+  },
+  "4KB_kilobyte_cartridge": {
+    "Type": "Data Carrier",
+    "Level": "T1",
+    "Unlock": "1976 M1"
+  },
+  "1。8_inch_grayscale_screen": {
+    "Type": "Screen",
+    "Level": "T1",
+    "Unlock": "1976 M1"
+  },
+  "Controller_1": {
+    "Type": "Input Device",
+    "Level": "T1",
+    "Unlock": "1976 M1"
+  },
+  "Case_for_stationary_console_1": {
+    "Type": "Case",
+    "Level": "T1",
+    "Unlock": "1976 M1"
+  },
+  "Case_for_handheld_1": {
+    "Type": "Case",
+    "Level": "T1",
+    "Unlock": "1976 M1"
+  },
+  "Air_vents": {
+    "Type": "Cooling System",
+    "Level": "T1",
+    "Unlock": "1976 M1"
+  },
+  "128_bytes on cartridge": {
+    "Type": "Internel / External Memory",
+    "Level": "T1+",
+    "Unlock": "1978 M3"
+  },
+  "1024_Bytes": {
+    "Type": "Main Memory",
+    "Level": "T1+",
+    "Unlock": "1979 M6"
+  },
+  "AMA_Audio_1800": {
+    "Type": "Sound Chip",
+    "Level": "T1+",
+    "Unlock": "1980 M5"
+  },
+  "1。5_MHz_CPU": {
+    "Type": "CPU",
+    "Level": "T1+",
+    "Unlock": "1980 M6"
+  },
+  "TV_Interface_ADP-X": {
+    "Type": "Graphics Chip",
+    "Level": "T1+",
+    "Unlock": "1980 M7"
+  },
+  "Hear_Sink": {
+    "Type": "Cooling System",
+    "Level": "T2",
+    "Unlock": "1981 M2"
+  },
+  "Controller_2": {
+    "Type": "Input Device",
+    "Level": "T2",
+    "Unlock": "1982 M2"
+  },
+  "Case_for_stationary_console_2": {
+    "Type": "Case",
+    "Level": "T2",
+    "Unlock": "1982 M2"
+  },
+  "Case_for_handheld_2": {
+    "Type": "Case",
+    "Level": "T2",
+    "Unlock": "1982 M2"
+  },
+  "1KB_kilobyte_on_cartridge": {
+    "Type": "Internel / External Memory",
+    "Level": "T2",
+    "Unlock": "1982 M4"
+  },
+  "128_kilobyte_cartridge": {
+    "Type": "Data Carrier",
+    "Level": "T2",
+    "Unlock": "1982 M5"
+  },
+  "8_Kilobyte": {
+    "Type": "Main Memory",
+    "Level": "T2",
+    "Unlock": "1982 M7"
+  },
+  "2MHz_CPU": {
+    "Type": "CPU",
+    "Level": "T2",
+    "Unlock": "1982 M10"
+  },
+  "Micron-SX_100_Chip": {
+    "Type": "Graphics Chip",
+    "Level": "T2",
+    "Unlock": "1982 M10"
+  },
+  "Yahami_OXL_500": {
+    "Type": "Sound Chip",
+    "Level": "T2",
+    "Unlock": "1982 M10"
+  },
+  "Micron-SX_150_Chip": {
+    "Type": "Graphics Chip",
+    "Level": "T2+",
+    "Unlock": "1984 M4"
+  },
+  "4_kilobyte_on_cartridge": {
+    "Type": "Internel / External Memory",
+    "Level": "T2+",
+    "Unlock": "1984 M9"
+  },
+  "Yahami_OXL_1000": {
+    "Type": "Sound Chip",
+    "Level": "T2+",
+    "Unlock": "1984 M11"
+  },
+  "3MHz_CPU": {
+    "Type": "CPU",
+    "Level": "T2+",
+    "Unlock": "1984 M12"
+  },
+  "64_Kilobyte": {
+    "Type": "Main Memory",
+    "Level": "T2+",
+    "Unlock": "1984 M12"
+  },
+  "Small_case_fan": {
+    "Type": "Cooling System",
+    "Level": "T3",
+    "Unlock": "1985 M5"
+  },
+  "2。6_inch_grayscale_screen": {
+    "Type": "Screen",
+    "Level": "T2",
+    "Unlock": "1985 M7"
+  },
+  "Viana_ACI_89": {
+    "Type": "Sound Chip",
+    "Level": "T3",
+    "Unlock": "1986 M1"
+  },
+  "128_Kilobyte": {
+    "Type": "Main Memory",
+    "Level": "T3",
+    "Unlock": "1986 M2"
+  },
+  "4MHz_CPU": {
+    "Type": "CPU",
+    "Level": "T3",
+    "Unlock": "1986 M4"
+  },
+  "Video-DP_1000": {
+    "Type": "Graphics Chip",
+    "Level": "T3",
+    "Unlock": "1986 M5"
+  },
+  "Controller_3": {
+    "Type": "Input Device",
+    "Level": "T3",
+    "Unlock": "1986 M6"
+  },
+  "Case_for_stationary_console_3": {
+    "Type": "Case",
+    "Level": "T3",
+    "Unlock": "1986 M6"
+  },
+  "Case_for_handheld_3": {
+    "Type": "Case",
+    "Level": "T3",
+    "Unlock": "1986 M6"
+  },
+  "8_kilobyte_on_cartridge": {
+    "Type": "Internel / External Memory",
+    "Level": "T3",
+    "Unlock": "1986 M10"
+  },
+  "1_megabyte_cartridge": {
+    "Type": "Data Carrier",
+    "Level": "T3",
+    "Unlock": "1986 M11"
+  },
+  "512_Kilobyte": {
+    "Type": "Main Memory",
+    "Level": "T3+",
+    "Unlock": "1989 M3"
+  },
+  "3。2_inch_color_screen": {
+    "Type": "Screen",
+    "Level": "T3",
+    "Unlock": "1989 M6"
+  },
+  "Viana_ACI_91": {
+    "Type": "Sound Chip",
+    "Level": "T3+",
+    "Unlock": "1989 M9"
+  },
+  "12_MHz_CPU": {
+    "Type": "CPU",
+    "Level": "T3+",
+    "Unlock": "1990 M6"
+  },
+  "Video-DP_1500": {
+    "Type": "Graphics Chip",
+    "Level": "T3+",
+    "Unlock": "1990 M11"
+  },
+  "32_kilobyte_on_cartridge": {
+    "Type": "Internel / External Memory",
+    "Level": "T3+",
+    "Unlock": "1990 M12"
+  },
+  "Small_fans_for_CPU_and_GPU": {
+    "Type": "Cooling System",
+    "Level": "T4",
+    "Unlock": "1991 M1"
+  },
+  "Createch_DMP_1": {
+    "Type": "Sound Chip",
+    "Level": "T3+",
+    "Unlock": "1991 M11"
+  },
+  "33MHz_CPU": {
+    "Type": "CPU",
+    "Level": "T4",
+    "Unlock": "1992 M2"
+  },
+  "X-Core_32": {
+    "Type": "Graphics Chip",
+    "Level": "T4",
+    "Unlock": "1992 M2"
+  },
+  "512_kilobyte_memory_card": {
+    "Type": "Internel / External Memory",
+    "Level": "T4",
+    "Unlock": "1992 M8"
+  },
+  "Modern_Controller_1": {
+    "Type": "Input Device",
+    "Level": "T4",
+    "Unlock": "1992 M8"
+  },
+  "Case_for_stationary_console_4": {
+    "Type": "Case",
+    "Level": "T4",
+    "Unlock": "1992 M8"
+  },
+  "Case_for_handheld_4": {
+    "Type": "Case",
+    "Level": "T4",
+    "Unlock": "1992 M8"
+  },
+  "700_megabyte_CD": {
+    "Type": "Data Carrier",
+    "Level": "T4",
+    "Unlock": "1992 M9"
+  },
+  "2_Megabyte": {
+    "Type": "Main Memory",
+    "Level": "T4",
+    "Unlock": "1992 M10"
+  },
+  "X-Core 32_Plus": {
+    "Type": "Graphics Chip",
+    "Level": "T4+",
+    "Unlock": "1994 M7"
+  },
+  "Createch_DMP_2": {
+    "Type": "Sound Chip",
+    "Level": "T4+",
+    "Unlock": "1994 M12"
+  },
+  "4_megabyte_memory_card": {
+    "Type": "Internel / External Memory",
+    "Level": "T4+",
+    "Unlock": "1995 M2"
+  },
+  "112MHz_CPU": {
+    "Type": "CPU",
+    "Level": "T4+",
+    "Unlock": "1995 M11"
+  },
+  "8_Megabyte": {
+    "Type": "Main Memory",
+    "Level": "T4+",
+    "Unlock": "1995 M11"
+  },
+  "High_performance_fan_for_CPU_and_GPU": {
+    "Type": "Cooling System",
+    "Level": "T5",
+    "Unlock": "1996 M2"
+  },
+  "32_megabyte_memory_card": {
+    "Type": "Internel / External Memory",
+    "Level": "T5",
+    "Unlock": "1997 M5"
+  },
+  "Yahami_Audio_R3": {
+    "Type": "Sound Chip",
+    "Level": "T5",
+    "Unlock": "1997 M7"
+  },
+  "4_gigabyte_DVD": {
+    "Type": "Data Carrier",
+    "Level": "T5",
+    "Unlock": "1997 M7"
+  },
+  "294MHz_CPU": {
+    "Type": "CPU",
+    "Level": "T5",
+    "Unlock": "1997 M10"
+  },
+  "GFX_Synth_147": {
+    "Type": "Graphics Chip",
+    "Level": "T5",
+    "Unlock": "1997 M10"
+  },
+  "32_Megabyte": {
+    "Type": "Main Memory",
+    "Level": "T5",
+    "Unlock": "1997 M12"
+  },
+  "Modern_Controller_2": {
+    "Type": "Input Device",
+    "Level": "T5",
+    "Unlock": "1997 M12"
+  },
+  "Case_for_stationary_console_5": {
+    "Type": "Case",
+    "Level": "T5",
+    "Unlock": "1997 M12"
+  },
+  "Case_for_handheld_5": {
+    "Type": "Case",
+    "Level": "T5",
+    "Unlock": "1997 M12"
+  },
+  "550MHz_CPU": {
+    "Type": "CPU",
+    "Level": "T5+",
+    "Unlock": "2000 M5"
+  },
+  "3。6_inch_touch_screen": {
+    "Type": "Screen",
+    "Level": "T4",
+    "Unlock": "2001 M1"
+  },
+  "GFX_Synth_233": {
+    "Type": "Graphics Chip",
+    "Level": "T5+",
+    "Unlock": "2001 M6"
+  },
+  "Yahami_Audio_R7": {
+    "Type": "Sound Chip",
+    "Level": "T5+",
+    "Unlock": "2001 M6"
+  },
+  "64_megabyte_memory_card": {
+    "Type": "Internel / External Memory",
+    "Level": "T5+",
+    "Unlock": "2001 M9"
+  },
+  "128_Megabyte": {
+    "Type": "Main Memory",
+    "Level": "T5+",
+    "Unlock": "2002 M9"
+  },
+  "Tuned_3-fan_system": {
+    "Type": "Cooling System",
+    "Level": "T4",
+    "Unlock": "2003 M6"
+  },
+  "512_Megabyte": {
+    "Type": "Main Memory",
+    "Level": "T6",
+    "Unlock": "2004 M2"
+  },
+  "2-Core_CPU": {
+    "Type": "CPU",
+    "Level": "T6",
+    "Unlock": "2004 M4"
+  },
+  "Nvaria_RSX": {
+    "Type": "Graphics Chip",
+    "Level": "T6",
+    "Unlock": "2004 M4"
+  },
+  "Modern_Controller_3": {
+    "Type": "Input Device",
+    "Level": "T6",
+    "Unlock": "2004 M5"
+  },
+  "Case_for_stationary_console_6": {
+    "Type": "Case",
+    "Level": "T6",
+    "Unlock": "2004 M5"
+  },
+  "Case_for_handheld_6": {
+    "Type": "Case",
+    "Level": "T6",
+    "Unlock": "2004 M5"
+  },
+  "Createch_STA-Surround": {
+    "Type": "Sound Chip",
+    "Level": "T6",
+    "Unlock": "2004 M5"
+  },
+  "20_gigabyte_hard_disk": {
+    "Type": "Internel / External Memory",
+    "Level": "T6",
+    "Unlock": "2004 M7"
+  },
+  "25_gigabyte_Blue-DVD": {
+    "Type": "Data Carrier",
+    "Level": "T6",
+    "Unlock": "2004 M8"
+  },
+  "4。8_inch_touch_screen": {
+    "Type": "Screen",
+    "Level": "T5",
+    "Unlock": "2004 M12"
+  },
+  "2_gigabyte_cartridge": {
+    "Type": "Data Carrier",
+    "Level": "T6",
+    "Unlock": "2007 M1"
+  },
+  "2_gigabyte_memory_card": {
+    "Type": "Internel / External Memory",
+    "Level": "T6+",
+    "Unlock": "2007 M5"
+  },
+  "80_gigabyte_hard_disk": {
+    "Type": "Internel / External Memory",
+    "Level": "T6+",
+    "Unlock": "2008 M2"
+  },
+  "Createch_STA-Surround_Pro": {
+    "Type": "Sound Chip",
+    "Level": "T6+",
+    "Unlock": "2008 M4"
+  },
+  "2_Gigabyte": {
+    "Type": "Main Memory",
+    "Level": "T6+",
+    "Unlock": "2008 M5"
+  },
+  "4。9_inch_3D_touch_screen": {
+    "Type": "Screen",
+    "Level": "T6",
+    "Unlock": "2008 M9"
+  },
+  "Nvaria_RSX_Pro": {
+    "Type": "Graphics Chip",
+    "Level": "T6+",
+    "Unlock": "2008 M11"
+  },
+  "4-Core_CPU": {
+    "Type": "CPU",
+    "Level": "T6+",
+    "Unlock": "2009 M2"
+  },
+  "Modern_3-fan_system": {
+    "Type": "Cooling System",
+    "Level": "T7",
+    "Unlock": "2011 M7"
+  },
+  "8_Gigabyte": {
+    "Type": "Main Memory",
+    "Level": "T7",
+    "Unlock": "2012 M1"
+  },
+  "500_gigabyte_hard_disk": {
+    "Type": "Internel / External Memory",
+    "Level": "T7",
+    "Unlock": "2012 M1"
+  },
+  "Modern_Controller_4": {
+    "Type": "Input Device",
+    "Level": "T7",
+    "Unlock": "2012 M4"
+  },
+  "Case_for_stationary_console_7": {
+    "Type": "Case",
+    "Level": "T7",
+    "Unlock": "2012 M4"
+  },
+  "Case_for_handheld_7": {
+    "Type": "Case",
+    "Level": "T7",
+    "Unlock": "2012 M4"
+  },
+  "2x4-Core_CPU": {
+    "Type": "CPU",
+    "Level": "T7",
+    "Unlock": "2012 M7"
+  },
+  "Viana_X_HD_3000": {
+    "Type": "Sound Chip",
+    "Level": "T7",
+    "Unlock": "2012 M9"
+  },
+  "AMP_Raidian": {
+    "Type": "Graphics Chip",
+    "Level": "T7",
+    "Unlock": "2012 M12"
+  },
+  "50GB_Dual_DVD": {
+    "Type": "Data Carrier",
+    "Level": "T7",
+    "Unlock": "2012 M12"
+  },
+  "AMP_Radian_NX": {
+    "Type": "Graphics Chip",
+    "Level": "T7+",
+    "Unlock": "2015 M1"
+  },
+  "8-Core_CPU": {
+    "Type": "CPU",
+    "Level": "T7+",
+    "Unlock": "2015 M8"
+  },
+  "8_gigabyte_memory_card": {
+    "Type": "Internel / External Memory",
+    "Level": "T7+",
+    "Unlock": "2015 M9"
+  },
+  "12_Gigabyte": {
+    "Type": "Main Memory",
+    "Level": "T7+",
+    "Unlock": "2015 M10"
+  },
+  "800_gigabyte_hard_disk": {
+    "Type": "Internel / External Memory",
+    "Level": "T7+",
+    "Unlock": "2015 M10"
+  },
+  "Viana_X_HD_5000": {
+    "Type": "Sound Chip",
+    "Level": "T7+",
+    "Unlock": "2015 M10"
+  },
+  "Water-cooling_system": {
+    "Type": "Cooling System",
+    "Level": "T8",
+    "Unlock": "2017 M8"
+  },
+  "Case_for_stationary_console_8": {
+    "Type": "Case",
+    "Level": "T8",
+    "Unlock": "2017 M8"
+  },
+  "AMP_RDNI_1000": {
+    "Type": "Graphics Chip",
+    "Level": "T8",
+    "Unlock": "2019 M4"
+  },
+  "32_gigabyte_memory_card": {
+    "Type": "Internel / External Memory",
+    "Level": "T8",
+    "Unlock": "2019 M4"
+  },
+  "1_terabyte_hard_disk": {
+    "Type": "Internel / External Memory",
+    "Level": "T8",
+    "Unlock": "2019 M5"
+  },
+  "120_gigabyte_HD-DVD": {
+    "Type": "Data Carrier",
+    "Level": "T8",
+    "Unlock": "2019 M5"
+  },
+  "16_Gigabyte": {
+    "Type": "Main Memory",
+    "Level": "T8",
+    "Unlock": "2019 M6"
+  },
+  "Yahami_Surround_X19": {
+    "Type": "Sound Chip",
+    "Level": "T8",
+    "Unlock": "2019 M7"
+  },
+  "Modern_Controller_5": {
+    "Type": "Input Device",
+    "Level": "T8",
+    "Unlock": "2019 M8"
+  },
+  "Case_for_handheld_8": {
+    "Type": "Case",
+    "Level": "T8",
+    "Unlock": "2019 M8"
+  },
+  "8-Core_Extreme_CPU": {
+    "Type": "CPU",
+    "Level": "T8",
+    "Unlock": "2019 M9"
+  },
+  "5。1_inch_3D_touch_screen": {
+    "Type": "Screen",
+    "Level": "T7",
+    "Unlock": "2020 M4"
+  },
+  "16_gigabyte_cartridge": {
+    "Type": "Data Carrier",
+    "Level": "T7",
+    "Unlock": "2020 M9"
+  },
+  "12-Core_CPU": {
+    "Type": "CPU",
+    "Level": "T8+",
+    "Unlock": "2023 M5"
+  },
+  "AMP_RDNI_1800": {
+    "Type": "Graphics Chip",
+    "Level": "T8+",
+    "Unlock": "2023 M6"
+  },
+  "Yahami_Surround_X23": {
+    "Type": "Sound Chip",
+    "Level": "T8+",
+    "Unlock": "2023 M6"
+  },
+  "32_Gigabyte": {
+    "Type": "Main Memory",
+    "Level": "T8+",
+    "Unlock": "2024 M4"
+  },
+  "64_gigabyte_cartridge": {
+    "Type": "Data Carrier",
+    "Level": "T8+",
+    "Unlock": "2024 M4"
+  },
+  "4_terabyte_hard_disk": {
+    "Type": "Internel / External Memory",
+    "Level": "T8+",
+    "Unlock": "2025 M12"
+  },
+  "512_gigabyte_memory_card": {
+    "Type": "Internel / External Memory",
+    "Level": "T8",
+    "Unlock": "2026 M11"
+  },
+  "16-Core_CPU": {
+    "Type": "CPU",
+    "Level": "T8+",
+    "Unlock": "2027 M3"
+  },
+  "Nvaria_Rax-X": {
+    "Type": "Graphics Chip",
+    "Level": "T8++",
+    "Unlock": "2027 M5"
+  },
+  "Blade_RT-Audo_1。0": {
+    "Type": "Sound Chip",
+    "Level": "T8++",
+    "Unlock": "2027 M5"
+  },
+  "64_Gigabyte": {
+    "Type": "Main Memory",
+    "Level": "T8++",
+    "Unlock": "2027 M11"
+  },
+  "5。2_inch_3D_touch_screen": {
+    "Type": "Screen",
+    "Level": "T8",
+    "Unlock": "2027 M12"
+  },
+  "250_gigabyte_Ultra-DVD": {
+    "Type": "Data Carrier",
+    "Level": "T8+",
+    "Unlock": "2028 M1"
+  },
+  "Nvaria_Ray-X_11": {
+    "Type": "Graphics Chip",
+    "Level": "T8+++",
+    "Unlock": "2031 M10"
+  },
+  "Blade_RT-Video2。0": {
+    "Type": "Sound Chip",
+    "Level": "T8+++",
+    "Unlock": "2031 M12"
+  },
+  "16_terabyte_hard_disk": {
+    "Type": "Internel / External Memory",
+    "Level": "T8++",
+    "Unlock": "2032 M5"
+  },
+  "128_Gigabyte": {
+    "Type": "Main Memory",
+    "Level": "T8+++",
+    "Unlock": "2032 M7"
+  },
+  "24-Core_CPU": {
+    "Type": "CPU",
+    "Level": "T8+++",
+    "Unlock": "2033 M2"
+  }
+}

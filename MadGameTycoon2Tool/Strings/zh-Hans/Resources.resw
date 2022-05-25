@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AccessoryTypeCombo.Header" xml:space="preserve">
+    <value>配件类型</value>
+  </data>
   <data name="AppName.Text" xml:space="preserve">
     <value>疯狂游戏大亨2 游戏攻略</value>
   </data>
@@ -204,10 +207,22 @@
   <data name="TargetGroup.Text" xml:space="preserve">
     <value>目标人群</value>
   </data>
+  <data name="TechLevel.Text" xml:space="preserve">
+    <value>技术等级：</value>
+  </data>
   <data name="Techncial.Text" xml:space="preserve">
     <value>技术</value>
   </data>
+  <data name="TechnologyLevelCombo.Header" xml:space="preserve">
+    <value>技术等级</value>
+  </data>
   <data name="ThemeStyle.Header" xml:space="preserve">
     <value>主题样式</value>
+  </data>
+  <data name="Type.Text" xml:space="preserve">
+    <value>类型：</value>
+  </data>
+  <data name="UnlockTime.Text" xml:space="preserve">
+    <value>解锁年份：</value>
   </data>
 </root>

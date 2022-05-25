@@ -1,450 +1,1568 @@
 {
   "动作": {
-    "技巧": {
+    "技巧*": {
       "DesignFocus": [ 5, 3, 7, 5, 3, 3, 9, 5 ],
       "DesignDirection": [ 6, 4, 8 ]
     },
-    "冒险": {
+    "冒险*": {
       "DesignFocus": [ 3, 2, 7, 3, 7, 6, 8, 4 ],
       "DesignDirection": [ 5, 6, 8 ]
     },
-    "角色扮演": {
+    "角色扮演*": {
       "DesignFocus": [ 6, 4, 3, 4, 6, 6, 7, 4 ],
       "DesignDirection": [ 3, 6, 8 ]
     },
-    "横版": {
+    "横版*": {
       "DesignFocus": [ 5, 2, 8, 5, 3, 4, 10, 3 ],
       "DesignDirection": [ 6, 5, 7 ]
     },
-    "格斗": {
+    "格斗*": {
       "DesignFocus": [ 5, 2, 8, 4, 4, 7, 8, 2 ],
       "DesignDirection": [ 5, 8, 8 ]
     },
-    "第一人称射击": {
+    "第一人称射击*": {
       "DesignFocus": [ 4, 1, 7, 5, 4, 4, 10, 5 ],
       "DesignDirection": [ 4, 8, 8 ]
     },
-    "第三人称射击": {
+    "第三人称射击*": {
       "DesignFocus": [ 5, 2, 6, 4, 4, 5, 9, 5 ],
       "DesignDirection": [ 4, 7, 7 ]
-    }
-  },
-  "冒险": {
-    "益智": {
-      "DesignFocus": [ 5, 2, 7, 2, 7, 5, 6, 6 ],
-      "DesignDirection": [ 6, 2, 7 ]
-    },
-    "横版": {
-      "DesignFocus": [ 4, 2, 7, 3, 6, 7, 8, 3 ],
-      "DesignDirection": [ 6, 4, 6 ]
-    },
-    "交互式电影": {
-      "DesignFocus": [ 3, 2, 6, 2, 10, 9, 5, 3 ],
-      "DesignDirection": [ 6, 6, 5 ]
-    },
-    "交互式小说": {
-      "DesignFocus": [ 4, 2, 6, 1, 10, 9, 5, 3 ],
-      "DesignDirection": [ 6, 4, 4 ]
-    },
-    "第三人称射击": {
-      "DesignFocus": [ 4, 2, 6, 2, 7, 7, 7, 5 ],
-      "DesignDirection": [ 4, 6, 6 ]
-    }
-  },
-  "模拟建筑": {
-    "策略": {
-      "DesignFocus": [ 10, 10, 0, 6, 1, 1, 5, 7 ],
-      "DesignDirection": [ 1, 5, 7 ]
-    },
-    "模拟经营": {
-      "DesignFocus": [ 10, 10, 1, 9, 1, 1, 4, 4 ],
-      "DesignDirection": [ 1, 3, 6 ]
-    },
-    "即时战略": {
-      "DesignFocus": [ 9, 9, 1, 6, 2, 1, 6, 6 ],
-      "DesignDirection": [ 2, 5, 6 ]
-    }
-  },
-  "模拟经营": {
-    "模拟建筑": {
-      "DesignFocus": [ 10, 10, 1, 9, 1, 1, 4, 4 ],
-      "DesignDirection": [ 1, 3, 6 ]
-    },
-    "体育": {
-      "DesignFocus": [ 9, 7, 5, 8, 1, 2, 3, 5 ],
-      "DesignDirection": [ 3, 1, 5 ]
-    },
-    "策略": {
-      "DesignFocus": [ 10, 10, 0, 6, 1, 1, 5, 7 ],
-      "DesignDirection": [ 0, 4, 7 ]
-    },
-    "即时战略": {
-      "DesignFocus": [ 9, 10, 0, 6, 2, 1, 6, 6 ],
-      "DesignDirection": [ 1, 4, 7 ]
-    }
-  },
-  "格斗": {
-    "动作": {
-      "DesignFocus": [ 5, 2, 8, 4, 4, 7, 8, 2 ],
-      "DesignDirection": [ 5, 8, 8 ]
-    },
-    "横版": {
-      "DesignFocus": [ 6, 2, 10, 3, 3, 7, 8, 1 ],
-      "DesignDirection": [ 7, 6, 6 ]
-    },
-    "体育": {
-      "DesignFocus": [ 6, 3, 10, 5, 3, 6, 4, 3 ],
-      "DesignDirection": [ 6, 4, 6 ]
-    }
-  },
-  "第一人称射击": {
-    "技巧": {
-      "DesignFocus": [ 5, 2, 8, 4, 3, 3, 9, 6 ],
-      "DesignDirection": [ 5, 5, 7 ]
-    },
-    "冒险": {
-      "DesignFocus": [ 4, 2, 6, 2, 7, 6, 8, 5 ],
-      "DesignDirection": [ 4, 7, 7 ]
-    },
-    "角色扮演": {
-      "DesignFocus": [ 7, 3, 3, 3, 6, 6, 7, 5 ],
-      "DesignDirection": [ 2, 7, 7 ]
-    },
-    "动作": {
-      "DesignFocus": [ 4, 1, 7, 5, 4, 4, 10, 5 ],
-      "DesignDirection": [ 4, 8, 8 ]
-    },
-    "横版": {
-      "DesignFocus": [ 5, 2, 8, 4, 3, 4, 10, 4 ],
-      "DesignDirection": [ 5, 6, 6 ]
-    },
-    "模拟": {
-      "DesignFocus": [ 5, 5, 4, 5, 2, 3, 8, 8 ],
-      "DesignDirection": [ 1, 8, 7 ]
-    },
-    "第三人称射击": {
-      "DesignFocus": [ 5, 2, 6, 3, 4, 5, 9, 6 ],
-      "DesignDirection": [ 3, 8, 6 ]
-    }
-  },
-  "交互式电影": {
-    "技巧": {
-      "DesignFocus": [ 5, 3, 7, 4, 6, 6, 5, 4 ],
-      "DesignDirection": [ 7, 4, 5 ]
     },
     "益智": {
-      "DesignFocus": [ 6, 2, 7, 3, 7, 6, 4, 5 ],
-      "DesignDirection": [ 7, 3, 5 ]
+      "DesignFocus": [ 5, 2, 7, 5, 4, 3, 8, 6 ],
+      "DesignDirection": [ 6, 3, 8 ]
     },
-    "冒险": {
-      "DesignFocus": [ 3, 2, 6, 2, 10, 9, 5, 3 ],
-      "DesignDirection": [ 6, 6, 5 ]
-    },
-    "交互式小说": {
-      "DesignFocus": [ 5, 2, 6, 2, 10, 10, 3, 2 ],
-      "DesignDirection": [ 7, 5, 2 ]
-    }
-  },
-  "横版": {
-    "技巧": {
-      "DesignFocus": [ 6, 1, 9, 5, 2, 4, 9, 4 ],
-      "DesignDirection": [ 7, 2, 6 ]
-    },
-    "益智": {
-      "DesignFocus": [ 7, 2, 8, 4, 3, 3, 8, 5 ],
-      "DesignDirection": [ 8, 1, 6 ]
-    },
-    "角色扮演": {
-      "DesignFocus": [ 7, 4, 5, 3, 5, 6, 7, 3 ],
-      "DesignDirection": [ 5, 4, 6 ]
-    },
-    "冒险": {
-      "DesignFocus": [ 4, 2, 7, 3, 6, 7, 8, 3 ],
-      "DesignDirection": [ 6, 4, 6 ]
-    },
-    "动作": {
-      "DesignFocus": [ 5, 2, 8, 5, 3, 4, 10, 3 ],
-      "DesignDirection": [ 6, 5, 7 ]
-    },
-    "格斗": {
-      "DesignFocus": [ 6, 2, 10, 3, 3, 7, 8, 1 ],
-      "DesignDirection": [ 7, 6, 6 ]
-    }
-  },
-  "益智": {
-    "技巧": {
-      "DesignFocus": [ 7, 3, 7, 4, 3, 2, 7, 7 ],
-      "DesignDirection": [ 7, 0, 7 ]
-    },
-    "横版": {
-      "DesignFocus": [ 7, 2, 8, 4, 3, 3, 8, 5 ],
-      "DesignDirection": [ 8, 1, 6 ]
-    },
-    "交互式小说": {
-      "DesignFocus": [ 7, 2, 6, 3, 7, 6, 4, 5 ],
-      "DesignDirection": [ 7, 2, 5 ]
-    },
-    "交互式电影": {
-      "DesignFocus": [ 6, 2, 7, 3, 7, 6, 4, 5 ],
-      "DesignDirection": [ 7, 3, 5 ]
-    }
-  },
-  "竞速": {
-    "动作": {
+    "竞速": {
       "DesignFocus": [ 6, 3, 7, 6, 2, 3, 9, 4 ],
       "DesignDirection": [ 6, 3, 6 ]
     },
+    "策略": {
+      "DesignFocus": [ 6, 7, 3, 5, 2, 2, 8, 7 ],
+      "DesignDirection": [ 2, 6, 8 ]
+    },
     "模拟": {
-      "DesignFocus": [ 7, 6, 4, 6, 1, 2, 7, 7 ],
-      "DesignDirection": [ 4, 3, 6 ]
-    },
-    "体育": {
-      "DesignFocus": [ 7, 4, 10, 7, 1, 2, 5, 4 ],
-      "DesignDirection": [ 7, 0, 4 ]
-    }
-  },
-  "即时战略": {
-    "角色扮演": {
-      "DesignFocus": [ 8, 7, 0, 3, 5, 5, 6, 6 ],
-      "DesignDirection": [ 2, 6, 7 ]
-    },
-    "策略": {
-      "DesignFocus": [ 8, 9, 0, 4, 2, 1, 7, 9 ],
-      "DesignDirection": [ 1, 6, 7 ]
-    },
-    "动作": {
-      "DesignFocus": [ 5, 5, 4, 5, 3, 3, 9, 6 ],
-      "DesignDirection": [ 3, 6, 8 ]
-    },
-    "模拟经营": {
-      "DesignFocus": [ 9, 10, 0, 6, 2, 1, 6, 6 ],
-      "DesignDirection": [ 1, 4, 7 ]
-    },
-    "模拟建筑": {
-      "DesignFocus": [ 9, 9, 1, 6, 2, 1, 6, 6 ],
-      "DesignDirection": [ 2, 5, 6 ]
-    }
-  },
-  "角色扮演": {
-    "益智": {
-      "DesignFocus": [ 8, 4, 3, 3, 6, 5, 5, 6 ],
-      "DesignDirection": [ 5, 3, 7 ]
-    },
-    "冒险": {
-      "DesignFocus": [ 6, 4, 2, 1, 9, 8, 6, 4 ],
-      "DesignDirection": [ 3, 5, 7 ]
-    },
-    "动作": {
-      "DesignFocus": [ 6, 4, 3, 4, 6, 6, 7, 4 ],
-      "DesignDirection": [ 3, 6, 8 ]
-    },
-    "横版": {
-      "DesignFocus": [ 7, 4, 5, 3, 5, 6, 7, 3 ],
-      "DesignDirection": [ 5, 4, 6 ]
-    },
-    "即时战略": {
-      "DesignFocus": [ 8, 7, 0, 3, 5, 5, 6, 6 ],
-      "DesignDirection": [ 2, 6, 7 ]
-    },
-    "第一人称射击": {
-      "DesignFocus": [ 7, 3, 3, 3, 6, 6, 7, 5 ],
-      "DesignDirection": [ 2, 7, 7 ]
-    },
-    "第三人称射击": {
-      "DesignFocus": [ 7, 4, 3, 2, 6, 7, 6, 5 ],
-      "DesignDirection": [ 3, 6, 6 ]
-    }
-  },
-  "模拟": {
-    "策略": {
-      "DesignFocus": [ 7, 10, 0, 5, 1, 1, 6, 10 ],
-      "DesignDirection": [ 0, 6, 8 ]
-    },
-    "动作": {
       "DesignFocus": [ 5, 5, 4, 6, 2, 3, 8, 7 ],
       "DesignDirection": [ 2, 7, 8 ]
     },
     "体育": {
-      "DesignFocus": [ 6, 6, 6, 8, 1, 2, 4, 7 ],
-      "DesignDirection": [ 3, 3, 6 ]
-    },
-    "第一人称射击": {
-      "DesignFocus": [ 5, 5, 4, 5, 2, 3, 8, 8 ],
-      "DesignDirection": [ 1, 8, 7 ]
-    },
-    "竞速": {
-      "DesignFocus": [ 7, 6, 4, 6, 1, 2, 7, 7 ],
-      "DesignDirection": [ 4, 3, 6 ]
-    }
-  },
-  "技巧": {
-    "动作": {
-      "DesignFocus": [ 5, 3, 7, 5, 3, 3, 9, 5 ],
-      "DesignDirection": [ 6, 4, 8 ]
-    },
-    "横版": {
-      "DesignFocus": [ 6, 1, 9, 5, 2, 4, 9, 4 ],
-      "DesignDirection": [ 7, 2, 6 ]
-    },
-    "益智": {
-      "DesignFocus": [ 7, 3, 7, 4, 3, 2, 7, 7 ],
-      "DesignDirection": [ 7, 0, 7 ]
-    }
-  },
-  "体育": {
-    "策略": {
-      "DesignFocus": [ 8, 7, 5, 6, 1, 2, 4, 7 ],
-      "DesignDirection": [ 3, 3, 6 ]
-    },
-    "动作": {
       "DesignFocus": [ 5, 3, 9, 7, 3, 3, 6, 4 ],
       "DesignDirection": [ 6, 3, 6 ]
     },
     "模拟经营": {
-      "DesignFocus": [ 9, 7, 5, 8, 1, 2, 3, 5 ],
-      "DesignDirection": [ 3, 1, 5 ]
-    },
-    "模拟": {
-      "DesignFocus": [ 6, 6, 6, 8, 1, 2, 4, 7 ],
-      "DesignDirection": [ 3, 3, 6 ]
-    },
-    "格斗": {
-      "DesignFocus": [ 6, 3, 10, 5, 3, 6, 4, 3 ],
-      "DesignDirection": [ 6, 4, 6 ]
-    }
-  },
-  "策略": {
-    "角色扮演": {
-      "DesignFocus": [ 9, 8, 0, 3, 4, 7, 8, 7 ],
-      "DesignDirection": [ 1, 6, 7 ]
-    },
-    "动作": {
-      "DesignFocus": [ 6, 7, 3, 5, 2, 2, 8, 7 ],
-      "DesignDirection": [ 2, 6, 8 ]
-    },
-    "模拟经营": {
-      "DesignFocus": [ 10, 10, 0, 6, 1, 1, 5, 7 ],
-      "DesignDirection": [ 0, 4, 7 ]
+      "DesignFocus": [ 7, 7, 4, 7, 2, 2, 7, 4 ],
+      "DesignDirection": [ 2, 4, 8 ]
     },
     "模拟建筑": {
-      "DesignFocus": [ 10, 10, 0, 6, 1, 1, 5, 7 ],
-      "DesignDirection": [ 1, 5, 7 ]
+      "DesignFocus": [ 7, 7, 4, 7, 2, 2, 7, 4 ],
+      "DesignDirection": [ 3, 5, 7 ]
     },
-    "即时战略": {
-      "DesignFocus": [ 8, 9, 0, 4, 2, 1, 7, 9 ],
-      "DesignDirection": [ 1, 6, 7 ]
-    }
-  },
-  "第三人称射击": {
-    "技巧": {
-      "DesignFocus": [ 6, 3, 6, 4, 3, 4, 8, 6 ],
-      "DesignDirection": [ 5, 4, 6 ]
+    "交互式电影": {
+      "DesignFocus": [ 4, 2, 7, 4, 7, 7, 6, 3 ],
+      "DesignDirection": [ 6, 7, 8 ]
     },
-    "冒险": {
-      "DesignFocus": [ 4, 2, 6, 2, 7, 7, 7, 5 ],
-      "DesignDirection": [ 4, 6, 6 ]
-    },
-    "角色扮演": {
-      "DesignFocus": [ 7, 4, 3, 2, 6, 7, 6, 5 ],
-      "DesignDirection": [ 3, 6, 6 ]
-    },
-    "动作": {
-      "DesignFocus": [ 5, 2, 6, 4, 4, 5, 9, 5 ],
-      "DesignDirection": [ 4, 7, 7 ]
-    },
-    "横版": {
-      "DesignFocus": [ 6, 2, 7, 4, 3, 5, 9, 4 ],
+    "交互式小说": {
+      "DesignFocus": [ 5, 2, 6, 4, 7, 7, 6, 3 ],
       "DesignDirection": [ 6, 5, 5 ]
     },
-    "模拟": {
-      "DesignFocus": [ 5, 5, 3, 5, 3, 4, 7, 8 ],
-      "DesignDirection": [ 2, 7, 6 ]
+    "即时战略": {
+      "DesignFocus": [ 5, 5, 4, 5, 3, 3, 9, 6 ],
+      "DesignDirection": [ 3, 6, 8 ]
     },
-    "体育": {
-      "DesignFocus": [ 6, 3, 8, 6, 3, 4, 5, 5 ],
-      "DesignDirection": [ 5, 3, 4 ]
+    "大逃杀（MOD）": {
+      "DesignFocus": [ 4, 4, 6, 6, 2, 5, 9, 4 ],
+      "DesignDirection": [ 5, 5, 8 ]
     },
-    "格斗": {
-      "DesignFocus": [ 6, 3, 7, 2, 4, 8, 7, 3 ],
-      "DesignDirection": [ 5, 8, 6 ]
-    },
-    "第一人称射击": {
-      "DesignFocus": [ 5, 2, 6, 3, 4, 5, 9, 6 ],
-      "DesignDirection": [ 3, 8, 6 ]
+    "MOBA（MOD）": {
+      "DesignFocus": [ 3, 5, 5, 6, 2, 6, 10, 3 ],
+      "DesignDirection": [ 6, 5, 9 ]
     }
   },
-  "交互式小说": {
-    "技巧": {
-      "DesignFocus": [ 6, 3, 7, 3, 6, 6, 5, 4 ],
-      "DesignDirection": [ 7, 2, 4 ]
+  "冒险": {
+    "益智*": {
+      "DesignFocus": [ 5, 2, 7, 2, 7, 5, 6, 6 ],
+      "DesignDirection": [ 6, 2, 7 ]
     },
-    "益智": {
-      "DesignFocus": [ 7, 2, 6, 3, 7, 6, 4, 5 ],
-      "DesignDirection": [ 7, 2, 5 ]
+    "横版*": {
+      "DesignFocus": [ 4, 2, 7, 3, 6, 7, 8, 3 ],
+      "DesignDirection": [ 6, 4, 6 ]
     },
-    "冒险": {
+    "交互式电影*": {
+      "DesignFocus": [ 3, 2, 6, 2, 10, 9, 5, 3 ],
+      "DesignDirection": [ 6, 6, 5 ]
+    },
+    "交互式小说*": {
       "DesignFocus": [ 4, 2, 6, 1, 10, 9, 5, 3 ],
       "DesignDirection": [ 6, 4, 4 ]
     },
+    "第三人称射击*": {
+      "DesignFocus": [ 4, 2, 6, 2, 7, 7, 7, 5 ],
+      "DesignDirection": [ 4, 6, 6 ]
+    },
+    "技巧": {
+      "DesignFocus": [ 4, 2, 6, 3, 6, 6, 7, 6 ],
+      "DesignDirection": [ 6, 3, 7 ]
+    },
+    "竞速": {
+      "DesignFocus": [ 5, 3, 7, 4, 5, 5, 7, 4 ],
+      "DesignDirection": [ 6, 2, 5 ]
+    },
+    "策略": {
+      "DesignFocus": [ 6, 6, 3, 2, 5, 5, 6, 7 ],
+      "DesignDirection": [ 2, 5, 7 ]
+    },
+    "角色扮演": {
+      "DesignFocus": [ 6, 4, 2, 1, 9, 8, 6, 4 ],
+      "DesignDirection": [ 3, 5, 7 ]
+    },
+    "动作": {
+      "DesignFocus": [ 3, 2, 7, 3, 7, 6, 8, 4 ],
+      "DesignDirection": [ 5, 6, 8 ]
+    },
+    "模拟": {
+      "DesignFocus": [ 4, 5, 4, 4, 5, 5, 6, 7 ],
+      "DesignDirection": [ 2, 6, 7 ]
+    },
+    "体育": {
+      "DesignFocus": [ 5, 2, 7, 4, 6, 6, 5, 5 ],
+      "DesignDirection": [ 6, 2, 5 ]
+    },
+    "模拟经营": {
+      "DesignFocus": [ 7, 6, 2, 5, 5, 5, 5, 5 ],
+      "DesignDirection": [ 2, 3, 7 ]
+    },
+    "格斗": {
+      "DesignFocus": [ 4, 2, 8, 1, 7, 9, 6, 3 ],
+      "DesignDirection": [ 5, 7, 7 ]
+    },
+    "模拟建筑": {
+      "DesignFocus": [ 7, 6, 3, 4, 5, 5, 6, 4 ],
+      "DesignDirection": [ 3, 4, 6 ]
+    },
+    "第一人称射击": {
+      "DesignFocus": [ 4, 2, 6, 2, 7, 6, 8, 5 ],
+      "DesignDirection": [ 4, 7, 7 ]
+    },
+    "即时战略": {
+      "DesignFocus": [ 5, 5, 4, 2, 6, 5, 7, 6 ],
+      "DesignDirection": [ 3, 5, 7 ]
+    },
+    "大逃杀（MOD）": {
+      "DesignFocus": [ 4, 3, 6, 3, 5, 8, 7, 4 ],
+      "DesignDirection": [ 5, 4, 7 ]
+    },
+    "MOBA（MOD）": {
+      "DesignFocus": [ 2, 5, 5, 4, 5, 8, 8, 3 ],
+      "DesignDirection": [ 6, 4, 8 ]
+    }
+  },
+  "模拟建筑": {
+    "策略*": {
+      "DesignFocus": [ 10, 10, 0, 6, 1, 1, 5, 7 ],
+      "DesignDirection": [ 1, 5, 7 ]
+    },
+    "模拟经营*": {
+      "DesignFocus": [ 10, 10, 1, 9, 1, 1, 4, 4 ],
+      "DesignDirection": [ 1, 3, 6 ]
+    },
+    "即时战略*": {
+      "DesignFocus": [ 9, 9, 1, 6, 2, 1, 6, 6 ],
+      "DesignDirection": [ 2, 5, 6 ]
+    },
+    "技巧": {
+      "DesignFocus": [ 8, 7, 5, 6, 1, 2, 6, 5 ],
+      "DesignDirection": [ 4, 2, 6 ]
+    },
+    "益智": {
+      "DesignFocus": [ 9, 7, 4, 6, 2, 1, 5, 6 ],
+      "DesignDirection": [ 5, 2, 7 ]
+    },
+    "竞速": {
+      "DesignFocus": [ 9, 8, 4, 7, 1, 1, 6, 4 ],
+      "DesignDirection": [ 5, 2, 5 ]
+    },
+    "冒险": {
+      "DesignFocus": [ 7, 6, 3, 4, 5, 5, 6, 4 ],
+      "DesignDirection": [ 3, 4, 6 ]
+    },
+    "角色扮演": {
+      "DesignFocus": [ 10, 8, 0, 5, 4, 4, 5, 4 ],
+      "DesignDirection": [ 2, 5, 6 ]
+    },
+    "动作": {
+      "DesignFocus": [ 7, 7, 4, 7, 2, 2, 7, 4 ],
+      "DesignDirection": [ 3, 5, 7 ]
+    },
+    "横板": {
+      "DesignFocus": [ 8, 6, 6, 6, 1, 3, 7, 3 ],
+      "DesignDirection": [ 5, 3, 5 ]
+    },
+    "模拟": {
+      "DesignFocus": [ 8, 10, 1, 7, 1, 1, 5, 1 ],
+      "DesignDirection": [ 1, 5, 1 ]
+    },
+    "体育": {
+      "DesignFocus": [ 9, 7, 5, 8, 1, 2, 4, 4 ],
+      "DesignDirection": [ 4, 2, 5 ]
+    },
+    "格斗": {
+      "DesignFocus": [ 8, 7, 6, 5, 2, 5, 5, 2 ],
+      "DesignDirection": [ 4, 6, 7 ]
+    },
+    "第一人称射击": {
+      "DesignFocus": [ 8, 6, 4, 6, 2, 2, 7, 5 ],
+      "DesignDirection": [ 2, 6, 6 ]
+    },
+    "第三人称射击": {
+      "DesignFocus": [ 8, 7, 3, 5, 3, 3, 6, 5 ],
+      "DesignDirection": [ 3, 5, 5 ]
+    },
     "交互式电影": {
+      "DesignFocus": [ 7, 7, 4, 5, 5, 5, 4, 3 ],
+      "DesignDirection": [ 4, 5, 4 ]
+    },
+    "交互式小说": {
+      "DesignFocus": [ 8, 7, 3, 5, 5, 5, 4, 3 ],
+      "DesignDirection": [ 4, 4, 4 ]
+    },
+    "大逃杀（MOD）": {
+      "DesignFocus": [ 8, 7, 3, 7, 1, 4, 6, 4 ],
+      "DesignDirection": [ 4, 4, 7 ]
+    },
+    "MOBA（MOD）": {
+      "DesignFocus": [ 4, 5, 7, 4, 2, 9, 8, 1 ],
+      "DesignDirection": [ 6, 6, 8 ]
+    }
+  },
+  "模拟经营": {
+    "模拟建筑*": {
+      "DesignFocus": [ 10, 10, 1, 9, 1, 1, 4, 4 ],
+      "DesignDirection": [ 1, 3, 6 ]
+    },
+    "体育*": {
+      "DesignFocus": [ 9, 7, 5, 8, 1, 2, 3, 5 ],
+      "DesignDirection": [ 3, 1, 5 ]
+    },
+    "策略*": {
+      "DesignFocus": [ 10, 10, 0, 6, 1, 1, 5, 7 ],
+      "DesignDirection": [ 0, 4, 7 ]
+    },
+    "即时战略*": {
+      "DesignFocus": [ 9, 10, 0, 6, 2, 1, 6, 6 ],
+      "DesignDirection": [ 1, 4, 7 ]
+    },
+    "技巧": {
+      "DesignFocus": [ 8, 6, 4, 7, 1, 2, 6, 6 ],
+      "DesignDirection": [ 3, 1, 7 ]
+    },
+    "益智": {
+      "DesignFocus": [ 9, 7, 4, 6, 2, 1, 5, 6 ],
+      "DesignDirection": [ 4, 1, 7 ]
+    },
+    "竞速": {
+      "DesignFocus": [ 9, 8, 4, 7, 1, 1, 6, 4 ],
+      "DesignDirection": [ 4, 1, 5 ]
+    },
+    "冒险": {
+      "DesignFocus": [ 7, 6, 2, 5, 5, 5, 5, 5 ],
+      "DesignDirection": [ 2, 3, 7 ]
+    },
+    "角色扮演": {
+      "DesignFocus": [ 10, 8, 1, 5, 4, 4, 4, 4 ],
+      "DesignDirection": [ 1, 4, 7 ]
+    },
+    "动作": {
+      "DesignFocus": [ 7, 7, 4, 7, 2, 2, 7, 4 ],
+      "DesignDirection": [ 2, 4, 8 ]
+    },
+    "横板": {
+      "DesignFocus": [ 8, 6, 5, 7, 1, 3, 7, 3 ],
+      "DesignDirection": [ 4, 2, 6 ]
+    },
+    "模拟": {
+      "DesignFocus": [ 8, 10, 0, 8, 1, 1, 5, 7 ],
+      "DesignDirection": [ 0, 4, 7 ]
+    },
+    "格斗": {
+      "DesignFocus": [ 8, 7, 5, 5, 2, 5, 5, 3 ],
+      "DesignDirection": [ 3, 5, 7 ]
+    },
+    "第一人称射击": {
+      "DesignFocus": [ 8, 6, 4, 6, 2, 2, 7, 5 ],
+      "DesignDirection": [ 1, 5, 7 ]
+    },
+    "第三人称射击": {
+      "DesignFocus": [ 8, 7, 2, 6, 3, 3, 6, 5 ],
+      "DesignDirection": [ 2, 4, 6 ]
+    },
+    "交互式电影": {
+      "DesignFocus": [ 7, 7, 4, 6, 5, 5, 3, 3 ],
+      "DesignDirection": [ 3, 4, 5 ]
+    },
+    "交互式小说": {
+      "DesignFocus": [ 8, 7, 4, 5, 5, 5, 3, 3 ],
+      "DesignDirection": [ 3, 3, 4 ]
+    },
+    "大逃杀（MOD）": {
+      "DesignFocus": [ 8, 7, 3, 7, 1, 4, 6, 4 ],
+      "DesignDirection": [ 3, 3, 7 ]
+    },
+    "MOBA（MOD）": {
+      "DesignFocus": [ 6, 9, 2, 8, 1, 4, 7, 3 ],
+      "DesignDirection": [ 3, 2, 8 ]
+    }
+  },
+  "格斗": {
+    "动作*": {
+      "DesignFocus": [ 5, 2, 8, 4, 4, 7, 8, 2 ],
+      "DesignDirection": [ 5, 8, 8 ]
+    },
+    "横版*": {
+      "DesignFocus": [ 6, 2, 10, 3, 3, 7, 8, 1 ],
+      "DesignDirection": [ 7, 6, 6 ]
+    },
+    "体育*": {
+      "DesignFocus": [ 6, 3, 10, 5, 3, 6, 4, 3 ],
+      "DesignDirection": [ 6, 4, 6 ]
+    },
+    "技巧": {
+      "DesignFocus": [ 6, 2, 9, 3, 3, 6, 7, 4 ],
+      "DesignDirection": [ 6, 5, 7 ]
+    },
+    "益智": {
+      "DesignFocus": [ 7, 2, 8, 3, 4, 6, 6, 4 ],
+      "DesignDirection": [ 7, 4, 8 ]
+    },
+    "竞速": {
+      "DesignFocus": [ 7, 3, 9, 4, 2, 6, 7, 2 ],
+      "DesignDirection": [ 7, 4, 6 ]
+    },
+    "冒险": {
+      "DesignFocus": [ 4, 2, 8, 1, 7, 9, 6, 3 ],
+      "DesignDirection": [ 5, 7, 7 ]
+    },
+    "策略": {
+      "DesignFocus": [ 7, 7, 5, 3, 2, 5, 6, 5 ],
+      "DesignDirection": [ 3, 7, 8 ]
+    },
+    "角色扮演": {
+      "DesignFocus": [ 7, 4, 5, 2, 6, 9, 5, 2 ],
+      "DesignDirection": [ 4, 7, 7 ]
+    },
+    "模拟": {
+      "DesignFocus": [ 6, 6, 5, 4, 2, 6, 6, 5 ],
+      "DesignDirection": [ 3, 8, 8 ]
+    },
+    "模拟经营": {
+      "DesignFocus": [ 8, 7, 5, 5, 2, 5, 5, 3 ],
+      "DesignDirection": [ 3, 5, 7 ]
+    },
+    "模拟建筑": {
+      "DesignFocus": [ 8, 7, 6, 5, 2, 5, 5, 2 ],
+      "DesignDirection": [ 4, 6, 7 ]
+    },
+    "第一人称射击": {
+      "DesignFocus": [ 5, 2, 8, 3, 4, 7, 8, 3 ],
+      "DesignDirection": [ 4, 9, 7 ]
+    },
+    "第三人称射击": {
+      "DesignFocus": [ 6, 3, 7, 2, 4, 8, 7, 3 ],
+      "DesignDirection": [ 5, 8, 6 ]
+    },
+    "交互式电影": {
+      "DesignFocus": [ 5, 3, 8, 2, 7, 10, 4, 1 ],
+      "DesignDirection": [ 6, 8, 5 ]
+    },
+    "交互式小说": {
+      "DesignFocus": [ 6, 2, 8, 2, 7, 10, 4, 1 ],
+      "DesignDirection": [ 6, 6, 5 ]
+    },
+    "即时战略": {
+      "DesignFocus": [ 6, 6, 5, 3, 3, 6, 7, 4 ],
+      "DesignDirection": [ 4, 7, 7 ]
+    },
+    "大逃杀（MOD）": {
+      "DesignFocus": [ 5, 4, 8, 4, 2, 8, 7, 2 ],
+      "DesignDirection": [ 6, 6, 8 ]
+    },
+    "MOBA（MOD）": {
+      "DesignFocus": [ 4, 5, 7, 4, 2, 9, 8, 1 ],
+      "DesignDirection": [ 6, 6, 8 ]
+    }
+  },
+  "第一人称射击": {
+    "技巧*": {
+      "DesignFocus": [ 5, 2, 8, 4, 3, 3, 9, 6 ],
+      "DesignDirection": [ 5, 5, 7 ]
+    },
+    "冒险*": {
+      "DesignFocus": [ 4, 2, 6, 2, 7, 6, 8, 5 ],
+      "DesignDirection": [ 4, 7, 7 ]
+    },
+    "角色扮演*": {
+      "DesignFocus": [ 7, 3, 3, 3, 6, 6, 7, 5 ],
+      "DesignDirection": [ 2, 7, 7 ]
+    },
+    "动作*": {
+      "DesignFocus": [ 4, 1, 7, 5, 4, 4, 10, 5 ],
+      "DesignDirection": [ 4, 8, 8 ]
+    },
+    "横版*": {
+      "DesignFocus": [ 5, 2, 8, 4, 3, 4, 10, 4 ],
+      "DesignDirection": [ 5, 6, 6 ]
+    },
+    "模拟*": {
+      "DesignFocus": [ 5, 5, 4, 5, 2, 3, 8, 8 ],
+      "DesignDirection": [ 1, 8, 7 ]
+    },
+    "第三人称射击*": {
+      "DesignFocus": [ 5, 2, 6, 3, 4, 5, 9, 6 ],
+      "DesignDirection": [ 3, 8, 6 ]
+    },
+    "益智": {
+      "DesignFocus": [ 6, 1, 7, 4, 4, 3, 8, 7 ],
+      "DesignDirection": [ 5, 4, 7 ]
+    },
+    "竞速": {
+      "DesignFocus": [ 6, 3, 7, 5, 2, 3, 9, 5 ],
+      "DesignDirection": [ 5, 4, 5 ]
+    },
+    "策略": {
+      "DesignFocus": [ 7, 6, 3, 4, 2, 2, 8, 8 ],
+      "DesignDirection": [ 1, 7, 7 ]
+    },
+    "体育": {
+      "DesignFocus": [ 6, 3, 8, 6, 3, 3, 6, 5 ],
+      "DesignDirection": [ 5, 4, 5 ]
+    },
+    "模拟经营": {
+      "DesignFocus": [ 8, 6, 4, 6, 2, 2, 7, 5 ],
+      "DesignDirection": [ 1, 5, 7 ]
+    },
+    "格斗": {
+      "DesignFocus": [ 5, 2, 8, 3, 4, 7, 8, 3 ],
+      "DesignDirection": [ 4, 9, 7 ]
+    },
+    "模拟建筑": {
+      "DesignFocus": [ 8, 6, 4, 6, 2, 2, 7, 5 ],
+      "DesignDirection": [ 2, 6, 6 ]
+    },
+    "交互式电影": {
+      "DesignFocus": [ 4, 2, 7, 3, 7, 7, 6, 4 ],
+      "DesignDirection": [ 5, 8, 5 ]
+    },
+    "交互式小说": {
+      "DesignFocus": [ 5, 2, 6, 3, 7, 7, 6, 4 ],
+      "DesignDirection": [ 5, 6, 4 ]
+    },
+    "即时战略": {
+      "DesignFocus": [ 6, 4, 4, 4, 3, 3, 9, 7 ],
+      "DesignDirection": [ 2, 7, 7 ]
+    },
+    "大逃杀（MOD）": {
+      "DesignFocus": [ 5, 3, 6, 5, 2, 5, 9, 5 ],
+      "DesignDirection": [ 4, 6, 7 ]
+    },
+    "MOBA（MOD）": {
+      "DesignFocus": [ 3, 5, 5, 5, 2, 6, 10, 4 ],
+      "DesignDirection": [ 5, 6, 8 ]
+    }
+  },
+  "交互式电影": {
+    "技巧*": {
+      "DesignFocus": [ 5, 3, 7, 4, 6, 6, 5, 4 ],
+      "DesignDirection": [ 7, 4, 5 ]
+    },
+    "益智*": {
+      "DesignFocus": [ 6, 2, 7, 3, 7, 6, 4, 5 ],
+      "DesignDirection": [ 7, 3, 5 ]
+    },
+    "冒险*": {
+      "DesignFocus": [ 3, 2, 6, 2, 10, 9, 5, 3 ],
+      "DesignDirection": [ 6, 6, 5 ]
+    },
+    "交互式小说*": {
       "DesignFocus": [ 5, 2, 6, 2, 10, 10, 3, 2 ],
       "DesignDirection": [ 7, 5, 2 ]
+    },
+    "竞速": {
+      "DesignFocus": [ 6, 4, 7, 4, 5, 6, 5, 3 ],
+      "DesignDirection": [ 7, 3, 3 ]
+    },
+    "策略": {
+      "DesignFocus": [ 6, 7, 4, 3, 5, 5, 4, 6 ],
+      "DesignDirection": [ 3, 6, 5 ]
+    },
+    "角色扮演": {
+      "DesignFocus": [ 6, 4, 3, 2, 9, 9, 4, 3 ],
+      "DesignDirection": [ 4, 6, 5 ]
+    },
+    "动作": {
+      "DesignFocus": [ 4, 2, 7, 4, 7, 7, 6, 3 ],
+      "DesignDirection": [ 6, 7, 6 ]
+    },
+    "横版": {
+      "DesignFocus": [ 5, 2, 8, 4, 6, 7, 6, 2 ],
+      "DesignDirection": [ 7, 5, 4 ]
+    },
+    "模拟": {
+      "DesignFocus": [ 5, 5, 4, 5, 5, 6, 4, 6 ],
+      "DesignDirection": [ 3, 7, 5 ]
+    },
+    "体育": {
+      "DesignFocus": [ 5, 3, 9, 5, 6, 6, 3, 3 ],
+      "DesignDirection": [ 7, 3, 3 ]
+    },
+    "模拟经营": {
+      "DesignFocus": [ 7, 7, 4, 6, 5, 5, 3, 3 ],
+      "DesignDirection": [ 3, 4, 5 ]
+    },
+    "格斗": {
+      "DesignFocus": [ 5, 3, 8, 2, 7, 10, 4, 1 ],
+      "DesignDirection": [ 6, 8, 5 ]
+    },
+    "模拟建筑": {
+      "DesignFocus": [ 7, 7, 4, 5, 5, 5, 4, 3 ],
+      "DesignDirection": [ 4, 5, 4 ]
+    },
+    "第一人称射击": {
+      "DesignFocus": [ 4, 2, 7, 3, 7, 7, 6, 4 ],
+      "DesignDirection": [ 5, 8, 5 ]
+    },
+    "第三人称射击": {
+      "DesignFocus": [ 5, 2, 6, 3, 7, 8, 5, 4 ],
+      "DesignDirection": [ 5, 7, 4 ]
+    },
+    "即时战略": {
+      "DesignFocus": [ 5, 6, 4, 3, 6, 6, 5, 5 ],
+      "DesignDirection": [ 4, 6, 5 ]
+    },
+    "大逃杀（MOD）": {
+      "DesignFocus": [ 4, 4, 7, 4, 5, 8, 5, 3 ],
+      "DesignDirection": [ 6, 5, 5 ]
+    },
+    "MOBA（MOD）": {
+      "DesignFocus": [ 3, 5, 5, 5, 5, 9, 6, 2 ],
+      "DesignDirection": [ 7, 5, 6 ]
+    }
+  },
+  "横版": {
+    "技巧*": {
+      "DesignFocus": [ 6, 1, 9, 5, 2, 4, 9, 4 ],
+      "DesignDirection": [ 7, 2, 6 ]
+    },
+    "益智*": {
+      "DesignFocus": [ 7, 2, 8, 4, 3, 3, 8, 5 ],
+      "DesignDirection": [ 8, 1, 6 ]
+    },
+    "角色扮演*": {
+      "DesignFocus": [ 7, 4, 5, 3, 5, 6, 7, 3 ],
+      "DesignDirection": [ 5, 4, 6 ]
+    },
+    "冒险*": {
+      "DesignFocus": [ 4, 2, 7, 3, 6, 7, 8, 3 ],
+      "DesignDirection": [ 6, 4, 6 ]
+    },
+    "动作*": {
+      "DesignFocus": [ 5, 2, 8, 5, 3, 4, 10, 3 ],
+      "DesignDirection": [ 6, 5, 7 ]
+    },
+    "格斗*": {
+      "DesignFocus": [ 6, 2, 10, 3, 3, 7, 8, 1 ],
+      "DesignDirection": [ 7, 6, 6 ]
+    },
+    "竞速": {
+      "DesignFocus": [ 7, 3, 9, 5, 1, 3, 9, 3 ],
+      "DesignDirection": [ 8, 1, 4 ]
+    },
+    "策略": {
+      "DesignFocus": [ 7, 6, 5, 4, 1, 3, 8, 6 ],
+      "DesignDirection": [ 4, 4, 6 ]
+    },
+    "模拟": {
+      "DesignFocus": [ 6, 5, 5, 6, 1, 3, 8, 6 ],
+      "DesignDirection": [ 4, 5, 6 ]
+    },
+    "体育": {
+      "DesignFocus": [ 6, 3, 10, 6, 2, 4, 6, 3 ],
+      "DesignDirection": [ 7, 1, 4 ]
+    },
+    "模拟经营": {
+      "DesignFocus": [ 8, 6, 5, 7, 1, 3, 7, 3 ],
+      "DesignDirection": [ 4, 2, 6 ]
+    },
+    "模拟建筑": {
+      "DesignFocus": [ 8, 6, 6, 6, 1, 3, 7, 3 ],
+      "DesignDirection": [ 5, 3, 5 ]
+    },
+    "第一人称射击": {
+      "DesignFocus": [ 5, 2, 8, 4, 3, 4, 10, 4 ],
+      "DesignDirection": [ 5, 6, 6 ]
+    },
+    "第三人称射击": {
+      "DesignFocus": [ 6, 2, 7, 4, 3, 5, 9, 4 ],
+      "DesignDirection": [ 6, 5, 5 ]
+    },
+    "交互式电影": {
+      "DesignFocus": [ 5, 2, 8, 4, 6, 7, 6, 2 ],
+      "DesignDirection": [ 7, 5, 4 ]
+    },
+    "交互式小说": {
+      "DesignFocus": [ 6, 2, 8, 3, 6, 7, 6, 2 ],
+      "DesignDirection": [ 7, 3, 3 ]
+    },
+    "即时战略": {
+      "DesignFocus": [ 6, 5, 6, 4, 2, 3, 9, 5 ],
+      "DesignDirection": [ 5, 4, 6 ]
+    },
+    "大逃杀（MOD）": {
+      "DesignFocus": [ 5, 3, 8, 5, 1, 6, 9, 3 ],
+      "DesignDirection": [ 7, 3, 6 ]
+    },
+    "MOBA（MOD）": {
+      "DesignFocus": [ 4, 4, 7, 6, 1, 6, 10, 2 ],
+      "DesignDirection": [ 7, 3, 7 ]
+    }
+  },
+  "益智": {
+    "技巧*": {
+      "DesignFocus": [ 7, 3, 7, 4, 3, 2, 7, 7 ],
+      "DesignDirection": [ 7, 0, 7 ]
+    },
+    "横版*": {
+      "DesignFocus": [ 7, 2, 8, 4, 3, 3, 8, 5 ],
+      "DesignDirection": [ 8, 1, 6 ]
+    },
+    "交互式小说*": {
+      "DesignFocus": [ 7, 2, 6, 3, 7, 6, 4, 5 ],
+      "DesignDirection": [ 7, 2, 5 ]
+    },
+    "交互式电影*": {
+      "DesignFocus": [ 6, 2, 7, 3, 7, 6, 4, 5 ],
+      "DesignDirection": [ 7, 3, 5 ]
+    },
+    "竞速": {
+      "DesignFocus": [ 8, 3, 7, 5, 2, 2, 7, 6 ],
+      "DesignDirection": [ 8, 0, 6 ]
+    },
+    "冒险": {
+      "DesignFocus": [ 5, 2, 7, 2, 7, 5, 6, 6 ],
+      "DesignDirection": [ 6, 2, 7 ]
+    },
+    "策略": {
+      "DesignFocus": [ 8, 7, 3, 4, 2, 1, 6, 9 ],
+      "DesignDirection": [ 4, 3, 8 ]
+    },
+    "角色扮演": {
+      "DesignFocus": [ 8, 4, 3, 3, 6, 5, 5, 6 ],
+      "DesignDirection": [ 5, 3, 7 ]
+    },
+    "动作": {
+      "DesignFocus": [ 5, 2, 7, 5, 4, 3, 8, 6 ],
+      "DesignDirection": [ 6, 3, 8 ]
+    },
+    "模拟": {
+      "DesignFocus": [ 7, 5, 4, 5, 2, 2, 6, 9 ],
+      "DesignDirection": [ 4, 3, 8 ]
+    },
+    "体育": {
+      "DesignFocus": [ 7, 3, 9, 6, 3, 2, 4, 6 ],
+      "DesignDirection": [ 7, 0, 6 ]
+    },
+    "模拟经营": {
+      "DesignFocus": [ 9, 7, 4, 6, 2, 1, 5, 6 ],
+      "DesignDirection": [ 4, 1, 7 ]
+    },
+    "格斗": {
+      "DesignFocus": [ 7, 2, 8, 3, 4, 6, 6, 4 ],
+      "DesignDirection": [ 7, 4, 8 ]
+    },
+    "模拟建筑": {
+      "DesignFocus": [ 9, 7, 4, 6, 2, 1, 5, 6 ],
+      "DesignDirection": [ 5, 2, 7 ]
+    },
+    "第一人称射击": {
+      "DesignFocus": [ 6, 1, 7, 4, 4, 3, 8, 7 ],
+      "DesignDirection": [ 5, 4, 7 ]
+    },
+    "第三人称射击": {
+      "DesignFocus": [ 7, 2, 6, 3, 4, 4, 7, 7 ],
+      "DesignDirection": [ 6, 3, 6 ]
+    },
+    "即时战略": {
+      "DesignFocus": [ 7, 5, 4, 4, 3, 2, 7, 8 ],
+      "DesignDirection": [ 5, 3, 7 ]
+    },
+    "大逃杀（MOD）": {
+      "DesignFocus": [ 6, 4, 6, 5, 2, 4, 7, 6 ],
+      "DesignDirection": [ 7, 2, 8 ]
+    },
+    "MOBA（MOD）": {
+      "DesignFocus": [ 5, 5, 5, 5, 2, 5, 8, 5 ],
+      "DesignDirection": [ 7, 1, 8 ]
+    }
+  },
+  "竞速": {
+    "动作*": {
+      "DesignFocus": [ 6, 3, 7, 6, 2, 3, 9, 4 ],
+      "DesignDirection": [ 6, 3, 6 ]
+    },
+    "模拟*": {
+      "DesignFocus": [ 7, 6, 4, 6, 1, 2, 7, 7 ],
+      "DesignDirection": [ 4, 3, 6 ]
+    },
+    "体育*": {
+      "DesignFocus": [ 7, 4, 10, 7, 1, 2, 5, 4 ],
+      "DesignDirection": [ 7, 0, 4 ]
+    },
+    "技巧": {
+      "DesignFocus": [ 7, 4, 8, 5, 1, 2, 8, 5 ],
+      "DesignDirection": [ 7, 0, 5 ]
+    },
+    "益智": {
+      "DesignFocus": [ 8, 3, 7, 5, 2, 2, 7, 6 ],
+      "DesignDirection": [ 8, 0, 6 ]
+    },
+    "冒险": {
+      "DesignFocus": [ 5, 3, 7, 4, 5, 5, 7, 4 ],
+      "DesignDirection": [ 6, 2, 5 ]
+    },
+    "策略": {
+      "DesignFocus": [ 8, 7, 4, 5, 1, 1, 7, 7 ],
+      "DesignDirection": [ 4, 3, 6 ]
+    },
+    "角色扮演": {
+      "DesignFocus": [ 8, 5, 4, 4, 4, 5, 6, 4 ],
+      "DesignDirection": [ 5, 3, 5 ]
+    },
+    "横版": {
+      "DesignFocus": [ 7, 3, 9, 5, 1, 3, 9, 3 ],
+      "DesignDirection": [ 8, 1, 4 ]
+    },
+    "模拟经营": {
+      "DesignFocus": [ 9, 8, 4, 7, 1, 1, 6, 4 ],
+      "DesignDirection": [ 4, 1, 5 ]
+    },
+    "格斗": {
+      "DesignFocus": [ 7, 3, 9, 4, 2, 6, 7, 2 ],
+      "DesignDirection": [ 7, 4, 6 ]
+    },
+    "模拟建筑": {
+      "DesignFocus": [ 9, 8, 4, 7, 1, 1, 6, 4 ],
+      "DesignDirection": [ 5, 2, 5 ]
+    },
+    "第一人称射击": {
+      "DesignFocus": [ 6, 3, 7, 5, 2, 3, 9, 5 ],
+      "DesignDirection": [ 5, 4, 5 ]
+    },
+    "第三人称射击": {
+      "DesignFocus": [ 7, 3, 6, 4, 3, 4, 8, 5 ],
+      "DesignDirection": [ 6, 3, 4 ]
+    },
+    "交互式电影": {
+      "DesignFocus": [ 6, 4, 7, 4, 5, 6, 5, 3 ],
+      "DesignDirection": [ 7, 3, 3 ]
+    },
+    "交互式小说": {
+      "DesignFocus": [ 7, 3, 7, 4, 5, 6, 5, 3 ],
+      "DesignDirection": [ 7, 2, 3 ]
+    },
+    "即时战略": {
+      "DesignFocus": [ 7, 6, 4, 5, 2, 2, 8, 6 ],
+      "DesignDirection": [ 5, 3, 5 ]
+    },
+    "大逃杀（MOD）": {
+      "DesignFocus": [ 6, 4, 7, 6, 1, 4, 8, 4 ],
+      "DesignDirection": [ 7, 2, 6 ]
+    },
+    "MOBA（MOD）": {
+      "DesignFocus": [ 5, 5, 6, 6, 1, 5, 9, 3 ],
+      "DesignDirection": [ 7, 1, 6 ]
+    }
+  },
+  "即时战略": {
+    "角色扮演*": {
+      "DesignFocus": [ 8, 7, 0, 3, 5, 5, 6, 6 ],
+      "DesignDirection": [ 2, 6, 7 ]
+    },
+    "策略*": {
+      "DesignFocus": [ 8, 9, 0, 4, 2, 1, 7, 9 ],
+      "DesignDirection": [ 1, 6, 7 ]
+    },
+    "动作*": {
+      "DesignFocus": [ 5, 5, 4, 5, 3, 3, 9, 6 ],
+      "DesignDirection": [ 3, 6, 8 ]
+    },
+    "模拟经营*": {
+      "DesignFocus": [ 9, 10, 0, 6, 2, 1, 6, 6 ],
+      "DesignDirection": [ 1, 4, 7 ]
+    },
+    "模拟建筑*": {
+      "DesignFocus": [ 9, 9, 1, 6, 2, 1, 6, 6 ],
+      "DesignDirection": [ 2, 5, 6 ]
+    },
+    "技巧": {
+      "DesignFocus": [ 6, 6, 5, 4, 2, 2, 8, 7 ],
+      "DesignDirection": [ 4, 3, 7 ]
+    },
+    "益智": {
+      "DesignFocus": [ 7, 5, 4, 4, 3, 2, 7, 8 ],
+      "DesignDirection": [ 5, 3, 7 ]
+    },
+    "竞速": {
+      "DesignFocus": [ 7, 6, 4, 5, 2, 2, 8, 6 ],
+      "DesignDirection": [ 5, 3, 5 ]
+    },
+    "冒险": {
+      "DesignFocus": [ 5, 5, 4, 2, 6, 5, 7, 6 ],
+      "DesignDirection": [ 3, 5, 7 ]
+    },
+    "横版": {
+      "DesignFocus": [ 6, 5, 6, 4, 2, 3, 9, 5 ],
+      "DesignDirection": [ 5, 4, 6 ]
+    },
+    "模拟": {
+      "DesignFocus": [ 6, 8, 1, 5, 2, 2, 7, 9 ],
+      "DesignDirection": [ 1, 6, 7 ]
+    },
+    "体育": {
+      "DesignFocus": [ 7, 6, 6, 6, 2, 2, 5, 6 ],
+      "DesignDirection": [ 4, 3, 5 ]
+    },
+    "格斗": {
+      "DesignFocus": [ 6, 6, 5, 3, 3, 6, 7, 4 ],
+      "DesignDirection": [ 4, 7, 7 ]
+    },
+    "第一人称射击": {
+      "DesignFocus": [ 6, 4, 4, 4, 3, 3, 9, 7 ],
+      "DesignDirection": [ 2, 7, 7 ]
+    },
+    "第三人称射击": {
+      "DesignFocus": [ 6, 5, 3, 3, 4, 4, 8, 7 ],
+      "DesignDirection": [ 3, 6, 6 ]
+    },
+    "交互式电影": {
+      "DesignFocus": [ 5, 6, 4, 3, 6, 6, 5, 5 ],
+      "DesignDirection": [ 4, 6, 5 ]
+    },
+    "交互式小说": {
+      "DesignFocus": [ 6, 6, 3, 3, 6, 6, 5, 5 ],
+      "DesignDirection": [ 4, 5, 4 ]
+    },
+    "大逃杀（MOD）": {
+      "DesignFocus": [ 6, 6, 3, 5, 2, 4, 8, 6 ],
+      "DesignDirection": [ 4, 5, 7 ]
+    },
+    "MOBA（MOD）": {
+      "DesignFocus": [ 4, 8, 2, 5, 2, 5, 9, 5 ],
+      "DesignDirection": [ 4, 4, 8 ]
+    }
+  },
+  "角色扮演": {
+    "益智*": {
+      "DesignFocus": [ 8, 4, 3, 3, 6, 5, 5, 6 ],
+      "DesignDirection": [ 5, 3, 7 ]
+    },
+    "冒险*": {
+      "DesignFocus": [ 6, 4, 2, 1, 9, 8, 6, 4 ],
+      "DesignDirection": [ 3, 5, 7 ]
+    },
+    "动作*": {
+      "DesignFocus": [ 6, 4, 3, 4, 6, 6, 7, 4 ],
+      "DesignDirection": [ 3, 6, 8 ]
+    },
+    "横版*": {
+      "DesignFocus": [ 7, 4, 5, 3, 5, 6, 7, 3 ],
+      "DesignDirection": [ 5, 4, 6 ]
+    },
+    "即时战略*": {
+      "DesignFocus": [ 8, 7, 0, 3, 5, 5, 6, 6 ],
+      "DesignDirection": [ 2, 6, 7 ]
+    },
+    "第一人称射击*": {
+      "DesignFocus": [ 7, 3, 3, 3, 6, 6, 7, 5 ],
+      "DesignDirection": [ 2, 7, 7 ]
+    },
+    "第三人称射击*": {
+      "DesignFocus": [ 7, 4, 3, 2, 6, 7, 6, 5 ],
+      "DesignDirection": [ 3, 6, 6 ]
+    },
+    "技巧": {
+      "DesignFocus": [ 7, 4, 5, 3, 5, 5, 6, 5 ],
+      "DesignDirection": [ 4, 3, 7 ]
+    },
+    "竞速": {
+      "DesignFocus": [ 8, 5, 4, 4, 4, 5, 6, 4 ],
+      "DesignDirection": [ 5, 3, 5 ]
+    },
+    "策略": {
+      "DesignFocus": [ 9, 8, 0, 3, 4, 4, 5, 7 ],
+      "DesignDirection": [ 1, 6, 7 ]
+    },
+    "模拟": {
+      "DesignFocus": [ 7, 7, 1, 4, 4, 5, 5, 7 ],
+      "DesignDirection": [ 1, 6, 7 ]
+    },
+    "体育": {
+      "DesignFocus": [ 8, 4, 5, 5, 5, 5, 4, 4 ],
+      "DesignDirection": [ 4, 3, 5 ]
+    },
+    "模拟经营": {
+      "DesignFocus": [ 10, 8, 1, 5, 4, 4, 4, 4 ],
+      "DesignDirection": [ 1, 4, 7 ]
+    },
+    "格斗": {
+      "DesignFocus": [ 7, 4, 5, 2, 6, 9, 5, 2 ],
+      "DesignDirection": [ 4, 7, 7 ]
+    },
+    "模拟建筑": {
+      "DesignFocus": [ 10, 8, 0, 5, 4, 4, 5, 4 ],
+      "DesignDirection": [ 2, 5, 6 ]
+    },
+    "交互式电影": {
+      "DesignFocus": [ 6, 4, 3, 2, 9, 9, 4, 3 ],
+      "DesignDirection": [ 4, 6, 5 ]
+    },
+    "交互式小说": {
+      "DesignFocus": [ 7, 3, 3, 2, 9, 9, 4, 3 ],
+      "DesignDirection": [ 4, 5, 4 ]
+    },
+    "大逃杀（MOD）": {
+      "DesignFocus": [ 7, 5, 3, 4, 4, 7, 6, 4 ],
+      "DesignDirection": [ 4, 5, 7 ]
+    },
+    "MOBA（MOD）": {
+      "DesignFocus": [ 5, 7, 2, 4, 4, 8, 7, 3 ],
+      "DesignDirection": [ 4, 4, 8 ]
+    }
+  },
+  "模拟": {
+    "策略*": {
+      "DesignFocus": [ 7, 10, 0, 5, 1, 1, 6, 10 ],
+      "DesignDirection": [ 0, 6, 8 ]
+    },
+    "动作*": {
+      "DesignFocus": [ 5, 5, 4, 6, 2, 3, 8, 7 ],
+      "DesignDirection": [ 2, 7, 8 ]
+    },
+    "体育*": {
+      "DesignFocus": [ 6, 6, 6, 8, 1, 2, 4, 7 ],
+      "DesignDirection": [ 3, 3, 6 ]
+    },
+    "第一人称射击*": {
+      "DesignFocus": [ 5, 5, 4, 5, 2, 3, 8, 8 ],
+      "DesignDirection": [ 1, 8, 7 ]
+    },
+    "竞速*": {
+      "DesignFocus": [ 7, 6, 4, 6, 1, 2, 7, 7 ],
+      "DesignDirection": [ 4, 3, 6 ]
+    },
+    "技巧": {
+      "DesignFocus": [ 6, 6, 4, 6, 1, 2, 7, 8 ],
+      "DesignDirection": [ 3, 4, 7 ]
+    },
+    "益智": {
+      "DesignFocus": [ 7, 5, 4, 5, 2, 2, 6, 9 ],
+      "DesignDirection": [ 4, 3, 8 ]
+    },
+    "冒险": {
+      "DesignFocus": [ 4, 5, 4, 4, 5, 5, 6, 7 ],
+      "DesignDirection": [ 2, 6, 7 ]
+    },
+    "角色扮演": {
+      "DesignFocus": [ 7, 7, 1, 4, 4, 5, 5, 7 ],
+      "DesignDirection": [ 1, 6, 7 ]
+    },
+    "横版": {
+      "DesignFocus": [ 6, 5, 5, 6, 1, 3, 8, 6 ],
+      "DesignDirection": [ 4, 5, 6 ]
+    },
+    "模拟经营": {
+      "DesignFocus": [ 8, 10, 0, 8, 1, 1, 5, 7 ],
+      "DesignDirection": [ 0, 4, 7 ]
+    },
+    "格斗": {
+      "DesignFocus": [ 6, 6, 5, 4, 2, 6, 6, 5 ],
+      "DesignDirection": [ 3, 8, 8 ]
+    },
+    "模拟建筑": {
+      "DesignFocus": [ 8, 10, 1, 7, 1, 1, 5, 7 ],
+      "DesignDirection": [ 1, 5, 7 ]
+    },
+    "第三人称射击": {
+      "DesignFocus": [ 5, 5, 3, 5, 3, 4, 7, 8 ],
+      "DesignDirection": [ 2, 7, 6 ]
+    },
+    "交互式电影": {
+      "DesignFocus": [ 5, 5, 4, 5, 5, 6, 4, 6 ],
+      "DesignDirection": [ 3, 7, 5 ]
+    },
+    "交互式小说": {
+      "DesignFocus": [ 6, 6, 3, 4, 5, 6, 4, 6 ],
+      "DesignDirection": [ 3, 5, 5 ]
+    },
+    "即时战略": {
+      "DesignFocus": [ 6, 8, 1, 5, 2, 2, 7, 9 ],
+      "DesignDirection": [ 1, 6, 7 ]
+    },
+    "大逃杀（MOD）": {
+      "DesignFocus": [ 5, 7, 3, 6, 1, 4, 7, 7 ],
+      "DesignDirection": [ 3, 5, 8 ]
+    },
+    "MOBA（MOD）": {
+      "DesignFocus": [ 5, 9, 2, 5, 1, 4, 8, 6 ],
+      "DesignDirection": [ 3, 4, 8 ]
+    }
+  },
+  "技巧": {
+    "动作*": {
+      "DesignFocus": [ 5, 3, 7, 5, 3, 3, 9, 5 ],
+      "DesignDirection": [ 6, 4, 8 ]
+    },
+    "横版*": {
+      "DesignFocus": [ 6, 1, 9, 5, 2, 4, 9, 4 ],
+      "DesignDirection": [ 7, 2, 6 ]
+    },
+    "益智*": {
+      "DesignFocus": [ 7, 3, 7, 4, 3, 2, 7, 7 ],
+      "DesignDirection": [ 7, 0, 7 ]
+    },
+    "竞速": {
+      "DesignFocus": [ 7, 4, 8, 5, 1, 2, 8, 5 ],
+      "DesignDirection": [ 7, 0, 5 ]
+    },
+    "冒险": {
+      "DesignFocus": [ 4, 2, 6, 3, 6, 6, 7, 6 ],
+      "DesignDirection": [ 6, 3, 7 ]
+    },
+    "策略": {
+      "DesignFocus": [ 7, 7, 4, 4, 1, 2, 7, 8 ],
+      "DesignDirection": [ 3, 3, 7 ]
+    },
+    "角色扮演": {
+      "DesignFocus": [ 7, 4, 5, 3, 5, 5, 6, 5 ],
+      "DesignDirection": [ 4, 3, 7 ]
+    },
+    "模拟": {
+      "DesignFocus": [ 6, 6, 4, 6, 1, 2, 7, 8 ],
+      "DesignDirection": [ 9, 4, 7 ]
+    },
+    "体育": {
+      "DesignFocus": [ 6, 3, 9, 6, 2, 3, 5, 6 ],
+      "DesignDirection": [ 7, 0, 5 ]
+    },
+    "模拟经营": {
+      "DesignFocus": [ 8, 6, 4, 7, 1, 2, 6, 6 ],
+      "DesignDirection": [ 3, 1, 7 ]
+    },
+    "格斗": {
+      "DesignFocus": [ 6, 2, 9, 3, 3, 6, 7, 4 ],
+      "DesignDirection": [ 6, 5, 7 ]
+    },
+    "模拟建筑": {
+      "DesignFocus": [ 8, 7, 5, 6, 1, 2, 6, 5 ],
+      "DesignDirection": [ 4, 2, 6 ]
+    },
+    "第一人称射击": {
+      "DesignFocus": [ 5, 2, 8, 4, 3, 3, 9, 6 ],
+      "DesignDirection": [ 5, 5, 7 ]
+    },
+    "第三人称射击": {
+      "DesignFocus": [ 6, 3, 6, 4, 3, 4, 8, 6 ],
+      "DesignDirection": [ 5, 4, 6 ]
+    },
+    "交互式电影": {
+      "DesignFocus": [ 5, 3, 7, 4, 6, 6, 5, 4 ],
+      "DesignDirection": [ 7, 4, 5 ]
+    },
+    "交互式小说": {
+      "DesignFocus": [ 6, 3, 7, 3, 6, 6, 5, 4 ],
+      "DesignDirection": [ 7, 2, 4 ]
+    },
+    "即时战略": {
+      "DesignFocus": [ 6, 6, 5, 4, 2, 2, 8, 7 ],
+      "DesignDirection": [ 4, 3, 7 ]
+    },
+    "大逃杀（MOD）": {
+      "DesignFocus": [ 5, 4, 7, 5, 1, 5, 8, 5 ],
+      "DesignDirection": [ 6, 2, 7 ]
+    },
+    "MOBA（MOD）": {
+      "DesignFocus": [ 4, 5, 6, 6, 1, 5, 9, 4 ],
+      "DesignDirection": [ 7, 2, 8 ]
+    }
+
+  },
+  "体育": {
+    "策略*": {
+      "DesignFocus": [ 8, 7, 5, 6, 1, 2, 4, 7 ],
+      "DesignDirection": [ 3, 3, 6 ]
+    },
+    "动作*": {
+      "DesignFocus": [ 5, 3, 9, 7, 3, 3, 6, 4 ],
+      "DesignDirection": [ 6, 3, 6 ]
+    },
+    "模拟经营*": {
+      "DesignFocus": [ 9, 7, 5, 8, 1, 2, 3, 5 ],
+      "DesignDirection": [ 3, 1, 5 ]
+    },
+    "模拟*": {
+      "DesignFocus": [ 6, 6, 6, 8, 1, 2, 4, 7 ],
+      "DesignDirection": [ 3, 3, 6 ]
+    },
+    "格斗*": {
+      "DesignFocus": [ 6, 3, 10, 5, 3, 6, 4, 3 ],
+      "DesignDirection": [ 6, 4, 6 ]
+    },
+    "技巧": {
+      "DesignFocus": [ 6, 3, 9, 6, 2, 3, 5, 6 ],
+      "DesignDirection": [ 7, 0, 5 ]
+    },
+    "益智": {
+      "DesignFocus": [ 7, 3, 9, 6, 3, 2, 4, 6 ],
+      "DesignDirection": [ 7, 0, 6 ]
+    },
+    "竞速": {
+      "DesignFocus": [ 7, 4, 10, 7, 1, 2, 5, 4 ],
+      "DesignDirection": [ 7, 0, 4 ]
+    },
+    "冒险": {
+      "DesignFocus": [ 5, 2, 7, 4, 6, 6, 5, 5 ],
+      "DesignDirection": [ 6, 2, 5 ]
+    },
+    "角色扮演": {
+      "DesignFocus": [ 8, 4, 5, 5, 5, 5, 4, 4 ],
+      "DesignDirection": [ 4, 3, 5 ]
+    },
+    "横版": {
+      "DesignFocus": [ 6, 3, 10, 6, 2, 4, 6, 3 ],
+      "DesignDirection": [ 7, 1, 4 ]
+    },
+    "模拟建筑": {
+      "DesignFocus": [ 9, 7, 5, 8, 1, 2, 4, 4 ],
+      "DesignDirection": [ 4, 2, 5 ]
+    },
+    "第一人称射击": {
+      "DesignFocus": [ 6, 3, 8, 6, 3, 3, 6, 5 ],
+      "DesignDirection": [ 5, 4, 5 ]
+    },
+    "第三人称射击": {
+      "DesignFocus": [ 6, 3, 8, 6, 3, 4, 5, 5 ],
+      "DesignDirection": [ 5, 3, 4 ]
+    },
+    "交互式电影": {
+      "DesignFocus": [ 5, 3, 9, 5, 6, 6, 3, 3 ],
+      "DesignDirection": [ 7, 3, 3 ]
+    },
+    "交互式小说": {
+      "DesignFocus": [ 6, 3, 8, 5, 6, 6, 3, 3 ],
+      "DesignDirection": [ 7, 3, 2 ]
+    },
+    "即时战略": {
+      "DesignFocus": [ 7, 6, 6, 6, 2, 2, 5, 6 ],
+      "DesignDirection": [ 4, 3, 5 ]
+    },
+    "大逃杀（MOD）": {
+      "DesignFocus": [ 6, 4, 8, 7, 1, 5, 5, 4 ],
+      "DesignDirection": [ 6, 2, 6 ]
+    },
+    "MOBA（MOD）": {
+      "DesignFocus": [ 4, 6, 8, 7, 1, 5, 6, 3 ],
+      "DesignDirection": [ 7, 1, 6 ]
+    }
+
+  },
+  "策略": {
+    "角色扮演*": {
+      "DesignFocus": [ 9, 8, 0, 3, 4, 7, 8, 7 ],
+      "DesignDirection": [ 1, 6, 7 ]
+    },
+    "动作*": {
+      "DesignFocus": [ 6, 7, 3, 5, 2, 2, 8, 7 ],
+      "DesignDirection": [ 2, 6, 8 ]
+    },
+    "模拟经营*": {
+      "DesignFocus": [ 10, 10, 0, 6, 1, 1, 5, 7 ],
+      "DesignDirection": [ 0, 4, 7 ]
+    },
+    "模拟建筑*": {
+      "DesignFocus": [ 10, 10, 0, 6, 1, 1, 5, 7 ],
+      "DesignDirection": [ 1, 5, 7 ]
+    },
+    "即时战略*": {
+      "DesignFocus": [ 8, 9, 0, 4, 2, 1, 7, 9 ],
+      "DesignDirection": [ 1, 6, 7 ]
+    },
+    "技巧": {
+      "DesignFocus": [ 7, 7, 4, 4, 1, 2, 7, 8 ],
+      "DesignDirection": [ 3, 3, 7 ]
+    },
+    "益智": {
+      "DesignFocus": [ 8, 7, 3, 4, 2, 1, 6, 9 ],
+      "DesignDirection": [ 4, 3, 8 ]
+    },
+    "竞速": {
+      "DesignFocus": [ 8, 7, 4, 5, 1, 1, 7, 7 ],
+      "DesignDirection": [ 4, 3, 6 ]
+    },
+    "冒险": {
+      "DesignFocus": [ 6, 6, 3, 2, 5, 5, 6, 7 ],
+      "DesignDirection": [ 2, 5, 7 ]
+    },
+    "横版": {
+      "DesignFocus": [ 7, 6, 5, 4, 1, 3, 8, 6 ],
+      "DesignDirection": [ 4, 4, 6 ]
+    },
+    "模拟": {
+      "DesignFocus": [ 7, 10, 0, 5, 1, 1, 6, 10 ],
+      "DesignDirection": [ 0, 6, 8 ]
+    },
+    "体育": {
+      "DesignFocus": [ 8, 7, 5, 6, 1, 2, 4, 7 ],
+      "DesignDirection": [ 3, 3, 6 ]
+    },
+    "格斗": {
+      "DesignFocus": [ 7, 7, 5, 3, 2, 5, 6, 5 ],
+      "DesignDirection": [ 3, 7, 8 ]
+    },
+    "第一人称射击": {
+      "DesignFocus": [ 7, 6, 3, 4, 2, 2, 8, 8 ],
+      "DesignDirection": [ 1, 7, 7 ]
+    },
+    "第三人称射击": {
+      "DesignFocus": [ 7, 7, 2, 3, 3, 3, 7, 8 ],
+      "DesignDirection": [ 2, 6, 6 ]
+    },
+    "交互式电影": {
+      "DesignFocus": [ 6, 7, 4, 3, 5, 5, 4, 6 ],
+      "DesignDirection": [ 3, 6, 5 ]
+    },
+    "交互式小说": {
+      "DesignFocus": [ 7, 7, 3, 3, 5, 5, 4, 6 ],
+      "DesignDirection": [ 3, 5, 5 ]
+    },
+    "大逃杀（MOD）": {
+      "DesignFocus": [ 6, 7, 3, 5, 1, 4, 7, 7 ],
+      "DesignDirection": [ 3, 5, 8 ]
+    },
+    "MOBA（MOD）": {
+      "DesignFocus": [ 5, 9, 2, 5, 1, 4, 8, 6 ],
+      "DesignDirection": [ 3, 4, 8 ]
+    }
+  },
+  "第三人称射击": {
+    "技巧*": {
+      "DesignFocus": [ 6, 3, 6, 4, 3, 4, 8, 6 ],
+      "DesignDirection": [ 5, 4, 6 ]
+    },
+    "冒险*": {
+      "DesignFocus": [ 4, 2, 6, 2, 7, 7, 7, 5 ],
+      "DesignDirection": [ 4, 6, 6 ]
+    },
+    "角色扮演*": {
+      "DesignFocus": [ 7, 4, 3, 2, 6, 7, 6, 5 ],
+      "DesignDirection": [ 3, 6, 6 ]
+    },
+    "动作*": {
+      "DesignFocus": [ 5, 2, 6, 4, 4, 5, 9, 5 ],
+      "DesignDirection": [ 4, 7, 7 ]
+    },
+    "横版*": {
+      "DesignFocus": [ 6, 2, 7, 4, 3, 5, 9, 4 ],
+      "DesignDirection": [ 6, 5, 5 ]
+    },
+    "模拟*": {
+      "DesignFocus": [ 5, 5, 3, 5, 3, 4, 7, 8 ],
+      "DesignDirection": [ 2, 7, 6 ]
+    },
+    "体育*": {
+      "DesignFocus": [ 6, 3, 8, 6, 3, 4, 5, 5 ],
+      "DesignDirection": [ 5, 3, 4 ]
+    },
+    "格斗*": {
+      "DesignFocus": [ 6, 3, 7, 2, 4, 8, 7, 3 ],
+      "DesignDirection": [ 5, 8, 6 ]
+    },
+    "第一人称射击*": {
+      "DesignFocus": [ 5, 2, 6, 3, 4, 5, 9, 6 ],
+      "DesignDirection": [ 3, 8, 6 ]
+    },
+    "益智": {
+      "DesignFocus": [ 7, 2, 6, 3, 4, 4, 7, 7 ],
+      "DesignDirection": [ 6, 3, 6 ]
+    },
+    "竞速": {
+      "DesignFocus": [ 7, 3, 6, 4, 3, 4, 8, 5 ],
+      "DesignDirection": [ 6, 3, 4 ]
+    },
+    "策略": {
+      "DesignFocus": [ 7, 7, 2, 3, 3, 3, 7, 8 ],
+      "DesignDirection": [ 2, 6, 6 ]
+    },
+    "模拟经营": {
+      "DesignFocus": [ 8, 7, 2, 6, 3, 3, 6, 5 ],
+      "DesignDirection": [ 2, 4, 6 ]
+    },
+    "模拟建筑": {
+      "DesignFocus": [ 8, 7, 3, 5, 3, 3, 6, 5 ],
+      "DesignDirection": [ 3, 5, 5 ]
+    },
+    "交互式电影": {
+      "DesignFocus": [ 5, 2, 6, 3, 7, 8, 5, 4 ],
+      "DesignDirection": [ 5, 7, 4 ]
+    },
+    "交互式小说": {
+      "DesignFocus": [ 6, 3, 5, 2, 7, 8, 5, 4 ],
+      "DesignDirection": [ 5, 5, 3 ]
+    },
+    "即时战略": {
+      "DesignFocus": [ 6, 5, 3, 3, 4, 4, 8, 7 ],
+      "DesignDirection": [ 3, 6, 6 ]
+    },
+    "大逃杀（MOD）": {
+      "DesignFocus": [ 5, 4, 5, 4, 3, 6, 8, 5 ],
+      "DesignDirection": [ 5, 5, 6 ]
+    },
+    "MOBA（MOD）": {
+      "DesignFocus": [ 4, 4, 4, 5, 3, 7, 9, 4 ],
+      "DesignDirection": [ 5, 5, 7 ]
+    }
+  },
+  "交互式小说": {
+    "技巧*": {
+      "DesignFocus": [ 6, 3, 7, 3, 6, 6, 5, 4 ],
+      "DesignDirection": [ 7, 2, 4 ]
+    },
+    "益智*": {
+      "DesignFocus": [ 7, 2, 6, 3, 7, 6, 4, 5 ],
+      "DesignDirection": [ 7, 2, 5 ]
+    },
+    "冒险*": {
+      "DesignFocus": [ 4, 2, 6, 1, 10, 9, 5, 3 ],
+      "DesignDirection": [ 6, 4, 4 ]
+    },
+    "交互式电影*": {
+      "DesignFocus": [ 5, 2, 6, 2, 10, 10, 3, 2 ],
+      "DesignDirection": [ 7, 5, 2 ]
+    },
+    "角色扮演*": {
+      "DesignFocus": [ 7, 3, 3, 2, 9, 9, 4, 3 ],
+      "DesignDirection": [ 4, 5, 4 ]
+    },
+    "竞速": {
+      "DesignFocus": [ 7, 3, 7, 4, 5, 6, 5, 3 ],
+      "DesignDirection": [ 7, 2, 3 ]
+    },
+    "策略": {
+      "DesignFocus": [ 7, 7, 3, 3, 5, 5, 4, 6 ],
+      "DesignDirection": [ 3, 5, 5 ]
     },
     "角色扮演": {
       "DesignFocus": [ 7, 3, 3, 2, 9, 9, 4, 3 ],
       "DesignDirection": [ 4, 5, 4 ]
+    },
+    "动作": {
+      "DesignFocus": [ 5, 2, 6, 4, 7, 7, 6, 3 ],
+      "DesignDirection": [ 6, 5, 5 ]
+    },
+    "横版": {
+      "DesignFocus": [ 6, 2, 8, 3, 6, 7, 6, 2 ],
+      "DesignDirection": [ 7, 3, 3 ]
+    },
+    "模拟": {
+      "DesignFocus": [ 6, 6, 3, 4, 5, 6, 4, 6 ],
+      "DesignDirection": [ 3, 5, 5 ]
+    },
+    "体育": {
+      "DesignFocus": [ 6, 3, 8, 5, 6, 6, 3, 3 ],
+      "DesignDirection": [ 7, 2, 3 ]
+    },
+    "模拟经营": {
+      "DesignFocus": [ 8, 7, 4, 5, 5, 5, 3, 3 ],
+      "DesignDirection": [ 3, 3, 4 ]
+    },
+    "格斗": {
+      "DesignFocus": [ 6, 2, 8, 2, 7, 10, 4, 1 ],
+      "DesignDirection": [ 6, 6, 5 ]
+    },
+    "模拟建筑": {
+      "DesignFocus": [ 8, 7, 3, 5, 5, 5, 4, 3 ],
+      "DesignDirection": [ 4, 4, 4 ]
+    },
+    "第一人称射击": {
+      "DesignFocus": [ 5, 2, 6, 3, 7, 7, 6, 4 ],
+      "DesignDirection": [ 5, 6, 4 ]
+    },
+    "第三人称射击": {
+      "DesignFocus": [ 6, 3, 5, 2, 7, 8, 5, 4 ],
+      "DesignDirection": [ 5, 5, 3 ]
+    },
+    "即时战略": {
+      "DesignFocus": [ 6, 6, 3, 3, 6, 6, 5, 5 ],
+      "DesignDirection": [ 4, 5, 4 ]
+    },
+    "大逃杀（MOD）": {
+      "DesignFocus": [ 5, 4, 6, 4, 5, 8, 5, 3 ],
+      "DesignDirection": [ 6, 4, 5 ]
+    },
+    "MOBA（MOD）": {
+      "DesignFocus": [ 4, 5, 5, 4, 5, 9, 6, 2 ],
+      "DesignDirection": [ 7, 3, 5 ]
     }
   },
-  "大逃杀": {
-    "动作": {
+  "大逃杀（MOD）": {
+    "动作*": {
       "DesignFocus": [ 4, 4, 6, 6, 2, 5, 9, 7 ],
       "DesignDirection": [ 5, 5, 8 ]
     },
-    "体育": {
+    "体育*": {
       "DesignFocus": [ 6, 4, 8, 7, 1, 5, 5, 4 ],
       "DesignDirection": [ 6, 2, 6 ]
     },
-    "格斗": {
+    "格斗*": {
       "DesignFocus": [ 5, 4, 8, 4, 2, 8, 7, 2 ],
       "DesignDirection": [ 6, 6, 8 ]
     },
-    "第一人称射击": {
+    "第一人称射击*": {
       "DesignFocus": [ 5, 3, 6, 5, 2, 5, 9, 5 ],
       "DesignDirection": [ 4, 6, 7 ]
     },
-    "第三人称射击": {
+    "第三人称射击*": {
       "DesignFocus": [ 5, 4, 5, 4, 3, 6, 8, 5 ],
       "DesignDirection": [ 5, 5, 6 ]
     },
-    "竞速": {
+    "竞速*": {
       "DesignFocus": [ 6, 4, 7, 6, 1, 4, 8, 4 ],
       "DesignDirection": [ 7, 2, 6 ]
+    },
+    "技巧": {
+      "DesignFocus": [ 5, 4, 7, 5, 1, 5, 8, 5 ],
+      "DesignDirection": [ 6, 2, 7 ]
+    },
+    "益智": {
+      "DesignFocus": [ 6, 4, 6, 5, 2, 4, 7, 6 ],
+      "DesignDirection": [ 7, 2, 8 ]
+    },
+    "冒险": {
+      "DesignFocus": [ 4, 3, 6, 3, 5, 8, 7, 4 ],
+      "DesignDirection": [ 5, 4, 7 ]
+    },
+    "策略": {
+      "DesignFocus": [ 6, 7, 3, 5, 1, 4, 7, 7 ],
+      "DesignDirection": [ 3, 5, 8 ]
+    },
+    "角色扮演": {
+      "DesignFocus": [ 7, 5, 3, 4, 4, 7, 6, 4 ],
+      "DesignDirection": [ 4, 5, 7 ]
+    },
+    "横版": {
+      "DesignFocus": [ 5, 3, 8, 5, 1, 6, 9, 3 ],
+      "DesignDirection": [ 7, 3, 6 ]
+    },
+    "模拟": {
+      "DesignFocus": [ 5, 7, 3, 6, 1, 4, 7, 7 ],
+      "DesignDirection": [ 3, 5, 8 ]
+    },
+    "模拟经营": {
+      "DesignFocus": [ 8, 7, 3, 7, 1, 4, 6, 4 ],
+      "DesignDirection": [ 3, 3, 7 ]
+    },
+    "模拟建筑": {
+      "DesignFocus": [ 8, 7, 3, 7, 1, 4, 6, 4 ],
+      "DesignDirection": [ 4, 4, 7 ]
+    },
+    "交互式电影": {
+      "DesignFocus": [ 4, 4, 7, 4, 5, 8, 5, 3 ],
+      "DesignDirection": [ 6, 5, 5 ]
+    },
+    "交互式小说": {
+      "DesignFocus": [ 5, 4, 6, 4, 5, 8, 5, 3 ],
+      "DesignDirection": [ 6, 4, 5 ]
+    },
+    "即时战略": {
+      "DesignFocus": [ 6, 6, 3, 5, 2, 4, 8, 6 ],
+      "DesignDirection": [ 4, 5, 7 ]
+    },
+    "MOBA（MOD）": {
+      "DesignFocus": [ 3, 6, 5, 6, 1, 7, 9, 3 ],
+      "DesignDirection": [ 6, 3, 8 ]
     }
   },
-  "MOBA": {
-    "技巧": {
+  "MOBA（MOD）": {
+    "技巧*": {
       "DesignFocus": [ 4, 5, 6, 6, 1, 5, 9, 4 ],
       "DesignDirection": [ 7, 2, 8 ]
     },
-    "角色扮演": {
+    "角色扮演*": {
       "DesignFocus": [ 5, 7, 2, 4, 4, 8, 7, 3 ],
       "DesignDirection": [ 4, 4, 8 ]
     },
-    "策略": {
+    "策略*": {
       "DesignFocus": [ 5, 9, 2, 5, 1, 4, 8, 6 ],
       "DesignDirection": [ 3, 4, 8 ]
     },
-    "动作": {
+    "动作*": {
       "DesignFocus": [ 3, 5, 5, 6, 2, 6, 10, 3 ],
       "DesignDirection": [ 6, 5, 9 ]
     },
-    "体育": {
+    "体育*": {
       "DesignFocus": [ 4, 6, 8, 7, 1, 5, 6, 3 ],
       "DesignDirection": [ 7, 1, 6 ]
     },
-    "即时战略": {
+    "即时战略*": {
       "DesignFocus": [ 4, 8, 2, 5, 2, 5, 9, 5 ],
       "DesignDirection": [ 4, 4, 8 ]
+    },
+    "益智": {
+      "DesignFocus": [ 5, 5, 5, 5, 2, 5, 8, 5 ],
+      "DesignDirection": [ 7, 1, 8 ]
+    },
+    "竞速": {
+      "DesignFocus": [ 5, 5, 6, 6, 1, 5, 9, 3 ],
+      "DesignDirection": [ 7, 1, 6 ]
+    },
+    "冒险": {
+      "DesignFocus": [ 2, 5, 5, 4, 5, 8, 8, 3 ],
+      "DesignDirection": [ 6, 4, 8 ]
+    },
+    "横版": {
+      "DesignFocus": [ 4, 4, 7, 6, 1, 6, 10, 2 ],
+      "DesignDirection": [ 7, 3, 7 ]
+    },
+    "模拟": {
+      "DesignFocus": [ 4, 7, 2, 7, 1, 5, 8, 6 ],
+      "DesignDirection": [ 3, 5, 8 ]
+    },
+    "模拟经营": {
+      "DesignFocus": [ 6, 9, 2, 8, 1, 4, 7, 3 ],
+      "DesignDirection": [ 3, 2, 8 ]
+    },
+    "格斗": {
+      "DesignFocus": [ 4, 5, 7, 4, 2, 9, 8, 1 ],
+      "DesignDirection": [ 6, 6, 8 ]
+    },
+    "模拟建筑": {
+      "DesignFocus": [ 6, 9, 3, 7, 1, 4, 7, 3 ],
+      "DesignDirection": [ 4, 3, 7 ]
+    },
+    "第一人称射击": {
+      "DesignFocus": [ 3, 5, 5, 5, 2, 6, 10, 4 ],
+      "DesignDirection": [ 5, 6, 8 ]
+    },
+    "第三人称射击": {
+      "DesignFocus": [ 4, 4, 4, 5, 3, 7, 9, 4 ],
+      "DesignDirection": [ 5, 5, 7 ]
+    },
+    "交互式电影": {
+      "DesignFocus": [ 3, 5, 5, 5, 5, 9, 6, 2 ],
+      "DesignDirection": [ 7, 5, 6 ]
+    },
+    "交互式小说": {
+      "DesignFocus": [ 4, 5, 5, 4, 5, 9, 6, 2 ],
+      "DesignDirection": [ 7, 3, 5 ]
+    },
+    "大逃杀（MOD）": {
+      "DesignFocus": [ 3, 6, 5, 6, 1, 7, 9, 3 ],
+      "DesignDirection": [ 6, 3, 8 ]
     }
   }
 }

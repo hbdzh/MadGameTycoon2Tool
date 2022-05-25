@@ -24,11 +24,13 @@ namespace MadGameTycoon2Tool.ViewModel
             set { SetProperty(ref recipeM, value); }
         }
         JObject jo;
+        JObject jo2;
         public RecipeViewModel()
         {
             //直接从json中拿到主游戏类型
             List<string> gameType = new List<string>();
             jo = JsonConvert.DeserializeObject(File.ReadAllText(AppConfig.GameInfo_SingleType)) as JObject;
+            jo2 = JsonConvert.DeserializeObject(File.ReadAllText(AppConfig.GameInfo_MultipleType)) as JObject;
             foreach (var item in jo.Children())
             {
                 gameType.Add(item.Path);
@@ -61,7 +63,7 @@ namespace MadGameTycoon2Tool.ViewModel
 
             //根据主类型获得合适的子类型
             RecipeM.SelectChildType = string.Empty;
-            RecipeM.ChildType = GameTypeAndTheme.GetChildType(jo, RecipeM.SelectMainType);
+            RecipeM.ChildType = GameTypeAndTheme.GetChildType(jo2, RecipeM.SelectMainType);
 
             //根据单个主类型获取设计重点、设计方向、开发重点
             GameDesign.GetSingleType_DesignFocus(jo, RecipeM);
@@ -80,8 +82,6 @@ namespace MadGameTycoon2Tool.ViewModel
             {
                 return;
             }
-            JObject jo = JsonConvert.DeserializeObject(File.ReadAllText(AppConfig.GameInfo_SingleType)) as JObject;
-            JObject jo2 = JsonConvert.DeserializeObject(File.ReadAllText(AppConfig.GameInfo_MultipleType)) as JObject;
             //根据相同类型获得合适的主题
             List<string> sameTheme = GameTypeAndTheme.GetSameGameTheme(jo, RecipeM.SelectMainType, RecipeM.SelectChildType);
             RecipeM.Theme = GameTypeAndTheme.GetGameTheme(sameTheme);

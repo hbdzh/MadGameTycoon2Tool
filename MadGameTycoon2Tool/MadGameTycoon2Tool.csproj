@@ -236,7 +236,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Logo.ai" />
-    <None Include="Data\ConsoleInfo.json">
+    <None Include="Data\en\ConsoleInfo.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\zh-Hans\ConsoleInfo.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Data\en\GameInfo_MultipleType.json">
@@ -249,6 +252,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Data\zh-Hans\GameInfo_MultipleType.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\zh-Hant\ConsoleInfo.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Data\zh-Hant\GameInfo_MultipleType.json">
@@ -284,6 +290,7 @@
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <ProjectExtensions />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

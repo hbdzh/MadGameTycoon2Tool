@@ -1766,7 +1766,7 @@
       "Gladiators"
     ]
   },
-  "Battle-Royale": {
+  "Battle-Royale_MOD": {
     "ChildType": [
       "Action",
       "Sports-Game",
@@ -1818,7 +1818,7 @@
       "Zombies"
     ]
   },
-  "MOBA": {
+  "MOBA_MOD": {
     "ChildType": [
       "Skill-Game",
       "Role-Playing-Game",

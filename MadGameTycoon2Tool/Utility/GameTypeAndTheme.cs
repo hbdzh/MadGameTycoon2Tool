@@ -15,6 +15,7 @@ namespace MadGameTycoon2Tool.Utility
         /// <returns></returns>
         internal static List<string> GetSameGameTheme(JObject jo, string selectMainType, string selectChildType)
         {
+            selectChildType = selectChildType.Replace("*", "");
             List<string> mainTheme = new List<string>();
             List<string> childTheme = new List<string>();
             foreach (var item in jo[selectMainType]["GameTheme"])
@@ -36,10 +37,14 @@ namespace MadGameTycoon2Tool.Utility
         internal static List<string> GetChildType(JObject jo, string gameType)
         {
             List<string> childTypeList = new List<string>();
-            foreach (var item in jo[gameType]["ChildType"])
+            foreach (JToken item in jo[gameType].Children())
             {
-                childTypeList.Add(item.ToString());
+                childTypeList.Add(item.Path.ToString().Replace(gameType + ".", ""));
             }
+            //foreach (var item in jo[gameType]["ChildType"])
+            //{
+            //    childTypeList.Add(item.ToString());
+            //}
             return childTypeList;
         }
         /// <summary>

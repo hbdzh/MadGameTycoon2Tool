@@ -9,48 +9,90 @@
     xmlns:core="using:Microsoft.Xaml.Interactions.Core"
     mc:Ignorable="d"
     Margin="15">
-    <StackPanel Orientation="Horizontal">
-        <ComboBox
-            x:Uid="ThemeStyle"
-            Width="120"
-            CharacterSpacing="105"
-            Margin="0,0,20,0"
-            ItemsSource="{x:Bind SettingVM.SettingM.ThemeStyle}"
-            SelectedItem="{x:Bind SettingVM.SettingM.UseThemeStyle,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}">
-            <interactivity:Interaction.Behaviors>
-                <core:EventTriggerBehavior
-                    EventName="SelectionChanged">
-                    <core:EventTriggerBehavior.Actions>
-                        <core:InvokeCommandAction
-                            Command="{x:Bind Path=SettingVM.SettingSaveCommand}" />
-                    </core:EventTriggerBehavior.Actions>
-                </core:EventTriggerBehavior>
-            </interactivity:Interaction.Behaviors>
-        </ComboBox>
-        <ComboBox
-            MinWidth="140"
-            CharacterSpacing="105"
-            ItemsSource="{x:Bind SettingVM.SettingM.LanguageList}"
-            SelectedItem="{x:Bind SettingVM.SettingM.UseLanguage,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}">
-            <ComboBox.Header>
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock
-                        x:Uid="Language" />
-                    <TextBlock
-                        x:Uid="LanguageTips"
-                        VerticalAlignment="Center"
-                        FontSize="12"/>
-                </StackPanel>
-            </ComboBox.Header>
-            <interactivity:Interaction.Behaviors>
-                <core:EventTriggerBehavior
-                    EventName="SelectionChanged">
-                    <core:EventTriggerBehavior.Actions>
-                        <core:InvokeCommandAction
-                            Command="{x:Bind Path=SettingVM.SettingSaveCommand}" />
-                    </core:EventTriggerBehavior.Actions>
-                </core:EventTriggerBehavior>
-            </interactivity:Interaction.Behaviors>
-        </ComboBox>
+    <StackPanel>
+
+        <StackPanel
+            Orientation="Horizontal">
+            <ComboBox
+                x:Uid="ThemeStyle"
+                Width="120"
+                CharacterSpacing="105"
+                Margin="0,0,20,0"
+                ItemsSource="{x:Bind SettingVM.SettingM.ThemeStyle}"
+                SelectedItem="{x:Bind SettingVM.SettingM.UseThemeStyle,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}">
+                <interactivity:Interaction.Behaviors>
+                    <core:EventTriggerBehavior
+                        EventName="SelectionChanged">
+                        <core:EventTriggerBehavior.Actions>
+                            <core:InvokeCommandAction
+                                Command="{x:Bind Path=SettingVM.SettingSaveCommand}" />
+                        </core:EventTriggerBehavior.Actions>
+                    </core:EventTriggerBehavior>
+                </interactivity:Interaction.Behaviors>
+            </ComboBox>
+            <ComboBox
+                MinWidth="140"
+                CharacterSpacing="105"
+                ItemsSource="{x:Bind SettingVM.SettingM.LanguageList}"
+                SelectedItem="{x:Bind SettingVM.SettingM.UseLanguage,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}">
+                <ComboBox.Header>
+                    <StackPanel
+                        Orientation="Horizontal">
+                        <TextBlock
+                            x:Uid="Language" />
+                        <TextBlock
+                            x:Uid="LanguageTips"
+                            VerticalAlignment="Center"
+                            FontSize="12" />
+                    </StackPanel>
+                </ComboBox.Header>
+                <interactivity:Interaction.Behaviors>
+                    <core:EventTriggerBehavior
+                        EventName="SelectionChanged">
+                        <core:EventTriggerBehavior.Actions>
+                            <core:InvokeCommandAction
+                                Command="{x:Bind Path=SettingVM.SettingSaveCommand}" />
+                        </core:EventTriggerBehavior.Actions>
+                    </core:EventTriggerBehavior>
+                </interactivity:Interaction.Behaviors>
+            </ComboBox>
+        </StackPanel>
+        <StackPanel>
+            <TextBlock
+                Margin="0,25,0,8"
+                Text="关于 疯狂游戏大亨2游戏攻略"
+                FontSize="16"
+                FontWeight="SemiBold" />
+            <TextBlock
+                Margin="0,0,0,3"
+                Text="此应用可以帮助你在《疯狂游戏大亨2》中制作出评分更高的游戏" />
+            <TextBlock
+                Margin="0,0,0,3"
+                Text="你也可以利用此应用的另一个功能，来查看游戏主机各个配件的解锁时间以及技术等级" />
+            <TextBlock
+                Text="特别感谢 白给玩家路某 此应用使用了他整理的游戏数据" />
+            <TextBlock
+                Margin="0,0,0,3"
+                Text="此应用的全部代码已经上传到Github" />
+            <StackPanel
+                Orientation="Horizontal"
+                Margin="0,15,0,0">
+                <Button
+                    Margin="0,0,20,0"
+                    Command="{x:Bind SettingVM.FiveStarCommand}">
+                    <TextBlock>
+                    <Run
+                            FontFamily="Segoe Fluent Icons"
+                            Text="&#xE8E1;" />
+                    <Run
+                            Text=" 来个五星好评" />
+                    </TextBlock>
+                </Button>
+                <Button
+                    Content="访问项目主页"
+                    Command="{x:Bind SettingVM.GoToGithubCommand}">
+                </Button>
+            </StackPanel>
+        </StackPanel>
     </StackPanel>
 </Page>

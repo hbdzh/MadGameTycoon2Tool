@@ -1,15 +1,20 @@
 ﻿using MadGameTycoon2Tool.Model;
 using Microsoft.Toolkit.Mvvm.ComponentModel;
 using Microsoft.Toolkit.Mvvm.Input;
+using System;
 using System.Collections.Generic;
 using System.Windows.Input;
+using Windows.ApplicationModel;
 using Windows.Storage;
+using Windows.System;
 
 namespace MadGameTycoon2Tool.ViewModel
 {
     internal class SettingViewModel : ObservableObject
     {
         public ICommand SettingSaveCommand { get; set; }
+        public ICommand GoToGithubCommand { get; set; }
+        public ICommand FiveStarCommand { get; set; }
         private SettingModel settingM;
         public SettingModel SettingM
         {
@@ -19,6 +24,8 @@ namespace MadGameTycoon2Tool.ViewModel
         public SettingViewModel()
         {
             SettingSaveCommand = new RelayCommand(SettingSave);
+            GoToGithubCommand = new RelayCommand(GoToGithub);
+            FiveStarCommand = new RelayCommand(FiveStar);
             SettingM = new SettingModel();
             InitThemeStyle();
         }
@@ -32,8 +39,8 @@ namespace MadGameTycoon2Tool.ViewModel
             SettingM.LanguageList = new List<string>
             {
                 "简体中文",
-                "繁体中文",
-                "英语"
+                "繁體中文",
+                "Engilsh"
             };
             if (ApplicationData.Current.LocalSettings.Values.ContainsKey("Language"))
             {
@@ -62,6 +69,15 @@ namespace MadGameTycoon2Tool.ViewModel
             {
                 ApplicationData.Current.LocalSettings.Values["Language"] = SettingM.UseLanguage;
             }
+        }
+        private async void GoToGithub()
+        {
+            await Launcher.LaunchUriAsync(new Uri(@"https://github.com/hbdzh/MadGameTycoon2Tool"));
+        }
+        private async void FiveStar()
+        {
+            var pfn = Package.Current.Id.FamilyName;
+            await Launcher.LaunchUriAsync(new Uri("ms-windows-store://review/?PFN=" + pfn));
         }
     }
 }

@@ -1,0 +1,727 @@
+{
+  "128_Bytes內存條": {
+    "Type": "內存",
+    "Level": "T1",
+    "Unlock": "1976 M1"
+  },
+  "1_MHz處理器": {
+    "Type": "CPU",
+    "Level": "T1",
+    "Unlock": "1976 M1"
+  },
+  "電視ADP接口": {
+    "Type": "顯卡",
+    "Level": "T1",
+    "Unlock": "1976 M1"
+  },
+  "AMA音效1300": {
+    "Type": "聲卡",
+    "Level": "T1",
+    "Unlock": "1976 M1"
+  },
+  "無存儲選項": {
+    "Type": "硬盤",
+    "Level": "T1",
+    "Unlock": "1976 M1"
+  },
+  "4KB卡帶": {
+    "Type": "光盤",
+    "Level": "T1",
+    "Unlock": "1976 M1"
+  },
+  "1。8寸黑白屏幕": {
+    "Type": "屏幕",
+    "Level": "T1",
+    "Unlock": "1976 M1"
+  },
+  "第一代手柄": {
+    "Type": "手柄",
+    "Level": "T1",
+    "Unlock": "1976 M1"
+  },
+  "第一代家用遊戲機機箱": {
+    "Type": "外殼",
+    "Level": "T1",
+    "Unlock": "1976 M1"
+  },
+  "第一代掌機外殼": {
+    "Type": "外殼",
+    "Level": "T1",
+    "Unlock": "1976 M1"
+  },
+  "通風口": {
+    "Type": "散熱系統",
+    "Level": "T1",
+    "Unlock": "1976 M1"
+  },
+  "128_bytes卡帶": {
+    "Type": "硬盤",
+    "Level": "T1+",
+    "Unlock": "1978 M3"
+  },
+  "1024_Bytes內存條": {
+    "Type": "內存",
+    "Level": "T1+",
+    "Unlock": "1979 M6"
+  },
+  "AMA音效1800": {
+    "Type": "聲卡",
+    "Level": "T1+",
+    "Unlock": "1980 M5"
+  },
+  "1。5_MHz處理器": {
+    "Type": "CPU",
+    "Level": "T1+",
+    "Unlock": "1980 M6"
+  },
+  "電視ADP-X接口": {
+    "Type": "顯卡",
+    "Level": "T1+",
+    "Unlock": "1980 M7"
+  },
+  "散熱片": {
+    "Type": "散熱系統",
+    "Level": "T2",
+    "Unlock": "1981 M2"
+  },
+  "第二代手柄": {
+    "Type": "手柄",
+    "Level": "T2",
+    "Unlock": "1982 M2"
+  },
+  "第二代家用遊戲機機箱": {
+    "Type": "外殼",
+    "Level": "T2",
+    "Unlock": "1982 M2"
+  },
+  "第二代掌機外殼": {
+    "Type": "外殼",
+    "Level": "T2",
+    "Unlock": "1982 M2"
+  },
+  "1KB_卡帶": {
+    "Type": "硬盤",
+    "Level": "T2",
+    "Unlock": "1982 M4"
+  },
+  "128KB卡帶": {
+    "Type": "光盤",
+    "Level": "T2",
+    "Unlock": "1982 M5"
+  },
+  "8KB內存條": {
+    "Type": "內存",
+    "Level": "T2",
+    "Unlock": "1982 M7"
+  },
+  "2MHz_處理器": {
+    "Type": "CPU",
+    "Level": "T2",
+    "Unlock": "1982 M10"
+  },
+  "Micron_SX_100": {
+    "Type": "顯卡",
+    "Level": "T2",
+    "Unlock": "1982 M10"
+  },
+  "Yahami_OXL_500": {
+    "Type": "聲卡",
+    "Level": "T2",
+    "Unlock": "1982 M10"
+  },
+  "Micron_SX_150": {
+    "Type": "顯卡",
+    "Level": "T2+",
+    "Unlock": "1984 M4"
+  },
+  "4KB_卡帶": {
+    "Type": "硬盤",
+    "Level": "T2+",
+    "Unlock": "1984 M9"
+  },
+  "Yahami_OXL_1000": {
+    "Type": "聲卡",
+    "Level": "T2+",
+    "Unlock": "1984 M11"
+  },
+  "3MHz處理器": {
+    "Type": "CPU",
+    "Level": "T2+",
+    "Unlock": "1984 M12"
+  },
+  "64KB內存條": {
+    "Type": "內存",
+    "Level": "T2+",
+    "Unlock": "1984 M12"
+  },
+  "小型機箱風扇": {
+    "Type": "散熱系統",
+    "Level": "T3",
+    "Unlock": "1985 M5"
+  },
+  "2。6寸黑白屏幕": {
+    "Type": "屏幕",
+    "Level": "T2",
+    "Unlock": "1985 M7"
+  },
+  "Viana_ACI_89": {
+    "Type": "聲卡",
+    "Level": "T3",
+    "Unlock": "1986 M1"
+  },
+  "128KB內存條": {
+    "Type": "內存",
+    "Level": "T3",
+    "Unlock": "1986 M2"
+  },
+  "4MHz處理器": {
+    "Type": "CPU",
+    "Level": "T3",
+    "Unlock": "1986 M4"
+  },
+  "影像-DP1000": {
+    "Type": "顯卡",
+    "Level": "T3",
+    "Unlock": "1986 M5"
+  },
+  "第三代手柄": {
+    "Type": "手柄",
+    "Level": "T3",
+    "Unlock": "1986 M6"
+  },
+  "第三代家用遊戲機機箱": {
+    "Type": "外殼",
+    "Level": "T3",
+    "Unlock": "1986 M6"
+  },
+  "第三代掌機外殼": {
+    "Type": "外殼",
+    "Level": "T3",
+    "Unlock": "1986 M6"
+  },
+  "8KB_卡帶": {
+    "Type": "硬盤",
+    "Level": "T3",
+    "Unlock": "1986 M10"
+  },
+  "1MB卡帶": {
+    "Type": "光盤",
+    "Level": "T3",
+    "Unlock": "1986 M11"
+  },
+  "512KB內存條": {
+    "Type": "內存",
+    "Level": "T3+",
+    "Unlock": "1989 M3"
+  },
+  "3。2寸彩色屏幕": {
+    "Type": "屏幕",
+    "Level": "T3",
+    "Unlock": "1989 M6"
+  },
+  "Viana_ACI_91": {
+    "Type": "聲卡",
+    "Level": "T3+",
+    "Unlock": "1989 M9"
+  },
+  "12_MHz處理器": {
+    "Type": "CPU",
+    "Level": "T3+",
+    "Unlock": "1990 M6"
+  },
+  "Video_DP_1500": {
+    "Type": "顯卡",
+    "Level": "T3+",
+    "Unlock": "1990 M11"
+  },
+  "32KB_卡帶": {
+    "Type": "硬盤",
+    "Level": "T3+",
+    "Unlock": "1990 M12"
+  },
+  "GPU和CPU小型風扇": {
+    "Type": "散熱系統",
+    "Level": "T4",
+    "Unlock": "1991 M1"
+  },
+  "Createch_DMP_1": {
+    "Type": "聲卡",
+    "Level": "T3+",
+    "Unlock": "1991 M11"
+  },
+  "33MHz處理器": {
+    "Type": "CPU",
+    "Level": "T4",
+    "Unlock": "1992 M2"
+  },
+  "X-核心32": {
+    "Type": "顯卡",
+    "Level": "T4",
+    "Unlock": "1992 M2"
+  },
+  "512kb記憶卡": {
+    "Type": "硬盤",
+    "Level": "T4",
+    "Unlock": "1992 M8"
+  },
+  "現代手柄一型": {
+    "Type": "手柄",
+    "Level": "T4",
+    "Unlock": "1992 M8"
+  },
+  "第四代家用遊戲機機箱": {
+    "Type": "外殼",
+    "Level": "T4",
+    "Unlock": "1992 M8"
+  },
+  "第四代掌機外殼": {
+    "Type": "外殼",
+    "Level": "T4",
+    "Unlock": "1992 M8"
+  },
+  "700MB_CD": {
+    "Type": "光盤",
+    "Level": "T4",
+    "Unlock": "1992 M9"
+  },
+  "2MB內存條": {
+    "Type": "內存",
+    "Level": "T4",
+    "Unlock": "1992 M10"
+  },
+  "X-核心32+": {
+    "Type": "顯卡",
+    "Level": "T4+",
+    "Unlock": "1994 M7"
+  },
+  "Createch_DMP_11": {
+    "Type": "聲卡",
+    "Level": "T4+",
+    "Unlock": "1994 M12"
+  },
+  "4MB記憶卡": {
+    "Type": "硬盤",
+    "Level": "T4+",
+    "Unlock": "1995 M2"
+  },
+  "112MHz處理器": {
+    "Type": "CPU",
+    "Level": "T4+",
+    "Unlock": "1995 M11"
+  },
+  "8MB內存條": {
+    "Type": "內存",
+    "Level": "T4+",
+    "Unlock": "1995 M11"
+  },
+  "GPU和CPU高性能風扇": {
+    "Type": "散熱系統",
+    "Level": "T5",
+    "Unlock": "1996 M2"
+  },
+  "32MB記憶卡": {
+    "Type": "硬盤",
+    "Level": "T5",
+    "Unlock": "1997 M5"
+  },
+  "Yahami_Audio_R3": {
+    "Type": "聲卡",
+    "Level": "T5",
+    "Unlock": "1997 M7"
+  },
+  "4GB_DVD": {
+    "Type": "光盤",
+    "Level": "T5",
+    "Unlock": "1997 M7"
+  },
+  "294MHz處理器": {
+    "Type": "CPU",
+    "Level": "T5",
+    "Unlock": "1997 M10"
+  },
+  "GFX合成器147": {
+    "Type": "顯卡",
+    "Level": "T5",
+    "Unlock": "1997 M10"
+  },
+  "32MB內存條": {
+    "Type": "內存",
+    "Level": "T5",
+    "Unlock": "1997 M12"
+  },
+  "現代手柄二型": {
+    "Type": "手柄",
+    "Level": "T5",
+    "Unlock": "1997 M12"
+  },
+  "第五代家用遊戲機機箱": {
+    "Type": "外殼",
+    "Level": "T5",
+    "Unlock": "1997 M12"
+  },
+  "第五代掌機外殼": {
+    "Type": "外殼",
+    "Level": "T5",
+    "Unlock": "1997 M12"
+  },
+  "550MHz處理器": {
+    "Type": "CPU",
+    "Level": "T5+",
+    "Unlock": "2000 M5"
+  },
+  "3。6寸觸控屏幕": {
+    "Type": "屏幕",
+    "Level": "T4",
+    "Unlock": "2001 M1"
+  },
+  "GFX合成器233": {
+    "Type": "顯卡",
+    "Level": "T5+",
+    "Unlock": "2001 M6"
+  },
+  "Yahami_Audio_R7": {
+    "Type": "聲卡",
+    "Level": "T5+",
+    "Unlock": "2001 M6"
+  },
+  "64MB記憶卡": {
+    "Type": "硬盤",
+    "Level": "T5+",
+    "Unlock": "2001 M9"
+  },
+  "128MB內存條": {
+    "Type": "內存",
+    "Level": "T5+",
+    "Unlock": "2002 M9"
+  },
+  "自動調整3風扇系統": {
+    "Type": "散熱系統",
+    "Level": "T4",
+    "Unlock": "2003 M6"
+  },
+  "512MB內存條": {
+    "Type": "內存",
+    "Level": "T6",
+    "Unlock": "2004 M2"
+  },
+  "2核處理器": {
+    "Type": "CPU",
+    "Level": "T6",
+    "Unlock": "2004 M4"
+  },
+  "Nvaria_RSX": {
+    "Type": "顯卡",
+    "Level": "T6",
+    "Unlock": "2004 M4"
+  },
+  "現代手柄三型": {
+    "Type": "手柄",
+    "Level": "T6",
+    "Unlock": "2004 M5"
+  },
+  "第六代家用遊戲機機箱": {
+    "Type": "外殼",
+    "Level": "T6",
+    "Unlock": "2004 M5"
+  },
+  "第六代掌機外殼": {
+    "Type": "外殼",
+    "Level": "T6",
+    "Unlock": "2004 M5"
+  },
+  "Createch_STA-環繞音": {
+    "Type": "聲卡",
+    "Level": "T6",
+    "Unlock": "2004 M5"
+  },
+  "20GB硬盤": {
+    "Type": "硬盤",
+    "Level": "T6",
+    "Unlock": "2004 M7"
+  },
+  "25GB藍光DVD": {
+    "Type": "光盤",
+    "Level": "T6",
+    "Unlock": "2004 M8"
+  },
+  "4。8寸觸控屏幕": {
+    "Type": "屏幕",
+    "Level": "T5",
+    "Unlock": "2004 M12"
+  },
+  "2GB卡帶": {
+    "Type": "光盤",
+    "Level": "T6",
+    "Unlock": "2007 M1"
+  },
+  "2GB記憶卡": {
+    "Type": "硬盤",
+    "Level": "T6+",
+    "Unlock": "2007 M5"
+  },
+  "80GB硬盤": {
+    "Type": "硬盤",
+    "Level": "T6+",
+    "Unlock": "2008 M2"
+  },
+  "Createch_STA環繞音Pro": {
+    "Type": "聲卡",
+    "Level": "T6+",
+    "Unlock": "2008 M4"
+  },
+  "2GB內存條": {
+    "Type": "內存",
+    "Level": "T6+",
+    "Unlock": "2008 M5"
+  },
+  "4。9寸3D觸控屏幕": {
+    "Type": "屏幕",
+    "Level": "T6",
+    "Unlock": "2008 M9"
+  },
+  "Nvaria_RSX_Pro": {
+    "Type": "顯卡",
+    "Level": "T6+",
+    "Unlock": "2008 M11"
+  },
+  "4核處理器": {
+    "Type": "CPU",
+    "Level": "T6+",
+    "Unlock": "2009 M2"
+  },
+  "現代4風扇系統": {
+    "Type": "散熱系統",
+    "Level": "T7",
+    "Unlock": "2011 M7"
+  },
+  "8GB內存條": {
+    "Type": "內存",
+    "Level": "T7",
+    "Unlock": "2012 M1"
+  },
+  "500GB硬盤": {
+    "Type": "硬盤",
+    "Level": "T7",
+    "Unlock": "2012 M1"
+  },
+  "現代手柄四型": {
+    "Type": "手柄",
+    "Level": "T7",
+    "Unlock": "2012 M4"
+  },
+  "第七代家用遊戲機機箱": {
+    "Type": "外殼",
+    "Level": "T7",
+    "Unlock": "2012 M4"
+  },
+  "第七代掌機外殼": {
+    "Type": "外殼",
+    "Level": "T7",
+    "Unlock": "2012 M4"
+  },
+  "2x4核處理器": {
+    "Type": "CPU",
+    "Level": "T7",
+    "Unlock": "2012 M7"
+  },
+  "Viana_X_HD_3000": {
+    "Type": "聲卡",
+    "Level": "T7",
+    "Unlock": "2012 M9"
+  },
+  "AMP_Raidian": {
+    "Type": "顯卡",
+    "Level": "T7",
+    "Unlock": "2012 M12"
+  },
+  "50GB_Dual_DVD": {
+    "Type": "光盤",
+    "Level": "T7",
+    "Unlock": "2012 M12"
+  },
+  "AMP_Radian_NX": {
+    "Type": "顯卡",
+    "Level": "T7+",
+    "Unlock": "2015 M1"
+  },
+  "8核處理器": {
+    "Type": "CPU",
+    "Level": "T7+",
+    "Unlock": "2015 M8"
+  },
+  "8GB記憶卡": {
+    "Type": "硬盤",
+    "Level": "T7+",
+    "Unlock": "2015 M9"
+  },
+  "12GB內存條": {
+    "Type": "內存",
+    "Level": "T7+",
+    "Unlock": "2015 M10"
+  },
+  "800GB硬盤": {
+    "Type": "硬盤",
+    "Level": "T7+",
+    "Unlock": "2015 M10"
+  },
+  "Viana_X_HD_5000": {
+    "Type": "聲卡",
+    "Level": "T7+",
+    "Unlock": "2015 M10"
+  },
+  "水冷系統": {
+    "Type": "散熱系統",
+    "Level": "T8",
+    "Unlock": "2017 M8"
+  },
+  "第八代家用遊戲機機箱": {
+    "Type": "外殼",
+    "Level": "T8",
+    "Unlock": "2017 M8"
+  },
+  "AMP_RDNI_1000": {
+    "Type": "顯卡",
+    "Level": "T8",
+    "Unlock": "2019 M4"
+  },
+  "32GB記憶卡": {
+    "Type": "硬盤",
+    "Level": "T8",
+    "Unlock": "2019 M4"
+  },
+  "1TB硬盤": {
+    "Type": "硬盤",
+    "Level": "T8",
+    "Unlock": "2019 M5"
+  },
+  "120GB_HD_DVD": {
+    "Type": "光盤",
+    "Level": "T8",
+    "Unlock": "2019 M5"
+  },
+  "16GB內存條": {
+    "Type": "內存",
+    "Level": "T8",
+    "Unlock": "2019 M6"
+  },
+  "Yahami環繞音X19": {
+    "Type": "聲卡",
+    "Level": "T8",
+    "Unlock": "2019 M7"
+  },
+  "現代手柄五型": {
+    "Type": "手柄",
+    "Level": "T8",
+    "Unlock": "2019 M8"
+  },
+  "第八代掌機外殼": {
+    "Type": "外殼",
+    "Level": "T8",
+    "Unlock": "2019 M8"
+  },
+  "8核極限處理器": {
+    "Type": "CPU",
+    "Level": "T8",
+    "Unlock": "2019 M9"
+  },
+  "5。1寸3D觸控屏幕": {
+    "Type": "屏幕",
+    "Level": "T7",
+    "Unlock": "2020 M4"
+  },
+  "16GB卡帶": {
+    "Type": "光盤",
+    "Level": "T7",
+    "Unlock": "2020 M9"
+  },
+  "12核處理器": {
+    "Type": "CPU",
+    "Level": "T8+",
+    "Unlock": "2023 M5"
+  },
+  "AMP_RDNI_1800": {
+    "Type": "顯卡",
+    "Level": "T8+",
+    "Unlock": "2023 M6"
+  },
+  "Yahami環繞音X23": {
+    "Type": "聲卡",
+    "Level": "T8+",
+    "Unlock": "2023 M6"
+  },
+  "32GB內存條": {
+    "Type": "內存",
+    "Level": "T8+",
+    "Unlock": "2024 M4"
+  },
+  "64GB卡帶": {
+    "Type": "光盤",
+    "Level": "T8+",
+    "Unlock": "2024 M4"
+  },
+  "4TB硬盤": {
+    "Type": "硬盤",
+    "Level": "T8+",
+    "Unlock": "2025 M12"
+  },
+  "512GB記憶卡": {
+    "Type": "硬盤",
+    "Level": "T8",
+    "Unlock": "2026 M11"
+  },
+  "16核處理器": {
+    "Type": "CPU",
+    "Level": "T8+",
+    "Unlock": "2027 M3"
+  },
+  "Nvaria_Rax-X": {
+    "Type": "顯卡",
+    "Level": "T8++",
+    "Unlock": "2027 M5"
+  },
+  "Blade_RT-音效1。0": {
+    "Type": "聲卡",
+    "Level": "T8++",
+    "Unlock": "2027 M5"
+  },
+  "64GB內存條": {
+    "Type": "內存",
+    "Level": "T8++",
+    "Unlock": "2027 M11"
+  },
+  "5。2寸3D觸控屏幕": {
+    "Type": "屏幕",
+    "Level": "T8",
+    "Unlock": "2027 M12"
+  },
+  "250GB超級DVD": {
+    "Type": "光盤",
+    "Level": "T8+",
+    "Unlock": "2028 M1"
+  },
+  "Nvaria_Ray-X_11": {
+    "Type": "顯卡",
+    "Level": "T8+++",
+    "Unlock": "2031 M10"
+  },
+  "Blade_RT-音效2。0": {
+    "Type": "聲卡",
+    "Level": "T8+++",
+    "Unlock": "2031 M12"
+  },
+  "16TB硬盤": {
+    "Type": "硬盤",
+    "Level": "T8++",
+    "Unlock": "2032 M5"
+  },
+  "128GB內存條": {
+    "Type": "內存",
+    "Level": "T8+++",
+    "Unlock": "2032 M7"
+  },
+  "24核處理器": {
+    "Type": "CPU",
+    "Level": "T8+++",
+    "Unlock": "2033 M2"
+  }
+}

@@ -7,31 +7,105 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:interactivity="using:Microsoft.Xaml.Interactivity"
     xmlns:core="using:Microsoft.Xaml.Interactions.Core"
-    mc:Ignorable="d">
-    <StackPanel>
-        <ComboBox
-            Header="技术等级"
-            Margin="0,0,10,0"
-            Background="Transparent"
-            VerticalAlignment="Center"
-            HorizontalAlignment="Stretch">
-            <interactivity:Interaction.Behaviors>
-                <core:EventTriggerBehavior
-                    EventName="SelectionChanged">
-                    <core:EventTriggerBehavior.Actions>
-                        <core:InvokeCommandAction
-                            Command="{Binding TechnologyLevel_SelectionChangedCommand}" />
-                    </core:EventTriggerBehavior.Actions>
-                </core:EventTriggerBehavior>
-            </interactivity:Interaction.Behaviors>
-        </ComboBox>
+    xmlns:model="using:MadGameTycoon2Tool.Model"
+    mc:Ignorable="d"
+    Name="ConsoleAccessory"
+    SizeChanged="ConsoleAccessory_SizeChanged">
+    <Page.Resources>
+        <DataTemplate
+            x:Key="ConsoleInfoListViewTemplate"
+            x:DataType="model:ConsoleInfo">
+            <StackPanel>
+                <TextBlock
+                    Text="{x:Bind AccessoryName}"
+                    Style="{ThemeResource SubtitleTextBlockStyle}"
+                    Margin="0,10,0,10" />
+                <TextBlock
+                    Style="{ThemeResource BodyTextBlockStyle}"
+                    Margin="0,0,0,6">
+                    <Run
+                        x:Uid="Type"/>
+                    <Run
+                        Text="{x:Bind AccessoryType}" />
+                </TextBlock>
+                <TextBlock
+                    Style="{ThemeResource BodyTextBlockStyle}"
+                    Margin="0,0,0,6">
+                    <Run
+                        x:Uid="TechLevel"/>
+                    <Run
+                        Text="{x:Bind AccessoryLevel}" />
+                </TextBlock>
+                <TextBlock
+                    Style="{ThemeResource BodyTextBlockStyle}"
+                    Margin="0,0,0,10">
+                    <Run
+                        x:Uid="UnlockTime"/>
+                    <Run
+                        Text="{x:Bind AccessoryUnlock}" />
+                </TextBlock>
+            </StackPanel>
+        </DataTemplate>
+    </Page.Resources>
+    <StackPanel
+        Margin="10">
+        <Grid
+            Name="ConsoleGrid"
+            Margin="0,0,0,5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition
+                    Width="1*" />
+                <ColumnDefinition
+                    Width="1*" />
+            </Grid.ColumnDefinitions>
+            <ComboBox
+                Grid.Column="0"
+                x:Uid="TechnologyLevelCombo"
+                Margin="0,0,10,0"
+                Background="Transparent"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Stretch"
+                SelectedItem="{x:Bind Path=ConsoleVM.ConsoleM.SelectLevel,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                ItemsSource="{x:Bind Path=ConsoleVM.ConsoleM.LevelList}">
+                <interactivity:Interaction.Behaviors>
+                    <core:EventTriggerBehavior
+                        EventName="SelectionChanged">
+                        <core:EventTriggerBehavior.Actions>
+                            <core:InvokeCommandAction
+                                Command="{x:Bind Path=ConsoleVM.TechnologyLevel_SelectionChangedCommand}" />
+                        </core:EventTriggerBehavior.Actions>
+                    </core:EventTriggerBehavior>
+                </interactivity:Interaction.Behaviors>
+            </ComboBox>
+            <ComboBox
+                Grid.Column="1"
+                x:Uid="AccessoryTypeCombo"
+                Margin="0,0,10,0"
+                Background="Transparent"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Stretch"
+                SelectedItem="{x:Bind Path=ConsoleVM.ConsoleM.SelectType,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                ItemsSource="{x:Bind Path=ConsoleVM.ConsoleM.TypeList}">
+                <interactivity:Interaction.Behaviors>
+                    <core:EventTriggerBehavior
+                        EventName="SelectionChanged">
+                        <core:EventTriggerBehavior.Actions>
+                            <core:InvokeCommandAction
+                                Command="{x:Bind Path=ConsoleVM.AccessoryType_SelectionChangedCommand}" />
+                        </core:EventTriggerBehavior.Actions>
+                    </core:EventTriggerBehavior>
+                </interactivity:Interaction.Behaviors>
+            </ComboBox>
+        </Grid>
         <ListView
-            Name="ThemeList"
+            Name="ConsoleAccessoryList"
             Margin="0,5,10,5"
             SelectionMode="Single"
             CornerRadius="5"
             ShowsScrollingPlaceholders="True"
             BorderThickness="1"
+            ItemTemplate="{StaticResource ConsoleInfoListViewTemplate}"
+            ItemsSource="{x:Bind ConsoleVM.ConsoleM.AccessoryList,Mode=OneWay}"
             BorderBrush="{ThemeResource SystemControlForegroundBaseMediumLowBrush}">
         </ListView>
     </StackPanel>
