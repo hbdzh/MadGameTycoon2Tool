@@ -16,21 +16,21 @@ namespace MadGameTycoon2Tool.Config
         {
             get
             {
-                if ((string)ApplicationData.Current.LocalSettings.Values["Language"] == "简体中文")
+                if ((string)ApplicationData.Current.LocalSettings.Values["AppLanguage"] == "简体中文")
                 {
-                    return "Data\\zh-Hans\\ConsoleInfo.json";
+                    return "Data\\ConsoleInfo_cns.json";
                 }
-                else if ((string)ApplicationData.Current.LocalSettings.Values["Language"] == "繁體中文")
+                else if ((string)ApplicationData.Current.LocalSettings.Values["AppLanguage"] == "繁體中文")
                 {
-                    return "Data\\zh-Hant\\ConsoleInfo.json";
+                    return "Data\\ConsoleInfo_cnt.json";
                 }
-                else if ((string)ApplicationData.Current.LocalSettings.Values["Language"] == "Engilsh")
+                else if ((string)ApplicationData.Current.LocalSettings.Values["AppLanguage"] == "Engilsh")
                 {
-                    return "Data\\en\\ConsoleInfo.json";
+                    return "Data\\ConsoleInfo_en.json";
                 }
                 else
                 {
-                    return "Data\\zh-Hans\\ConsoleInfo.json";
+                    return "Data\\ConsoleInfo_cns.json";
                 }
             }
         }
@@ -41,21 +41,21 @@ namespace MadGameTycoon2Tool.Config
         {
             get
             {
-                if ((string)ApplicationData.Current.LocalSettings.Values["Language"] == "简体中文")
+                if ((string)ApplicationData.Current.LocalSettings.Values["AppLanguage"] == "简体中文")
                 {
-                    return "Data\\zh-Hans\\GameInfo_SingleType.json";
+                    return "Data\\GameInfo_SingleType_cns.json";
                 }
-                else if ((string)ApplicationData.Current.LocalSettings.Values["Language"] == "繁體中文")
+                else if ((string)ApplicationData.Current.LocalSettings.Values["AppLanguage"] == "繁體中文")
                 {
-                    return "Data\\zh-Hant\\GameInfo_SingleType.json";
+                    return "Data\\GameInfo_SingleType_cnt.json";
                 }
-                else if ((string)ApplicationData.Current.LocalSettings.Values["Language"] == "Engilsh")
+                else if ((string)ApplicationData.Current.LocalSettings.Values["AppLanguage"] == "Engilsh")
                 {
-                    return "Data\\en\\GameInfo_SingleType.json";
+                    return "Data\\GameInfo_SingleType_en.json";
                 }
                 else
                 {
-                    return "Data\\zh-Hans\\GameInfo_SingleType.json";
+                    return "Data\\GameInfo_SingleType_cns.json";
                 }
             }
         }
@@ -66,21 +66,21 @@ namespace MadGameTycoon2Tool.Config
         {
             get
             {
-                if ((string)ApplicationData.Current.LocalSettings.Values["Language"] == "简体中文")
+                if ((string)ApplicationData.Current.LocalSettings.Values["AppLanguage"] == "简体中文")
                 {
-                    return "Data\\zh-Hans\\GameInfo_MultipleType.json";
+                    return "Data\\GameInfo_MultipleType_cns.json";
                 }
-                else if ((string)ApplicationData.Current.LocalSettings.Values["Language"] == "繁體中文")
+                else if ((string)ApplicationData.Current.LocalSettings.Values["AppLanguage"] == "繁體中文")
                 {
-                    return "Data\\zh-Hant\\GameInfo_MultipleType.json";
+                    return "Data\\GameInfo_MultipleType_cnt.json";
                 }
-                else if ((string)ApplicationData.Current.LocalSettings.Values["Language"] == "Engilsh")
+                else if ((string)ApplicationData.Current.LocalSettings.Values["AppLanguage"] == "Engilsh")
                 {
-                    return "Data\\en\\GameInfo_MultipleType.json";
+                    return "Data\\GameInfo_MultipleType_en.json";
                 }
                 else
                 {
-                    return "Data\\zh-Hans\\GameInfo_MultipleType.json";
+                    return "Data\\GameInfo_MultipleType_cns.json";
                 }
             }
         }

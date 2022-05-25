@@ -21,8 +21,10 @@ namespace MadGameTycoon2Tool.ViewModel
             get { return settingM; }
             set { SetProperty(ref settingM, value); }
         }
+        ApplicationDataContainer localSettings;
         public SettingViewModel()
         {
+            localSettings = ApplicationData.Current.LocalSettings;
             SettingSaveCommand = new RelayCommand(SettingSave);
             GoToGithubCommand = new RelayCommand(GoToGithub);
             FiveStarCommand = new RelayCommand(FiveStar);
@@ -31,6 +33,12 @@ namespace MadGameTycoon2Tool.ViewModel
         }
         private void InitThemeStyle()
         {
+            SettingM.ThemeColor = new List<string>
+            {
+                "Auto",
+                "Light",
+                "Dark"
+            };
             SettingM.ThemeStyle = new List<string>
             {
                 "Mica",
@@ -42,17 +50,25 @@ namespace MadGameTycoon2Tool.ViewModel
                 "繁體中文",
                 "Engilsh"
             };
-            if (ApplicationData.Current.LocalSettings.Values.ContainsKey("Language"))
+            if (localSettings.Values.ContainsKey("ThemeColor"))
             {
-                SettingM.UseLanguage = (string)ApplicationData.Current.LocalSettings.Values["Language"];
+                SettingM.UseThemeColor = (string)localSettings.Values["ThemeColor"];
+            }
+            else
+            {
+                SettingM.UseThemeColor = "Auto";
+            }
+            if (localSettings.Values.ContainsKey("AppLanguage"))
+            {
+                SettingM.UseLanguage = (string)localSettings.Values["AppLanguage"];
             }
             else
             {
                 SettingM.UseLanguage = "简体中文";
             }
-            if (ApplicationData.Current.LocalSettings.Values.ContainsKey("ThemeStyle"))
+            if (localSettings.Values.ContainsKey("ThemeStyle"))
             {
-                SettingM.UseThemeStyle = (string)ApplicationData.Current.LocalSettings.Values["ThemeStyle"];
+                SettingM.UseThemeStyle = (string)localSettings.Values["ThemeStyle"];
             }
             else
             {
@@ -61,13 +77,17 @@ namespace MadGameTycoon2Tool.ViewModel
         }
         private void SettingSave()
         {
+            if (SettingM.UseThemeColor != null)
+            {
+                localSettings.Values["ThemeColor"] = SettingM.UseThemeColor;
+            }
             if (SettingM.UseThemeStyle != null)
             {
-                ApplicationData.Current.LocalSettings.Values["ThemeStyle"] = SettingM.UseThemeStyle;
+                localSettings.Values["ThemeStyle"] = SettingM.UseThemeStyle;
             }
             if (SettingM.UseLanguage != null)
             {
-                ApplicationData.Current.LocalSettings.Values["Language"] = SettingM.UseLanguage;
+                localSettings.Values["AppLanguage"] = SettingM.UseLanguage;
             }
         }
         private async void GoToGithub()

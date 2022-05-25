@@ -1,6 +1,8 @@
 ﻿using System;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
+using Windows.Globalization;
+using Windows.Storage;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
@@ -12,6 +14,7 @@ namespace MadGameTycoon2Tool
     /// </summary>
     sealed partial class App : Application
     {
+        ApplicationDataContainer localSettings;
         /// <summary>
         /// 初始化单一实例应用程序对象。这是执行的创作代码的第一行，
         /// 已执行，逻辑上等同于 main() 或 WinMain()。
@@ -20,8 +23,47 @@ namespace MadGameTycoon2Tool
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+            localSettings = ApplicationData.Current.LocalSettings;
+            LoadLanguage();
+            LoadThemeColor();
+        }
+        /// <summary>
+        /// 加载储存的主题样式
+        /// </summary>
+        private void LoadThemeColor()
+        {
+            switch ((string)localSettings.Values["ThemeColor"])
+            {
+                case "Light":
+                    RequestedTheme = ApplicationTheme.Light;
+                    break;
+                case "Dark":
+                    RequestedTheme = ApplicationTheme.Dark;
+                    break;
+            }
         }
 
+        /// <summary>
+        /// 加载储存的语言
+        /// </summary>
+        private void LoadLanguage()
+        {
+            switch ((string)localSettings.Values["AppLanguage"])
+            {
+                case "简体中文":
+                    ApplicationLanguages.PrimaryLanguageOverride = "zh-Hans";
+                    break;
+                case "繁體中文":
+                    ApplicationLanguages.PrimaryLanguageOverride = "zh-Hant";
+                    break;
+                case "Engilsh":
+                    ApplicationLanguages.PrimaryLanguageOverride = "en";
+                    break;
+                default:
+                    ApplicationLanguages.PrimaryLanguageOverride = "zh-Hans";
+                    break;
+            }
+        }
         /// <summary>
         /// 在应用程序由最终用户正常启动时进行调用。
         /// 将在启动应用程序以打开特定文件等情况下使用。

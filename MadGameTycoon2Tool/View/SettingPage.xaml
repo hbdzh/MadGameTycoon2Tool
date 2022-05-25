@@ -10,9 +10,35 @@
     mc:Ignorable="d"
     Margin="15">
     <StackPanel>
-
         <StackPanel
             Orientation="Horizontal">
+            <ComboBox
+                MinWidth="140"
+                CharacterSpacing="105"
+                Margin="0,0,20,0"
+                ItemsSource="{x:Bind SettingVM.SettingM.ThemeColor}"
+                SelectedItem="{x:Bind SettingVM.SettingM.UseThemeColor,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}">
+                <interactivity:Interaction.Behaviors>
+                    <core:EventTriggerBehavior
+                        EventName="SelectionChanged">
+                        <core:EventTriggerBehavior.Actions>
+                            <core:InvokeCommandAction
+                                Command="{x:Bind Path=SettingVM.SettingSaveCommand}" />
+                        </core:EventTriggerBehavior.Actions>
+                    </core:EventTriggerBehavior>
+                </interactivity:Interaction.Behaviors>
+                <ComboBox.Header>
+                    <StackPanel
+                        Orientation="Horizontal">
+                        <TextBlock
+                            x:Uid="ThemeColor" />
+                        <TextBlock
+                            x:Uid="LanguageTips"
+                            VerticalAlignment="Center"
+                            FontSize="12" />
+                    </StackPanel>
+                </ComboBox.Header>
+            </ComboBox>
             <ComboBox
                 x:Uid="ThemeStyle"
                 Width="120"

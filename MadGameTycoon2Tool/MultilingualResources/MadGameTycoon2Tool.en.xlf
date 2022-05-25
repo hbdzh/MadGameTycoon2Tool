@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="zh-Hans" target-language="en" original="MADGAMETYCOON2TOOL/STRINGS/ZH-HANS/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.1.12.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="MADGAMETYCOON2TOOL/STRINGS/ZH-HANS/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="AccessoryTypeCombo.Header" translate="yes" xml:space="preserve">
+          <source>配件类型</source>
+          <target state="translated">Type</target>
+        </trans-unit>
+        <trans-unit id="AppName.Text" translate="yes" xml:space="preserve">
+          <source>疯狂游戏大亨2 游戏攻略</source>
+          <target state="translated">Mad Game Tycoon2 Tool</target>
+        </trans-unit>
+        <trans-unit id="BeginnerFriendliness.Text" translate="yes" xml:space="preserve">
+          <source>萌新上手度</source>
+          <target state="translated">Beginner Friendliness</target>
+        </trans-unit>
+        <trans-unit id="CasualGamers.Text" translate="yes" xml:space="preserve">
+          <source>休闲玩家</source>
+          <target state="translated">Casual Gamers</target>
+        </trans-unit>
+        <trans-unit id="CharacterDesign.Text" translate="yes" xml:space="preserve">
+          <source>角色设计</source>
+          <target state="translated">Character Design</target>
+        </trans-unit>
+        <trans-unit id="CoreGamers.Text" translate="yes" xml:space="preserve">
+          <source>核心玩家</source>
+          <target state="translated">Core Gamers</target>
+        </trans-unit>
+        <trans-unit id="DesignDirection.Text" translate="yes" xml:space="preserve">
+          <source>设计方向</source>
+          <target state="translated">Design Direction</target>
+        </trans-unit>
+        <trans-unit id="DesignFocus.Text" translate="yes" xml:space="preserve">
+          <source>设计重点</source>
+          <target state="translated">Design Focus</target>
+        </trans-unit>
+        <trans-unit id="DesignPriority.Text" translate="yes" xml:space="preserve">
+          <source>开发重点</source>
+          <target state="translated">Design Priority</target>
+        </trans-unit>
+        <trans-unit id="Easy.Text" translate="yes" xml:space="preserve">
+          <source>简单</source>
+          <target state="translated">Easy</target>
+        </trans-unit>
+        <trans-unit id="ExplicitContent.Text" translate="yes" xml:space="preserve">
+          <source>成人向</source>
+          <target state="translated">Explicit Content</target>
+        </trans-unit>
+        <trans-unit id="FindTheRightTopic.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>查找合适的主题</source>
+          <target state="translated">Find The Right Topic</target>
+        </trans-unit>
+        <trans-unit id="GameDepth.Text" translate="yes" xml:space="preserve">
+          <source>游戏深度</source>
+          <target state="translated">Game Depth</target>
+        </trans-unit>
+        <trans-unit id="GameLength.Text" translate="yes" xml:space="preserve">
+          <source>游戏时长</source>
+          <target state="translated">Game Length</target>
+        </trans-unit>
+        <trans-unit id="GameMachineInfo.Content" translate="yes" xml:space="preserve">
+          <source>游戏机信息</source>
+          <target state="translated">Game Machine Info</target>
+        </trans-unit>
+        <trans-unit id="GamePlay.Text" translate="yes" xml:space="preserve">
+          <source>游戏玩法</source>
+          <target state="translated">Game Play</target>
+        </trans-unit>
+        <trans-unit id="GameRecipe.Content" translate="yes" xml:space="preserve">
+          <source>游戏配方</source>
+          <target state="translated">Game Recipe</target>
+        </trans-unit>
+        <trans-unit id="Graphics.Text" translate="yes" xml:space="preserve">
+          <source>图形</source>
+          <target state="translated">Graphics</target>
+        </trans-unit>
+        <trans-unit id="Hard.Text" translate="yes" xml:space="preserve">
+          <source>传奇</source>
+          <target state="translated">Hard</target>
+        </trans-unit>
+        <trans-unit id="Innovation.Text" translate="yes" xml:space="preserve">
+          <source>创意</source>
+          <target state="translated">Innovation</target>
+        </trans-unit>
+        <trans-unit id="Language.Text" translate="yes" xml:space="preserve">
+          <source>语言</source>
+          <target state="translated">Language</target>
+        </trans-unit>
+        <trans-unit id="LanguageTips.Text" translate="yes" xml:space="preserve">
+          <source>（重启应用后生效）</source>
+          <target state="translated">(It takes effect after restarting the application)</target>
+        </trans-unit>
+        <trans-unit id="LevelDesign.Text" translate="yes" xml:space="preserve">
+          <source>关卡设计</source>
+          <target state="translated">Level Design</target>
+        </trans-unit>
+        <trans-unit id="MainGenre.Header" translate="yes" xml:space="preserve">
+          <source>主类型</source>
+          <target state="translated">MainGenre</target>
+        </trans-unit>
+        <trans-unit id="MissionDesign.Text" translate="yes" xml:space="preserve">
+          <source>任务设计</source>
+          <target state="translated">Mission Design</target>
+        </trans-unit>
+        <trans-unit id="Nonviolent.Text" translate="yes" xml:space="preserve">
+          <source>和平向</source>
+          <target state="translated">Nonviolent</target>
+        </trans-unit>
+        <trans-unit id="Sound.Text" translate="yes" xml:space="preserve">
+          <source>声音</source>
+          <target state="translated">Sound</target>
+        </trans-unit>
+        <trans-unit id="Story.Text" translate="yes" xml:space="preserve">
+          <source>剧情</source>
+          <target state="translated">Story</target>
+        </trans-unit>
+        <trans-unit id="SubGenre.Header" translate="yes" xml:space="preserve">
+          <source>子类型</source>
+          <target state="translated">SubGenre</target>
+        </trans-unit>
+        <trans-unit id="TargetGroup.Text" translate="yes" xml:space="preserve">
+          <source>目标人群</source>
+          <target state="translated">Target Group</target>
+        </trans-unit>
+        <trans-unit id="TechLevel.Text" translate="yes" xml:space="preserve">
+          <source>技术等级：</source>
+          <target state="translated">Technology level  </target>
+        </trans-unit>
+        <trans-unit id="Techncial.Text" translate="yes" xml:space="preserve">
+          <source>技术</source>
+          <target state="translated">Techncial</target>
+        </trans-unit>
+        <trans-unit id="TechnologyLevelCombo.Header" translate="yes" xml:space="preserve">
+          <source>技术等级</source>
+          <target state="translated">Technology level</target>
+        </trans-unit>
+        <trans-unit id="ThemeColor.Text" translate="yes" xml:space="preserve">
+          <source>主题颜色</source>
+          <target state="translated">Theme Color</target>
+        </trans-unit>
+        <trans-unit id="ThemeStyle.Header" translate="yes" xml:space="preserve">
+          <source>主题样式</source>
+          <target state="translated">Theme</target>
+        </trans-unit>
+        <trans-unit id="Type.Text" translate="yes" xml:space="preserve">
+          <source>类型：</source>
+          <target state="translated">Type  </target>
+        </trans-unit>
+        <trans-unit id="UnlockTime.Text" translate="yes" xml:space="preserve">
+          <source>解锁年份：</source>
+          <target state="translated">Release Data  </target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

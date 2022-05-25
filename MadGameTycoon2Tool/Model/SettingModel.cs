@@ -5,6 +5,18 @@ namespace MadGameTycoon2Tool.Model
 {
     internal class SettingModel : ObservableObject
     {
+        private List<string> themeColor;
+        public List<string> ThemeColor
+        {
+            get => themeColor;
+            set => SetProperty(ref themeColor, value);
+        }
+        private string useThemeColor;
+        public string UseThemeColor
+        {
+            get => useThemeColor;
+            set => SetProperty(ref useThemeColor, value);
+        }
         private List<string> themeStyle;
         public List<string> ThemeStyle
         {

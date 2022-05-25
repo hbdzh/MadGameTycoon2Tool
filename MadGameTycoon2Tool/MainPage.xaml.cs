@@ -2,7 +2,6 @@
 using Microsoft.UI.Xaml.Controls;
 using Windows.ApplicationModel.Core;
 using Windows.Foundation;
-using Windows.Globalization;
 using Windows.Storage;
 using Windows.UI;
 using Windows.UI.ViewManagement;
@@ -19,16 +18,29 @@ namespace MadGameTycoon2Tool
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        ApplicationDataContainer localSettings;
         public MainPage()
         {
-            LoadLanguage();
+            localSettings = ApplicationData.Current.LocalSettings;
             LoadThemeStyle();
             this.InitializeComponent();
 
             var coreTitleBar = CoreApplication.GetCurrentView().TitleBar;
             ApplicationViewTitleBar appTitleBar = ApplicationView.GetForCurrentView().TitleBar;
-            appTitleBar.ButtonBackgroundColor = Colors.Transparent;
-            appTitleBar.ButtonInactiveBackgroundColor = Colors.Transparent;
+            if(Application.Current.RequestedTheme == ApplicationTheme.Dark)
+            {
+                appTitleBar.ButtonBackgroundColor = Colors.Transparent;
+                appTitleBar.ButtonInactiveBackgroundColor = Colors.Transparent;
+                appTitleBar.ButtonForegroundColor = Colors.White;
+                appTitleBar.ButtonInactiveForegroundColor = Colors.White;
+            }
+            else
+            {
+                appTitleBar.ButtonBackgroundColor = Colors.Transparent;
+                appTitleBar.ButtonInactiveBackgroundColor = Colors.Transparent;
+                appTitleBar.ButtonForegroundColor = Colors.Black;
+                appTitleBar.ButtonInactiveForegroundColor = Colors.Black;
+            }
 
             coreTitleBar.ExtendViewIntoTitleBar = true;
             UpdateTitleBarLayout();
@@ -40,8 +52,8 @@ namespace MadGameTycoon2Tool
             // For example, when the app moves to a screen with a different DPI.
             coreTitleBar.LayoutMetricsChanged += CoreTitleBar_LayoutMetricsChanged;
 
-            ApplicationView.PreferredLaunchViewSize = new Size(730, 840);
             ApplicationView.PreferredLaunchWindowingMode = ApplicationViewWindowingMode.Auto;
+            ApplicationView.PreferredLaunchViewSize = new Size(730, 840);
 
             ContentFrame.Navigate(typeof(RecipePage));
         }
@@ -65,7 +77,7 @@ namespace MadGameTycoon2Tool
             }
             else
             {
-                Microsoft.UI.Xaml.Controls.NavigationViewItem selectItem =  AppNav.SelectedItem as Microsoft.UI.Xaml.Controls.NavigationViewItem;
+                Microsoft.UI.Xaml.Controls.NavigationViewItem selectItem = AppNav.SelectedItem as Microsoft.UI.Xaml.Controls.NavigationViewItem;
                 //选中项的内容
                 switch (selectItem.Name)
                 {
@@ -84,36 +96,18 @@ namespace MadGameTycoon2Tool
         /// </summary>
         private void LoadThemeStyle()
         {
-            if ((string)ApplicationData.Current.LocalSettings.Values["ThemeStyle"] == "Mica")
+            switch((string)localSettings.Values["ThemeStyle"])
             {
-                BackdropMaterial.SetApplyToRootOrPageBackground(this, true);
-            }
-            else if ((string)ApplicationData.Current.LocalSettings.Values["ThemeStyle"] == "Acrylic")
-            {
-                BackdropMaterial.SetApplyToRootOrPageBackground(this, false);
-                Background = (Brush)Application.Current.Resources["AcrylicBackgroundFillColorDefaultBrush"];
-            }
-            else
-            {
-                BackdropMaterial.SetApplyToRootOrPageBackground(this, true);
-            }
-        }
-        /// <summary>
-        /// 加载储存的语言
-        /// </summary>
-        private void LoadLanguage()
-        {
-            if ((string)ApplicationData.Current.LocalSettings.Values["Language"] == "简体中文")
-            {
-                ApplicationLanguages.PrimaryLanguageOverride = "zh-Hans";
-            }
-            else if ((string)ApplicationData.Current.LocalSettings.Values["Language"] == "繁体中文")
-            {
-                ApplicationLanguages.PrimaryLanguageOverride = "zh-Hant";
-            }
-            else if ((string)ApplicationData.Current.LocalSettings.Values["Language"] == "英语")
-            {
-                ApplicationLanguages.PrimaryLanguageOverride = "en";
+                case "Mica":
+                    BackdropMaterial.SetApplyToRootOrPageBackground(this, true);
+                    break;
+                case "Acrylic":
+                    BackdropMaterial.SetApplyToRootOrPageBackground(this, false);
+                    Background = (Brush)Application.Current.Resources["AcrylicBackgroundFillColorDefaultBrush"];
+                    break;
+                default:
+                    BackdropMaterial.SetApplyToRootOrPageBackground(this, true);
+                    break;
             }
         }
     }

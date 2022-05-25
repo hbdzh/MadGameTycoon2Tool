@@ -216,6 +216,9 @@
   <data name="TechnologyLevelCombo.Header" xml:space="preserve">
     <value>技术等级</value>
   </data>
+  <data name="ThemeColor.Text" xml:space="preserve">
+    <value>主题颜色</value>
+  </data>
   <data name="ThemeStyle.Header" xml:space="preserve">
     <value>主题样式</value>
   </data>
